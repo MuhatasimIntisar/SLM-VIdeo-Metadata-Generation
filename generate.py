@@ -58,18 +58,32 @@ SETTINGS = ["studio", "field", "unknown"]
 PROMPT = """You are annotating one scene from a local news / community video.
 The frames above are sampled from the scene in time order (about one per second).
 
-Return ONLY a JSON object, no prose and no markdown, with exactly these keys:
+Return ONLY a JSON object, no prose and no markdown, with exactly the keys in this example.
+The values in the example are only illustrations of the format:
 {{
-  "on_screen_text": [list of strings: text legibly visible in the frames, copied verbatim; [] if none],
-  "visual_tags": [list of tags chosen ONLY from: {tags}],
-  "people_count_numeric": integer: number of clearly visible people; 0 if none; -1 if a crowd or not countable,
-  "description": "one or two sentences describing what happens in the scene",
-  "geographical_location": {{"area": "", "city": "", "country": ""}}  (fill only if visible evidence such as signs or captions supports it, otherwise leave ""),
-  "activity": "short phrase for the main activity, e.g. person speaking; 'none' if nothing happens",
-  "shot_type": {{"framing": one of {framings}, "setting": one of {settings}}},
-  "content_type": one of {content_types},
-  "uncertainty_notes": [list of short strings noting anything you were unsure about; [] if none]
-}}"""
+  "on_screen_text": ["Jane Smith", "City Council"],
+  "visual_tags": ["interview", "person speaking", "indoor scene", "text on screen"],
+  "people_count_numeric": 1,
+  "description": "A woman speaks to camera in an office, with a caption giving her name and organisation.",
+  "geographical_location": {{"area": "", "city": "", "country": ""}},
+  "activity": "woman speaking",
+  "shot_type": {{"framing": "close-up", "setting": "field"}},
+  "content_type": "interview",
+  "uncertainty_notes": []
+}}
+
+Rules:
+- on_screen_text: text legibly visible in the frames, copied verbatim; [] if none.
+- visual_tags: choose ONLY from: {tags}.
+  "text on screen" = any visible caption, name label, headline or other overlaid/visible text.
+  "graphic or title card" = a designed graphic, logo animation or title screen rather than camera footage.
+- people_count_numeric: number of clearly visible people; 0 if none; -1 for a crowd or more than about 7 people.
+- description: one or two sentences describing what happens in the scene.
+- geographical_location: fill a part only if visible evidence (signs, captions) supports it, otherwise "".
+- activity: short phrase for the main activity; "none" if nothing happens.
+- shot_type is an object with BOTH keys: "framing" is one of {framings}; "setting" is one of {settings}.
+- content_type: one of {content_types}.
+- uncertainty_notes: short notes on anything you were unsure about; [] if none."""
 
 
 def build_prompt():
