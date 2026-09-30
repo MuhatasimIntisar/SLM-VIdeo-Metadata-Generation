@@ -38,6 +38,47 @@
   },
   {
     "video": "1. Launch of Belfast Children's Festival 2016 280116.mp4",
+    "scene": 2,
+    "start_sec": 13.44,
+    "end_sec": 43.92,
+    "sample_fps": 1.0,
+    "sampled_frame_count": 16,
+    "metadata": {
+      "on_screen_text": [
+        "Belfast Children's Festival",
+        "4-9 march 2016",
+        "NI's premier international children's event",
+        "BOX OFFICE: 028 9024 3042",
+        "www.youngatart.com"
+      ],
+      "visual_tags": [
+        "sign or banner",
+        "interview",
+        "indoor scene",
+        "text on screen"
+      ],
+      "people_count_numeric": 8,
+      "description": "A group of people is gathered around a sign for the Belfast Children's Festival, with a woman speaking to the camera and a child interacting with a container of candies.",
+      "geographical_location": {
+        "area": "Belfast",
+        "city": "Belfast",
+        "country": "UK"
+      },
+      "activity": "woman speaking",
+      "shot_type": {
+        "framing": "close-up",
+        "setting": "unknown"
+      },
+      "content_type": "interview",
+      "uncertainty_notes": []
+    },
+    "warnings": [
+      "setting: 'indoor' -> 'unknown'"
+    ],
+    "raw_output": "```json\n{\n  \"on_screen_text\": [\"Belfast Children's Festival\", \"4-9 march 2016\", \"NI's premier international children's event\", \"BOX OFFICE: 028 9024 3042\", \"www.youngatart.com\"],\n  \"visual_tags\": [\"sign or banner\", \"interview\", \"indoor scene\", \"text on screen\"],\n  \"people_count_numeric\": 8,\n  \"description\": \"A group of people is gathered around a sign for the Belfast Children's Festival, with a woman speaking to the camera and a child interacting with a container of candies.\",\n  \"geographical_location\": {\"area\": \"Belfast\", \"city\": \"Belfast\", \"country\": \"UK\"},\n  \"activity\": \"woman speaking\",\n  \"shot_type\": {\"framing\": \"close-up\", \"setting\": \"indoor\"},\n  \"content_type\": \"interview\",\n  \"uncertainty_notes\": []\n}\n```"
+  },
+  {
+    "video": "1. Launch of Belfast Children's Festival 2016 280116.mp4",
     "scene": 3,
     "start_sec": 43.92,
     "end_sec": 55.16,
@@ -72,5 +113,119 @@
       "setting: 'indoor' -> 'unknown'"
     ],
     "raw_output": "{\n  \"on_screen_text\": [\"Nicola Curry\", \"Maiden Dance Voyage\"],\n  \"visual_tags\": [\"interview\", \"indoor scene\", \"crowd of people\"],\n  \"text on screen\": [\"Nicola Curry\", \"Maiden Dance Voyage\"],\n  \"people_count_numeric\": 6,\n  \"description\": \"A woman speaks to camera in an indoor setting with a crowd of people and a fire engine in the background.\",\n  \"geographical_location\": {\"area\": \"unknown\", \"city\": \"unknown\", \"country\": \"unknown\"},\n  \"activity\": \"woman speaking\",\n  \"shot_type\": {\"framing\": \"close-up\", \"setting\": \"indoor\"},\n  \"content_type\": \"interview\",\n  \"uncertainty_notes\": []\n}"
+  },
+  {
+    "video": "2. Belfast's City Council - Step Up To Learn Programme 280116.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 44.56,
+    "sample_fps": 1.0,
+    "sampled_frame_count": 16,
+    "metadata": {
+      "on_screen_text": [
+        "Jill Minne",
+        "Lisa Murray",
+        "Past Participant"
+      ],
+      "visual_tags": [
+        "interview",
+        "building exterior",
+        "office"
+      ],
+      "people_count_numeric": 2,
+      "description": "A woman is interviewed in an office setting, with another person identified as a past participant.",
+      "geographical_location": {
+        "area": "",
+        "city": "",
+        "country": ""
+      },
+      "activity": "woman speaking",
+      "shot_type": {
+        "framing": "close-up",
+        "setting": "unknown"
+      },
+      "content_type": "interview",
+      "uncertainty_notes": []
+    },
+    "warnings": [
+      "setting: 'office' -> 'unknown'"
+    ],
+    "raw_output": "```json\n{\n  \"on_screen_text\": [\"Jill Minne\", \"Lisa Murray\", \"Past Participant\"],\n  \"visual_tags\": [\"interview\", \"building exterior\", \"office\"],\n  \"text on screen\": [\"Jill Minne\", \"Lisa Murray\", \"Past Participant\"],\n  \"people_count_numeric\": 2,\n  \"description\": \"A woman is interviewed in an office setting, with another person identified as a past participant.\",\n  \"geographical_location\": {\"area\": \"unknown\", \"city\": \"unknown\", \"country\": \"unknown\"},\n  \"activity\": \"woman speaking\",\n  \"shot_type\": {\"framing\": \"close-up\", \"setting\": \"office\"},\n  \"content_type\": \"interview\",\n  \"uncertainty_notes\": []\n}\n```"
+  },
+  {
+    "video": "2. Belfast's City Council - Step Up To Learn Programme 280116.mp4",
+    "scene": 2,
+    "start_sec": 44.56,
+    "end_sec": 62.8,
+    "sample_fps": 1.0,
+    "sampled_frame_count": 16,
+    "metadata": {
+      "on_screen_text": [
+        "JD Sports",
+        "Shoe Zone",
+        "Café Nero"
+      ],
+      "visual_tags": [
+        "building exterior",
+        "city street",
+        "crowd of people",
+        "sign or banner"
+      ],
+      "people_count_numeric": 15,
+      "description": "A busy city street with various shops and pedestrians, including a man walking away from the camera and a woman with a shopping bag.",
+      "geographical_location": {
+        "area": "UK",
+        "city": "London",
+        "country": "United Kingdom"
+      },
+      "activity": "city street",
+      "shot_type": {
+        "framing": "wide",
+        "setting": "unknown"
+      },
+      "content_type": "unknown",
+      "uncertainty_notes": []
+    },
+    "warnings": [
+      "setting: 'city street' -> 'unknown'",
+      "content_type: 'city street' -> 'unknown'"
+    ],
+    "raw_output": "{\n  \"on_screen_text\": [\"JD Sports\", \"Shoe Zone\", \"Café Nero\"],\n  \"visual_tags\": [\"building exterior\", \"city street\", \"crowd of people\", \"sign or banner\"],\n  \"people_count_numeric\": 15,\n  \"description\": \"A busy city street with various shops and pedestrians, including a man walking away from the camera and a woman with a shopping bag.\",\n  \"geographical_location\": {\"area\": \"UK\", \"city\": \"London\", \"country\": \"United Kingdom\"},\n  \"activity\": \"city street\",\n  \"shot_type\": {\"framing\": \"wide\", \"setting\": \"city street\"},\n  \"content_type\": \"city street\",\n  \"uncertainty_notes\": []\n}"
+  },
+  {
+    "video": "2. Belfast's City Council - Step Up To Learn Programme 280116.mp4",
+    "scene": 3,
+    "start_sec": 62.8,
+    "end_sec": 90.44,
+    "sample_fps": 1.0,
+    "sampled_frame_count": 16,
+    "metadata": {
+      "on_screen_text": [
+        "Ken Clayton, Belfast City Council, Past Participant"
+      ],
+      "visual_tags": [
+        "interview",
+        "indoor scene",
+        "person speaking"
+      ],
+      "people_count_numeric": 1,
+      "description": "A man speaks to the camera in an indoor setting with a television and equipment in the background.",
+      "geographical_location": {
+        "area": "",
+        "city": "",
+        "country": ""
+      },
+      "activity": "man speaking",
+      "shot_type": {
+        "framing": "close-up",
+        "setting": "unknown"
+      },
+      "content_type": "interview",
+      "uncertainty_notes": []
+    },
+    "warnings": [
+      "setting: 'indoor' -> 'unknown'"
+    ],
+    "raw_output": "```json\n{\n  \"on_screen_text\": [\"Ken Clayton, Belfast City Council, Past Participant\"],\n  \"visual_tags\": [\"interview\", \"indoor scene\", \"person speaking\"],\n  \"text on screen\": \"Ken Clayton, Belfast City Council, Past Participant\",\n  \"people_count_numeric\": 1,\n  \"description\": \"A man speaks to the camera in an indoor setting with a television and equipment in the background.\",\n  \"geographical_location\": \"\",\n  \"activity\": \"man speaking\",\n  \"shot_type\": {\"framing\": \"close-up\", \"setting\": \"indoor\"},\n  \"content_type\": \"interview\",\n  \"uncertainty_notes\": []\n}\n```"
   }
 ]

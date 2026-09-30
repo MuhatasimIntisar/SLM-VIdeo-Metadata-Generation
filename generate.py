@@ -81,7 +81,8 @@ Rules:
 - description: one or two sentences describing what happens in the scene.
 - geographical_location: fill a part only if visible evidence (signs, captions) supports it, otherwise "".
 - activity: short phrase for the main activity; "none" if nothing happens.
-- shot_type is an object with BOTH keys: "framing" is one of {framings}; "setting" is one of {settings}.
+- shot_type is an object with BOTH keys: "framing" is one of {framings}; "setting" is one of {settings}
+  (studio = filmed in a TV studio; field = filmed on location).
 - content_type: one of {content_types}.
 - uncertainty_notes: short notes on anything you were unsure about; [] if none."""
 
@@ -241,6 +242,24 @@ def _blank_unknown(x):
     return "" if v.lower() in {"unknown", "n/a", "na", "none", "null", "not visible", "-"} else v
 
 
+def _setting(value, warnings):
+    """Setting is binary (studio vs on location). 1B models often answer with a location type
+    ("indoor", "office", "city street"); anything that is not a studio means filmed on location."""
+    v = _str(value).lower()
+    if v in SETTINGS:
+        return v
+    if not v or v in {"none", "null", "n/a"}:
+        warnings.append(f"setting: '{value}' -> 'unknown'")
+        return "unknown"
+    mapped = "studio" if "studio" in v else "field"
+    warnings.append(f"setting: '{value}' -> '{mapped}'")
+    return mapped
+
+
+COUNTRY_ALIASES = {"uk": "United Kingdom", "u.k.": "United Kingdom", "great britain": "United Kingdom",
+                   "britain": "United Kingdom", "republic of ireland": "Ireland"}
+
+
 def _enum(value, allowed, field, warnings):
     v = _str(value).lower()
     if v in allowed:
@@ -286,11 +305,16 @@ def normalise(raw):
         "visual_tags": list(dict.fromkeys(tags)),
         "people_count_numeric": people,
         "description": _str(raw.get("description")),
-        "geographical_location": {k: _blank_unknown(geo.get(k)) for k in ("area", "city", "country")},
+        "geographical_location": {
+            "area": _blank_unknown(geo.get("area")),
+            "city": _blank_unknown(geo.get("city")),
+            "country": COUNTRY_ALIASES.get(_blank_unknown(geo.get("country")).lower(),
+                                           _blank_unknown(geo.get("country"))),
+        },
         "activity": _str(raw.get("activity")).lower() or "none",
         "shot_type": {
             "framing": _enum(shot.get("framing"), FRAMINGS, "framing", w),
-            "setting": _enum(shot.get("setting"), SETTINGS, "setting", w),
+            "setting": _setting(shot.get("setting"), w),
         },
         "content_type": _enum(raw.get("content_type"), CONTENT_TYPES, "content_type", w),
         "uncertainty_notes": _str_list(raw.get("uncertainty_notes")),
