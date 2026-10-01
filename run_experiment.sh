@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Run one experiment from experiments.tsv (generation + evaluation).
+# Generate metadata for one experiment from experiments.tsv (no evaluation; that is done separately).
 #   bash run_experiment.sh qwen3_5_4b              # by name
 #   bash run_experiment.sh 5                       # by row number (1 = first experiment)
 # Extra arguments are passed to generate.py, e.g. --batch-size 4 or --video-dir /path/to/videos
@@ -17,5 +17,3 @@ IFS=$'\t' read -r name model quant <<< "$row"
 
 echo "=== $name: $model (quant=$quant) on $(hostname) at $(date)"
 python generate.py --model "$model" --quant "$quant" --output "scene_metadata_${name}.json" "$@"
-python evaluate.py --prediction "scene_metadata_${name}.json"
-python compare.py

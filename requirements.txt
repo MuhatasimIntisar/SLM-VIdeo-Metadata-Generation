@@ -6,10 +6,10 @@ accelerate
 bitsandbytes               # --quant 8bit / 4bit
 opencv-python-headless
 pillow
-# evaluation
-rouge-score
-pycocoevalcap
-nltk
+# evaluation only (not needed on the cluster)
+# rouge-score
+# pycocoevalcap
+# nltk
 
 # Optional speed-ups (install if they build on the cluster):
 #   flash-attn               # attention kernels for Ampere+ GPUs (A100/H100); used automatically

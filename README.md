@@ -18,34 +18,39 @@ All runs are listed in `experiments.tsv`. A majority-class baseline (`make_basel
 | `make_baseline.py` | Build the no-video majority baseline (`scene_metadata_baseline_majority.json`) |
 | `compare.py` | Collect all evaluated runs into `results_table.csv` / `results_table.md` |
 | `experiments.tsv` | The experiment list (name, model id, quantization) |
-| `run_experiment.sh` | generate → evaluate → compare for one experiment (by name or row number) |
+| `run_experiment.sh` | generate metadata for one experiment (by name or row number) |
 | `slurm_job.sh` | Slurm array wrapper around `run_experiment.sh` |
 
-## Setup (once, on the login node)
+## Cluster: generation only
+Needed in this folder: `VIDEO FILES/` (or pass `--video-dir`) and `_all_scenes.csv`.
+
 ```bash
+# once, on the login node
 python -m venv venv && source venv/bin/activate
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124   # match the cluster CUDA
 pip install -r requirements.txt
 # optional, faster: pip install flash-attn flash-linear-attention causal-conv1d --no-build-isolation
+for m in $(cut -f2 experiments.tsv | tail -n +2 | sort -u); do hf download "$m"; done   # compute nodes are offline
 
-# compute nodes are usually offline: fetch models + NLTK data now
-for m in $(cut -f2 experiments.tsv | tail -n +2 | sort -u); do hf download "$m"; done
-python -c "import nltk; nltk.download('wordnet')"
+# sanity check on a GPU node (send these outputs back before the full run)
+python generate.py --model OpenGVLab/InternVL3_5-1B-HF --video-ids 1 2 --max-scenes-per-video 3 --output sanity_internvl.json
+python generate.py --model Qwen/Qwen3.5-0.8B --video-ids 1 2 --max-scenes-per-video 3 --output sanity_qwen.json
+python generate.py --model Qwen/Qwen3.5-9B --quant 4bit --video-ids 1 --max-scenes-per-video 2 --output sanity_q4.json
+
+# full run (edit partition/modules in slurm_job.sh first)
+sbatch --array=1-9 slurm_job.sh
 ```
-Data needed in this folder: `VIDEO FILES/` (or pass `--video-dir`), `_all_scenes.csv`,
-`scene_metadata_gemini3.8_flash.json`.
+Send back every `scene_metadata_*.json`, `scene_metadata_*.run.json` and the `logs/` folder.
 
-## Run
+## Evaluation (done locally, not on the cluster)
 ```bash
+pip install rouge-score pycocoevalcap nltk
 python make_baseline.py && python evaluate.py --prediction scene_metadata_baseline_majority.json
-
-# quick check that a model works (6 scenes) before submitting everything
-python generate.py --model Qwen/Qwen3.5-0.8B --video-ids 1 2 --max-scenes-per-video 3 --output sanity.json
-
-sbatch --array=1-9 slurm_job.sh        # all experiments, one GPU each (edit partition/modules first)
-# or interactively:  bash run_experiment.sh qwen3_5_4b
+for f in scene_metadata_internvl*.json scene_metadata_qwen*.json; do
+  case "$f" in *.run.json) ;; *) python evaluate.py --prediction "$f";; esac
+done
+python compare.py
 ```
-After each experiment `results_table.md` is regenerated with every finished run, baseline first.
 
 ## Notes
 - **Resuming:** outputs are saved after every batch; re-running the same command continues where it
