@@ -1,26 +1,31 @@
 """
-Generate per-scene video metadata with a local VLM (default: InternVL3.5-1B).
+Generate per-scene video metadata with a local vision-language model.
+
+Supported model families (native transformers >= 5.17, no trust_remote_code):
+  - InternVL3.5  : OpenGVLab/InternVL3_5-{1B,2B,4B,...}-HF
+  - Qwen3.5      : Qwen/Qwen3.5-{0.8B,2B,4B,9B,...}   (thinking mode is switched off)
+Optional weight quantization with bitsandbytes: --quant 8bit | 4bit (vision encoder kept in bf16).
 
 Output matches scene_metadata_gemini3.8_flash.json: a JSON list of records
     {video, scene, start_sec, end_sec, sample_fps, sampled_frame_count, metadata}
 or, on failure,
     {video, scene, start_sec, end_sec, sample_fps, error, raw_output}
-A record may also carry "warnings" when the model output needed repairing
-(invalid enum values, out-of-vocabulary tags, missing keys). evaluate.py ignores it.
+"warnings" (and the raw output) are kept on records whose model output needed repairing.
+Run statistics (model, precision, GPU, peak memory, seconds/scene, versions) are written to
+<output>.run.json next to the output.
 
-Frame sampling mirrors the Gemini run (one frame per second from scene start),
-but is capped at --max-frames (uniformly thinned) because a 1B model cannot take
-Gemini's 200+ frames. sampled_frame_count records what the model actually saw.
+Fairness controls, identical for every model:
+  - same prompt, schema and output normalisation
+  - frames sampled at 1 fps from scene start (as in the Gemini run), capped at --max-frames
+  - the same per-frame pixel budget (--frame-pixels, default 448x448) for both families
+  - greedy decoding
 
-Sanity run (local):
-    python generate.py --video-ids 1 2 --max-scenes-per-video 3 --output sanity_internvl.json
+Examples:
+    python generate.py --model OpenGVLab/InternVL3_5-1B-HF --output scene_metadata_internvl3_5_1b.json
+    python generate.py --model Qwen/Qwen3.5-9B --quant 4bit --output scene_metadata_qwen3_5_9b_4bit.json
+    python generate.py --model Qwen/Qwen3.5-0.8B --video-ids 1 2 --max-scenes-per-video 3 --output sanity.json
 
-Speed: --batch-size scenes go through the GPU in one generate() call (halved automatically
-on out-of-memory), while the next batch is decoded on CPU threads in the background.
-Scenes are processed shortest-first to keep padding low; the output is still saved in CSV order.
-
-The output is written after every scene, so an interrupted run can be resumed
-by re-running the same command (scenes that already have metadata are skipped).
+The output is saved after every batch; re-running the same command resumes where it stopped.
 """
 
 import argparse
@@ -28,18 +33,17 @@ import csv
 import json
 import math
 import os
+import platform
 import re
 import sys
 import time
+from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 import cv2
 import torch
-import torchvision.transforms as T
 from PIL import Image
-from torchvision.transforms.functional import InterpolationMode
-from transformers import AutoModel, AutoTokenizer
 
 # --------------------------------------------------------------------------- #
 # Schema (taken from the Gemini reference file)
@@ -108,106 +112,130 @@ def sample_times(start, end, fps, max_frames):
     return times
 
 
-def read_frames(cap, times, end):
-    frames = []
-    for t in times:
-        # a timestamp at the very end of the file often fails to decode, so step back a little
-        for tt in (min(t, end - 0.05), t - 0.5, t - 1.0):
-            cap.set(cv2.CAP_PROP_POS_MSEC, max(tt, 0) * 1000.0)
-            ok, bgr = cap.read()
-            if ok:
-                frames.append(Image.fromarray(cv2.cvtColor(bgr, cv2.COLOR_BGR2RGB)))
-                break
-    return frames
-
-
-# --------------------------------------------------------------------------- #
-# InternVL preprocessing (one 448px tile per frame, as in the official video example)
-# --------------------------------------------------------------------------- #
-IMAGENET_MEAN = (0.485, 0.456, 0.406)
-IMAGENET_STD = (0.229, 0.224, 0.225)
-
-
-def build_transform(size):
-    return T.Compose([
-        T.Resize((size, size), interpolation=InterpolationMode.BICUBIC),
-        T.ToTensor(),
-        T.Normalize(mean=IMAGENET_MEAN, std=IMAGENET_STD),
-    ])
-
-
-def load_model(model_id, device):
-    import transformers
-    if int(transformers.__version__.split(".")[0]) >= 5:
-        sys.exit(f"transformers {transformers.__version__} is installed, but InternVL's remote code needs 4.x.\n"
-                 f'Run: pip install "transformers>=4.52.1,<5"')
-    if device == "cuda":
-        dtype = torch.bfloat16 if torch.cuda.is_bf16_supported() else torch.float16
-    else:
-        dtype = torch.float32
-    model = AutoModel.from_pretrained(
-        model_id, torch_dtype=dtype, low_cpu_mem_usage=True,
-        use_flash_attn=True, trust_remote_code=True,  # falls back automatically if flash-attn is missing
-    ).eval().to(device)
-    tok = AutoTokenizer.from_pretrained(model_id, trust_remote_code=True, use_fast=False)
-    return model, tok, dtype
-
-
-def run_batch(model, tok, device, dtype, batch, prompt, gen_cfg):
-    """One generate() call for several scenes. batch = list of pixel_values tensors (frames x 3 x H x W).
-
-    Same prompt construction as InternVL's model.chat() (Frame1: <image> ...), but left-padded
-    across scenes. InternVL's own batch_chat() only allows a single <image> per sample.
-    On CUDA OOM the batch is split in half and retried.
-    """
+def prepare_scene(scene, path, fps, max_frames):
+    """CPU side (runs in background threads): decode the scene's frames.
+    Returns (frames, times_relative_to_scene_start, native_video_fps)."""
+    cap = cv2.VideoCapture(str(path))
     try:
-        return _generate(model, tok, device, dtype, batch, prompt, gen_cfg)
+        native_fps = cap.get(cv2.CAP_PROP_FPS) or 25.0
+        frames, rel_times = [], []
+        for t in sample_times(scene["start"], scene["end"], fps, max_frames):
+            # a timestamp at the very end of the file often fails to decode, so step back a little
+            for tt in (min(t, scene["end"] - 0.05), t - 0.5, t - 1.0):
+                cap.set(cv2.CAP_PROP_POS_MSEC, max(tt, 0) * 1000.0)
+                ok, bgr = cap.read()
+                if ok:
+                    frames.append(Image.fromarray(cv2.cvtColor(bgr, cv2.COLOR_BGR2RGB)))
+                    rel_times.append(max(tt, 0) - scene["start"])
+                    break
+    finally:
+        cap.release()
+    if not frames:
+        raise RuntimeError("could not decode any frames")
+    return frames, rel_times, native_fps
+
+
+# --------------------------------------------------------------------------- #
+# Model loading
+# --------------------------------------------------------------------------- #
+# Vision-side modules kept un-quantized (names differ per family; unknown names are ignored).
+# transformers matches these as prefixes of the full module name, so they must start at "model.".
+SKIP_QUANT_MODULES = ["model.visual", "model.vision_tower", "model.multi_modal_projector", "lm_head"]
+
+
+def pick_attention():
+    if torch.cuda.is_available() and torch.cuda.get_device_capability(0)[0] >= 8:
+        try:
+            import flash_attn  # noqa: F401
+            return "flash_attention_2"
+        except ImportError:
+            pass
+    return "sdpa"
+
+
+def load_model(model_id, quant, attn):
+    from transformers import AutoModelForImageTextToText, AutoProcessor, BitsAndBytesConfig
+
+    if not torch.cuda.is_available():
+        print("[warn] no GPU found - running on CPU will be very slow")
+    dtype = torch.bfloat16 if (torch.cuda.is_available() and torch.cuda.is_bf16_supported()) else \
+        (torch.float16 if torch.cuda.is_available() else torch.float32)
+
+    kwargs = dict(dtype=dtype, attn_implementation=attn, device_map="auto")
+    if quant == "8bit":
+        kwargs["quantization_config"] = BitsAndBytesConfig(
+            load_in_8bit=True, llm_int8_skip_modules=SKIP_QUANT_MODULES)
+    elif quant == "4bit":
+        kwargs["quantization_config"] = BitsAndBytesConfig(
+            load_in_4bit=True, bnb_4bit_quant_type="nf4", bnb_4bit_compute_dtype=dtype,
+            bnb_4bit_use_double_quant=False, llm_int8_skip_modules=SKIP_QUANT_MODULES)
+
+    model = AutoModelForImageTextToText.from_pretrained(model_id, **kwargs).eval()
+    processor = AutoProcessor.from_pretrained(model_id)
+    processor.tokenizer.padding_side = "left"
+    if processor.tokenizer.pad_token is None:
+        processor.tokenizer.pad_token = processor.tokenizer.eos_token
+
+    family = model.config.model_type  # "internvl" or "qwen3_5"
+    if family not in ("internvl", "qwen3_5", "qwen3_5_moe", "qwen3_vl"):
+        print(f"[warn] model type '{family}' has not been tested with this script")
+    return model, processor, family, dtype
+
+
+# --------------------------------------------------------------------------- #
+# Batched generation
+# --------------------------------------------------------------------------- #
+def build_inputs(processor, family, batch, prompt, frame_pixels):
+    """batch: list of (frames, rel_times, native_fps). Returns processor outputs (CPU tensors)."""
+    from transformers.video_utils import VideoMetadata
+
+    messages = [{"role": "user", "content": [{"type": "video"}, {"type": "text", "text": prompt}]}]
+    # enable_thinking is read by the Qwen3.5 template and ignored by others
+    text = processor.apply_chat_template(messages, add_generation_prompt=True, tokenize=False,
+                                         enable_thinking=False)
+    texts = [text] * len(batch)
+
+    if family.startswith("qwen3"):
+        videos, metas = [], []
+        for frames, rel_times, native_fps in batch:
+            if len(frames) == 1:  # Qwen merges frames in pairs and needs at least 2
+                frames, rel_times = frames * 2, rel_times * 2
+            videos.append(frames)
+            metas.append(VideoMetadata(total_num_frames=len(frames), fps=native_fps,
+                                       frames_indices=[round(t * native_fps) for t in rel_times]))
+        n = max(len(v) for v in videos)
+        return processor(text=texts, videos=videos, video_metadata=metas, do_sample_frames=False,
+                         size={"shortest_edge": 128 * 32 * 32, "longest_edge": n * frame_pixels},
+                         cap_pixels_per_frame=False, padding=True, return_tensors="pt")
+
+    # InternVL: each frame is resized to the model's native 448x448 tile ("Frame1: <image> ...")
+    return processor(text=texts, videos=[b[0] for b in batch], do_sample_frames=False,
+                     padding=True, return_tensors="pt")
+
+
+def strip_thinking(text):
+    return re.sub(r"<think>.*?</think>", "", text, flags=re.S).strip()
+
+
+def generate_batch(model, processor, family, dtype, batch, prompt, gen_cfg, frame_pixels):
+    """One generate() call for several scenes; halves the batch on out-of-memory."""
+    try:
+        inputs = build_inputs(processor, family, batch, prompt, frame_pixels).to(model.device)
+        for k, v in inputs.items():
+            if torch.is_tensor(v) and v.is_floating_point():
+                inputs[k] = v.to(dtype)
+        with torch.inference_mode():
+            out = model.generate(**inputs, **gen_cfg, pad_token_id=processor.tokenizer.pad_token_id)
+        new_tokens = out[:, inputs["input_ids"].shape[1]:]
+        return [strip_thinking(t) for t in processor.batch_decode(new_tokens, skip_special_tokens=True)]
     except torch.cuda.OutOfMemoryError:
         torch.cuda.empty_cache()
         if len(batch) == 1:
             raise
         mid = len(batch) // 2
         print(f"[warn] OOM on batch of {len(batch)}, splitting", flush=True)
-        return (run_batch(model, tok, device, dtype, batch[:mid], prompt, gen_cfg)
-                + run_batch(model, tok, device, dtype, batch[mid:], prompt, gen_cfg))
-
-
-def _generate(model, tok, device, dtype, batch, prompt, gen_cfg):
-    get_conv_template = sys.modules[type(model).__module__].get_conv_template
-    image_tokens = "<img>" + "<IMG_CONTEXT>" * model.num_image_token + "</img>"
-    model.img_context_token_id = tok.convert_tokens_to_ids("<IMG_CONTEXT>")
-
-    queries = []
-    for pv in batch:
-        question = "".join(f"Frame{i + 1}: <image>\n" for i in range(len(pv))) + prompt
-        template = get_conv_template(model.template)
-        template.system_message = model.system_message
-        template.append_message(template.roles[0], question)
-        template.append_message(template.roles[1], None)
-        queries.append(template.get_prompt().replace("<image>", image_tokens))
-    eos = tok.convert_tokens_to_ids(template.sep.strip())
-
-    tok.padding_side = "left"
-    if tok.pad_token is None:
-        tok.pad_token = tok.eos_token
-    enc = tok(queries, return_tensors="pt", padding=True)
-    pixel_values = torch.cat(batch).to(device=device, dtype=dtype)
-    with torch.inference_mode():
-        out = model.generate(pixel_values=pixel_values, input_ids=enc["input_ids"].to(device),
-                             attention_mask=enc["attention_mask"].to(device), eos_token_id=eos, **gen_cfg)
-    return [r.split(template.sep.strip())[0].strip() for r in tok.batch_decode(out, skip_special_tokens=True)]
-
-
-def prepare_scene(scene, path, fps, max_frames, transform):
-    """CPU side: decode + preprocess one scene. Runs in background threads."""
-    cap = cv2.VideoCapture(str(path))
-    try:
-        frames = read_frames(cap, sample_times(scene["start"], scene["end"], fps, max_frames), scene["end"])
-    finally:
-        cap.release()
-    if not frames:
-        raise RuntimeError("could not decode any frames")
-    return torch.stack([transform(f) for f in frames])
+        return (generate_batch(model, processor, family, dtype, batch[:mid], prompt, gen_cfg, frame_pixels)
+                + generate_batch(model, processor, family, dtype, batch[mid:], prompt, gen_cfg, frame_pixels))
 
 
 # --------------------------------------------------------------------------- #
@@ -339,40 +367,58 @@ def video_number(name):
     return int(m.group(1)) if m else None
 
 
-def save(records, path):
+def save_json(obj, path):
     tmp = path.with_suffix(path.suffix + ".tmp")
     with open(tmp, "w", encoding="utf-8") as f:
-        json.dump(records, f, ensure_ascii=False, indent=2)
+        json.dump(obj, f, ensure_ascii=False, indent=2)
     os.replace(tmp, path)
+
+
+def make_batches(todo, args):
+    """Group scenes with the same number of frames (needed for InternVL, less padding for all)."""
+    by_len = defaultdict(list)
+    for s in todo:
+        by_len[len(sample_times(s["start"], s["end"], args.fps, args.max_frames))].append(s)
+    return [group[i:i + args.batch_size] for _, group in sorted(by_len.items())
+            for i in range(0, len(group), args.batch_size)]
 
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--model", required=True, help="Hugging Face model id or local path")
+    ap.add_argument("--quant", choices=["none", "8bit", "4bit"], default="none")
+    ap.add_argument("--output", required=True)
     ap.add_argument("--video-dir", default="VIDEO FILES")
     ap.add_argument("--scenes-csv", default="_all_scenes.csv")
-    ap.add_argument("--output", default="scene_metadata_internvl3_5_1b.json")
-    ap.add_argument("--model", default="OpenGVLab/InternVL3_5-1B")
     ap.add_argument("--fps", type=float, default=1.0, help="sampling rate before capping (Gemini used 1.0)")
-    ap.add_argument("--max-frames", type=int, default=16, help="max frames per scene fed to the model")
-    ap.add_argument("--image-size", type=int, default=448)
+    ap.add_argument("--max-frames", type=int, default=16, help="max frames per scene")
+    ap.add_argument("--frame-pixels", type=int, default=448 * 448, help="per-frame pixel budget (Qwen)")
     ap.add_argument("--max-new-tokens", type=int, default=768)
-    ap.add_argument("--batch-size", type=int, default=4, help="scenes per GPU call (auto-halves on OOM)")
-    ap.add_argument("--workers", type=int, default=4, help="CPU threads for frame decoding")
+    ap.add_argument("--batch-size", type=int, default=8, help="scenes per generate() call (halves on OOM)")
+    ap.add_argument("--workers", type=int, default=8, help="CPU threads for frame decoding")
     ap.add_argument("--retries", type=int, default=1, help="extra attempts (sampled) if JSON parsing fails")
+    ap.add_argument("--attn", default=None, help="attention implementation (default: flash_attention_2 if "
+                                                 "available on the GPU, else sdpa)")
     ap.add_argument("--video-ids", type=int, nargs="*", help="only these video numbers, e.g. 1 2 15")
     ap.add_argument("--max-scenes-per-video", type=int, help="first N scenes of each video")
     ap.add_argument("--limit", type=int, help="stop after N scenes in total")
     ap.add_argument("--no-resume", action="store_true", help="ignore an existing output file")
     args = ap.parse_args()
 
+    import transformers
+    if int(transformers.__version__.split(".")[0]) < 5:
+        sys.exit(f"transformers {transformers.__version__} is too old; run: pip install -r requirements.txt")
+
     video_dir, out_path = Path(args.video_dir), Path(args.output)
-    scenes = load_scenes(args.scenes_csv)
+    run_path = out_path.with_suffix(".run.json")
+    all_scenes = load_scenes(args.scenes_csv)
+    order = {(s["video"] + ".mp4", s["scene"]): i for i, s in enumerate(all_scenes)}
 
     on_disk = {p.stem: p for p in video_dir.glob("*.mp4")}
-    missing = sorted({s["video"] for s in scenes} - set(on_disk))
+    missing = sorted({s["video"] for s in all_scenes} - set(on_disk))
     if missing:
         print(f"[info] {len(missing)} CSV videos not in {video_dir}, skipped: {missing}")
-    scenes = [s for s in scenes if s["video"] in on_disk]
+    scenes = [s for s in all_scenes if s["video"] in on_disk]
     if args.video_ids:
         scenes = [s for s in scenes if video_number(s["video"]) in set(args.video_ids)]
     if args.max_scenes_per_video:
@@ -382,6 +428,11 @@ def main():
 
     records = {}
     if out_path.exists() and not args.no_resume:
+        prev = json.load(open(run_path, encoding="utf-8")) if run_path.exists() else {}
+        if prev.get("model") != args.model or prev.get("quant") != args.quant:
+            sys.exit(f"{out_path} exists but was not produced by --model {args.model} --quant {args.quant} "
+                     f"(run file says: {prev.get('model')}, {prev.get('quant')}). "
+                     f"Use a different --output, or --no-resume to overwrite it.")
         for r in json.load(open(out_path, encoding="utf-8")):
             records[(r["video"], r["scene"])] = r
     todo = [s for s in scenes if "metadata" not in records.get((s["video"] + ".mp4", s["scene"]), {})]
@@ -389,23 +440,35 @@ def main():
     if not todo:
         return
 
-    device = "cuda" if torch.cuda.is_available() else "cpu"
-    if device == "cpu":
-        print("[warn] no CUDA GPU found - running on CPU will be very slow")
-    model, tok, dtype = load_model(args.model, device)
-    transform = build_transform(args.image_size)
+    attn = args.attn or pick_attention()
+    t_load = time.time()
+    model, processor, family, dtype = load_model(args.model, args.quant, attn)
+    load_s = time.time() - t_load
+    print(f"[info] {args.model} ({family}) quant={args.quant} dtype={dtype} attn={attn} "
+          f"loaded in {load_s:.0f}s, weights {model.get_memory_footprint() / 1e9:.2f} GB")
+
+    run = json.load(open(run_path, encoding="utf-8")) if run_path.exists() and not args.no_resume else {}
+    run.update({
+        "model": args.model, "family": family, "quant": args.quant, "dtype": str(dtype), "attention": attn,
+        "weights_memory_gb": round(model.get_memory_footprint() / 1e9, 2),
+        "settings": {k: getattr(args, k) for k in ("fps", "max_frames", "frame_pixels", "max_new_tokens",
+                                                    "batch_size", "retries")},
+        "versions": {"python": platform.python_version(), "torch": torch.__version__,
+                     "transformers": transformers.__version__,
+                     "gpu": torch.cuda.get_device_name(0) if torch.cuda.is_available() else "cpu"},
+    })
+    run.setdefault("sessions", [])
+    save_json(run, run_path)
+
     prompt = build_prompt()
     greedy = dict(max_new_tokens=args.max_new_tokens, do_sample=False)
     sampled = dict(max_new_tokens=args.max_new_tokens, do_sample=True, temperature=0.7, top_p=0.9)
-
-    order = {(s["video"] + ".mp4", s["scene"]): i for i, s in enumerate(load_scenes(args.scenes_csv))}
-    # group scenes with similar frame counts so a batch wastes little padding
-    todo.sort(key=lambda s: len(sample_times(s["start"], s["end"], args.fps, args.max_frames)))
-    batches = [todo[i:i + args.batch_size] for i in range(0, len(todo), args.batch_size)]
+    batches = make_batches(todo, args)
+    if torch.cuda.is_available():
+        torch.cuda.reset_peak_memory_stats()
 
     def prepare(batch):
-        futs = [pool.submit(prepare_scene, s, on_disk[s["video"]], args.fps, args.max_frames, transform)
-                for s in batch]
+        futs = [pool.submit(prepare_scene, s, on_disk[s["video"]], args.fps, args.max_frames) for s in batch]
         out = []
         for f in futs:
             try:
@@ -415,6 +478,7 @@ def main():
         return out
 
     n_ok = n_err = done = 0
+    gen_seconds = 0.0
     t0 = time.time()
     with ThreadPoolExecutor(max_workers=args.workers) as pool, ThreadPoolExecutor(max_workers=1) as prefetch:
         next_inputs = prefetch.submit(prepare, batches[0])
@@ -425,64 +489,80 @@ def main():
 
             recs = [dict(video=s["video"] + ".mp4", scene=s["scene"], start_sec=s["start"], end_sec=s["end"],
                          sample_fps=args.fps) for s in batch]
-            pending, raws = [], {}
+            pending, raws, last_err = [], {}, {}
             for j, x in enumerate(inputs):
                 if isinstance(x, Exception):
                     recs[j].update(error=f"{type(x).__name__}: {x}", raw_output="")
                 else:
-                    recs[j]["sampled_frame_count"] = len(x)
+                    recs[j]["sampled_frame_count"] = len(x[0])
                     pending.append(j)
 
             for attempt in range(args.retries + 1):
                 if not pending:
                     break
-                try:
-                    outs = run_batch(model, tok, device, dtype, [inputs[j] for j in pending], prompt,
-                                     greedy if attempt == 0 else sampled)
-                except Exception as e:  # e.g. OOM on a single scene
-                    msg = "CUDA out of memory (try a lower --max-frames)" \
-                        if isinstance(e, torch.cuda.OutOfMemoryError) else f"{type(e).__name__}: {e}"
-                    for j in pending:
-                        recs[j].update(error=msg, raw_output=raws.get(j, ""))
-                    pending = []
-                    break
+                # sub-batches with identical frame counts (a decode failure can change a scene's count)
+                groups = defaultdict(list)
+                for j in pending:
+                    groups[len(inputs[j][0])].append(j)
                 still = []
-                for j, raw in zip(pending, outs):
-                    raws[j] = raw
+                for js in groups.values():
+                    t_gen = time.time()
                     try:
-                        meta, warnings = normalise(extract_json(raw))
-                        recs[j]["metadata"] = meta
-                        if warnings:
-                            recs[j]["warnings"] = warnings
-                            recs[j]["raw_output"] = raw  # keep for debugging repairs
-                    except (ValueError, json.JSONDecodeError) as e:
-                        recs[j]["_last_err"] = str(e)
-                        still.append(j)
+                        outs = generate_batch(model, processor, family, dtype, [inputs[j] for j in js], prompt,
+                                              greedy if attempt == 0 else sampled, args.frame_pixels)
+                    except Exception as e:  # e.g. OOM on a single scene
+                        msg = "CUDA out of memory (try a lower --max-frames)" \
+                            if isinstance(e, torch.cuda.OutOfMemoryError) else f"{type(e).__name__}: {e}"
+                        for j in js:
+                            recs[j]["error"] = msg
+                        continue
+                    finally:
+                        gen_seconds += time.time() - t_gen
+                    for j, raw in zip(js, outs):
+                        raws[j] = raw
+                        try:
+                            meta, warnings = normalise(extract_json(raw))
+                            recs[j]["metadata"] = meta
+                            recs[j].pop("error", None)
+                            if warnings:
+                                recs[j]["warnings"] = warnings
+                                recs[j]["raw_output"] = raw
+                        except (ValueError, json.JSONDecodeError) as e:
+                            last_err[j] = str(e)
+                            still.append(j)
                 pending = still
             for j in pending:
-                recs[j].pop("sampled_frame_count", None)
-                recs[j].update(error=f"unparseable JSON after {args.retries + 1} attempts: "
-                                     f"{recs[j].pop('_last_err', '')}", raw_output=raws.get(j, ""))
+                recs[j]["error"] = f"unparseable JSON after {args.retries + 1} attempts: {last_err.get(j, '')}"
 
-            for r in recs:
-                r.pop("_last_err", None)
+            for j, r in enumerate(recs):
                 if "metadata" in r:
-                    r.pop("error", None)
-                    if "warnings" not in r:
-                        r.pop("raw_output", None)
                     n_ok += 1
                 else:
                     r.pop("sampled_frame_count", None)
+                    r.setdefault("error", "unknown error")
+                    r["raw_output"] = raws.get(j, "")
                     n_err += 1
                 records[(r["video"], r["scene"])] = r
-            save(sorted(records.values(), key=lambda r: order.get((r["video"], r["scene"]), 1e9)), out_path)
+            save_json(sorted(records.values(), key=lambda r: order.get((r["video"], r["scene"]), 1e9)), out_path)
 
             done += len(batch)
             rate = (time.time() - t0) / done
-            print(f"[{done}/{len(todo)}] batch of {len(batch)}: {n_ok} ok, {n_err} errors so far "
-                  f"({rate:.1f}s/scene, ~{rate * (len(todo) - done) / 60:.0f} min left)", flush=True)
+            print(f"[{done}/{len(todo)}] batch of {len(batch)} ({len(inputs[0][0]) if not isinstance(inputs[0], Exception) else '?'} frames): "
+                  f"{n_ok} ok, {n_err} errors so far ({rate:.1f}s/scene, ~{rate * (len(todo) - done) / 60:.0f} min left)",
+                  flush=True)
 
-    print(f"[done] {n_ok} ok, {n_err} errors -> {out_path}")
+    # run statistics (appended per session so resumed runs keep their history)
+    session = {
+        "finished": time.strftime("%Y-%m-%d %H:%M:%S"),
+        "scenes_run": done, "ok": n_ok, "errors": n_err,
+        "wall_seconds": round(time.time() - t0, 1), "generate_seconds": round(gen_seconds, 1),
+        "seconds_per_scene": round((time.time() - t0) / max(done, 1), 3),
+        "load_seconds": round(load_s, 1),
+        "peak_gpu_memory_gb": round(torch.cuda.max_memory_allocated() / 1e9, 2) if torch.cuda.is_available() else None,
+    }
+    run["sessions"].append(session)
+    save_json(run, run_path)
+    print(f"[done] {n_ok} ok, {n_err} errors -> {out_path} (run stats: {run_path})")
 
 
 if __name__ == "__main__":

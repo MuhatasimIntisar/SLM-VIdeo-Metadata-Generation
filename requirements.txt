@@ -1,14 +1,17 @@
-# Install PyTorch first with the CUDA build for your GPU: https://pytorch.org/get-started/locally/
+# Install PyTorch first, built for the cluster's CUDA version: https://pytorch.org/get-started/locally/
 torch
 torchvision
-transformers>=4.52.1
+transformers>=5.17,<6      # native InternVL3.5-HF and Qwen3.5 support
 accelerate
-sentencepiece
-timm
-einops
-opencv-python
+bitsandbytes               # --quant 8bit / 4bit
+opencv-python-headless
 pillow
 # evaluation
 rouge-score
 pycocoevalcap
 nltk
+
+# Optional speed-ups (install if they build on the cluster):
+#   flash-attn               # attention kernels for Ampere+ GPUs (A100/H100); used automatically
+#   flash-linear-attention   # Qwen3.5 linear-attention layers (otherwise a slow PyTorch fallback)
+#   causal-conv1d            # Qwen3.5 linear-attention layers

@@ -1,0 +1,10 @@
+name	model	quant
+internvl3_5_1b	OpenGVLab/InternVL3_5-1B-HF	none
+internvl3_5_2b	OpenGVLab/InternVL3_5-2B-HF	none
+internvl3_5_4b	OpenGVLab/InternVL3_5-4B-HF	none
+qwen3_5_0_8b	Qwen/Qwen3.5-0.8B	none
+qwen3_5_2b	Qwen/Qwen3.5-2B	none
+qwen3_5_4b	Qwen/Qwen3.5-4B	none
+qwen3_5_9b_bf16	Qwen/Qwen3.5-9B	none
+qwen3_5_9b_8bit	Qwen/Qwen3.5-9B	8bit
+qwen3_5_9b_4bit	Qwen/Qwen3.5-9B	4bit
