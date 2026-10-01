@@ -1,0 +1,21 @@
+group,metric,baseline_majority,internvl3_5_1b,delta
+description,rouge1_f,0.2485,0.4147,0.1662
+description,rouge2_f,0.0443,0.1497,0.1054
+description,rougeL_f,0.1991,0.3276,0.1285
+description,meteor,0.121,0.281,0.16
+description,cider_d,0.04,0.3478,0.3078
+description,soda_c_f1,0.1185,0.2733,0.1548
+categorical accuracy,content_type,0.7702,0.8102,0.04
+categorical accuracy,framing,0.6719,0.7118,0.0399
+categorical accuracy,setting,0.6895,0.9789,0.2894
+categorical accuracy,activity,0.6456,0.1195,-0.5261
+categorical accuracy,geo_area,0.9526,0.6063,-0.3463
+categorical accuracy,geo_city,0.6544,0.6608,0.0064
+categorical accuracy,geo_country,0.6263,0.6995,0.0732
+categorical accuracy,people_count,0.5842,0.5114,-0.0728
+categorical,people_count_mae (lower=better),0.261,0.389,0.128
+visual_tags,precision,0.7994,0.794,-0.0054
+visual_tags,recall,0.5756,0.5156,-0.06
+visual_tags,f1,0.6627,0.6022,-0.0605
+visual_tags,micro_f1,0.6577,0.6076,-0.0501
+on_screen_text,f1,0.2754,0.2988,0.0234
