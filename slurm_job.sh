@@ -4,8 +4,8 @@
 #   sbatch --array=7-9 slurm_job.sh          # only the Qwen3.5-9B quantization set
 # Adjust partition / GPU / module lines to the cluster before submitting.
 #SBATCH --job-name=vlm-meta
-#SBATCH --partition=gpu                # <- cluster's GPU partition
-#SBATCH --gres=gpu:1                   # one GPU per experiment
+#SBATCH --partition=k2-gpu-a100        # Kelvin2 A100 80GB nodes (check: sinfo -p k2-gpu-a100)
+#SBATCH --gres=gpu:a100:1              # one GPU per experiment (type name: sinfo -p k2-gpu-a100 -o "%G")
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=64G
 #SBATCH --time=24:00:00
@@ -15,7 +15,7 @@ set -euo pipefail
 cd "$SLURM_SUBMIT_DIR"
 mkdir -p logs
 
-# module load python/3.11 cuda/12.4    # <- cluster-specific
+# module load <python> <cuda>          # see: module avail python ; module avail cuda
 source venv/bin/activate
 
 # Compute nodes are often offline: download models on the login node first (see README),
