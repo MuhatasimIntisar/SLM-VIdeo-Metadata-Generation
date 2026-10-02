@@ -9,7 +9,8 @@ are scored; failed scenes are reported as coverage, not scored as zero.
       content_type, shot_type.framing, shot_type.setting, activity,
       geographical_location.{area, city, country}, people_count_numeric
   visual_tags (set)        : per-scene precision / recall / F1 / Jaccard (averaged) + micro-F1
-  on_screen_text (set)     : per-scene F1 on normalised strings (averaged)
+  on_screen_text           : ROUGE-1/ROUGE-L F1 on the items joined into one text (averaged per scene;
+                             both empty = 1, one empty = 0), plus exact-match set F1 for reference
 
 Note on SODA_c: it aligns predicted and reference event captions per video using
 temporal IoU and METEOR (Fujita et al., ECCV 2020). Here both sides share the same
@@ -178,8 +179,16 @@ def main():
         tp, tr, tf, tj = set_prf([norm(t) for t in pm.get("visual_tags", [])],
                                  [norm(t) for t in rm.get("visual_tags", [])])
         row.update(tags_precision=tp, tags_recall=tr, tags_f1=tf, tags_jaccard=tj)
-        row["ost_f1"] = set_prf([norm(t) for t in pm.get("on_screen_text", [])],
-                                [norm(t) for t in rm.get("on_screen_text", [])])[2]
+        p_ost, r_ost = pm.get("on_screen_text", []), rm.get("on_screen_text", [])
+        row["ost_exact_f1"] = set_prf([norm(t) for t in p_ost], [norm(t) for t in r_ost])[2]
+        p_txt, r_txt = "\n".join(p_ost).strip(), "\n".join(r_ost).strip()
+        if not p_txt and not r_txt:
+            row["ost_rouge1"] = row["ost_rougeL"] = 1.0
+        elif not p_txt or not r_txt:
+            row["ost_rouge1"] = row["ost_rougeL"] = 0.0
+        else:
+            os_ = rouge.score(r_txt, p_txt)
+            row["ost_rouge1"], row["ost_rougeL"] = os_["rouge1"].fmeasure, os_["rougeL"].fmeasure
         rows.append(row)
 
     # CIDEr-D (corpus-level)
@@ -250,7 +259,11 @@ def main():
             "micro_f1": round(micro_f1, 4) if micro_f1 is not None else None,
             "per_tag": per_tag,
         },
-        "on_screen_text_f1": mean(r["ost_f1"] for r in rows),
+        "on_screen_text": {
+            "rouge1_f": mean(r["ost_rouge1"] for r in rows),
+            "rougeL_f": mean(r["ost_rougeL"] for r in rows),
+            "exact_match_f1": mean(r["ost_exact_f1"] for r in rows),
+        },
         "soda_c_per_video": {v: {"p": round(s[0], 4), "r": round(s[1], 4), "f1": round(s[2], 4)}
                              for v, s in soda.items()},
     }
@@ -277,7 +290,9 @@ def main():
     print("\nVisual tags")
     for k in ("precision", "recall", "f1", "jaccard", "micro_f1"):
         print(f"  {k:<18} {summary['visual_tags'][k]}")
-    print(f"\nOn-screen text F1    {summary['on_screen_text_f1']}")
+    print("\nOn-screen text")
+    for k, v in summary["on_screen_text"].items():
+        print(f"  {k:<18} {v}")
     print(f"\nWrote {out_dir / 'summary.json'} and {out_dir / 'per_scene.csv'}")
 
 
