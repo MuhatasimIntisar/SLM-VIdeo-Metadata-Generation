@@ -23,4 +23,4 @@ source venv/bin/activate
 export HF_HUB_OFFLINE=1
 export TOKENIZERS_PARALLELISM=false
 
-bash run_experiment.sh "$SLURM_ARRAY_TASK_ID" --workers "$SLURM_CPUS_PER_TASK"
+bash run_experiment.sh "$SLURM_ARRAY_TASK_ID" --workers "$SLURM_CPUS_PER_TASK" "$@"   # extra sbatch args, e.g. --video-dir
