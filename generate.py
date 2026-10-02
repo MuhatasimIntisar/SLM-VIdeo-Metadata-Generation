@@ -177,6 +177,11 @@ def load_model(model_id, quant, attn):
         processor.tokenizer.pad_token = processor.tokenizer.eos_token
 
     family = model.config.model_type  # "internvl" or "qwen3_5"
+    if family == "internvl":
+        # The -HF checkpoints ship no video config, so the video processor would fall back to 384x384,
+        # which breaks InternVL's pixel shuffle. Use the vision encoder's native size (448x448).
+        h, w = model.config.vision_config.image_size
+        processor.internvl_frame_size = {"height": h, "width": w}
     if family not in ("internvl", "qwen3_5", "qwen3_5_moe", "qwen3_vl"):
         print(f"[warn] model type '{family}' has not been tested with this script")
     return model, processor, family, dtype
@@ -210,7 +215,7 @@ def build_inputs(processor, family, batch, prompt, frame_pixels):
 
     # InternVL: each frame is resized to the model's native 448x448 tile ("Frame1: <image> ...")
     return processor(text=texts, videos=[b[0] for b in batch], do_sample_frames=False,
-                     padding=True, return_tensors="pt")
+                     size=processor.internvl_frame_size, padding=True, return_tensors="pt")
 
 
 def strip_thinking(text):
