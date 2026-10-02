@@ -1,0 +1,46 @@
+{
+  "model": "OpenGVLab/InternVL3_5-2B-HF",
+  "family": "internvl",
+  "quant": "none",
+  "dtype": "torch.bfloat16",
+  "attention": "sdpa",
+  "weights_memory_gb": 4.7,
+  "settings": {
+    "fps": 1.0,
+    "max_frames": 16,
+    "frame_pixels": 200704,
+    "max_new_tokens": 768,
+    "batch_size": 8,
+    "retries": 1
+  },
+  "versions": {
+    "python": "3.12.15",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.18.0",
+    "gpu": "NVIDIA A100-SXM4-80GB"
+  },
+  "sessions": [
+    {
+      "finished": "2026-10-02 12:18:13",
+      "scenes_run": 641,
+      "ok": 0,
+      "errors": 641,
+      "wall_seconds": 485.8,
+      "generate_seconds": 312.7,
+      "seconds_per_scene": 0.758,
+      "load_seconds": 99.9,
+      "peak_gpu_memory_gb": 7.54
+    },
+    {
+      "finished": "2026-10-02 14:03:10",
+      "scenes_run": 641,
+      "ok": 641,
+      "errors": 0,
+      "wall_seconds": 1006.9,
+      "generate_seconds": 986.8,
+      "seconds_per_scene": 1.571,
+      "load_seconds": 51.2,
+      "peak_gpu_memory_gb": 12.05
+    }
+  ]
+}
