@@ -15,7 +15,7 @@ set -euo pipefail
 cd "$SLURM_SUBMIT_DIR"
 mkdir -p logs
 
-# module load <python> <cuda>          # see: module avail python ; module avail cuda
+module load python3/3.10.5/gcc-9.3.0   # Kelvin2; CUDA comes with the pip torch wheel
 source venv/bin/activate
 
 # Compute nodes are often offline: download models on the login node first (see README),
