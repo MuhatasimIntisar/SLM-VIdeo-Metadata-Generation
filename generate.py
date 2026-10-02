@@ -77,7 +77,7 @@ The values in the example are only illustrations of the format:
 }}
 
 Rules:
-- on_screen_text: text legibly visible in the frames, copied verbatim; [] if none.
+- on_screen_text: distinct text legibly visible in the frames, copied verbatim, each item once, at most 10 items; [] if none.
 - visual_tags: choose ONLY from: {tags}.
   "text on screen" = any visible caption, name label, headline or other overlaid/visible text.
   "graphic or title card" = a designed graphic, logo animation or title screen rather than camera footage.
@@ -462,7 +462,8 @@ def main():
 
     prompt = build_prompt()
     greedy = dict(max_new_tokens=args.max_new_tokens, do_sample=False)
-    sampled = dict(max_new_tokens=args.max_new_tokens, do_sample=True, temperature=0.7, top_p=0.9)
+    sampled = dict(max_new_tokens=args.max_new_tokens, do_sample=True, temperature=0.7, top_p=0.9,
+                   repetition_penalty=1.1)  # retry only: breaks repetition loops
     batches = make_batches(todo, args)
     if torch.cuda.is_available():
         torch.cuda.reset_peak_memory_stats()

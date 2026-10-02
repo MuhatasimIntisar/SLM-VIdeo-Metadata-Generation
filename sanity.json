@@ -1,0 +1,88 @@
+[
+  {
+    "video": "1. Launch of Belfast Children's Festival 2016 280116.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 13.44,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "{\n  \"on_screen_text\": [\n    \"Welcome to Belfast\",\n    \"YOUNG at ART\",\n    \"Belfast Children's Festival\",\n    \"JUGECT 208\",\n    \"JUST ADD FUEL\",\n    \"FROM PEGGED\",\n    \"YOUNG at ART\",\n    \"Belfast Children's Festival\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \"Welcome to Belfast\",\n    \""
+  },
+  {
+    "video": "1. Launch of Belfast Children's Festival 2016 280116.mp4",
+    "scene": 2,
+    "start_sec": 13.44,
+    "end_sec": 43.92,
+    "sample_fps": 1.0,
+    "sampled_frame_count": 16,
+    "metadata": {
+      "on_screen_text": [
+        "Belfast Children's Festival",
+        "4-9 march 2016",
+        "NI's premier international children's event",
+        "YOUNG AT ART",
+        "BOX OFFICE: 028 9024 3042",
+        "Y",
+        "YOUNG AT ART"
+      ],
+      "visual_tags": [
+        "graphic or title card",
+        "text on screen",
+        "sign or banner",
+        "crowd of people"
+      ],
+      "people_count_numeric": 14,
+      "description": "A group of people, including children and adults, gather around a large cardboard train decorated with a 'Y' logo during the Belfast Children's Festival.",
+      "geographical_location": {
+        "area": "Belfast",
+        "city": "Belfast",
+        "country": "Ireland"
+      },
+      "activity": "group activity",
+      "shot_type": {
+        "framing": "medium",
+        "setting": "field"
+      },
+      "content_type": "unknown",
+      "uncertainty_notes": []
+    },
+    "warnings": [
+      "content_type: 'presentation slide' -> 'unknown'"
+    ],
+    "raw_output": "```json\n{\n  \"on_screen_text\": [\n    \"Belfast Children's Festival\",\n    \"4-9 march 2016\",\n    \"NI's premier international children's event\",\n    \"YOUNG AT ART\",\n    \"BOX OFFICE: 028 9024 3042\",\n    \"Y\",\n    \"YOUNG AT ART\"\n  ],\n  \"visual_tags\": [\n    \"graphic or title card\",\n    \"text on screen\",\n    \"sign or banner\",\n    \"crowd of people\"\n  ],\n  \"people_count_numeric\": 14,\n  \"description\": \"A group of people, including children and adults, gather around a large cardboard train decorated with a 'Y' logo during the Belfast Children's Festival.\",\n  \"geographical_location\": {\n    \"area\": \"Belfast\",\n    \"city\": \"Belfast\",\n    \"country\": \"Ireland\"\n  },\n  \"activity\": \"group activity\",\n  \"shot_type\": {\n    \"framing\": \"medium\",\n    \"setting\": \"field\"\n  },\n  \"content_type\": \"presentation slide\",\n  \"uncertainty_notes\": []\n}\n```"
+  },
+  {
+    "video": "1. Launch of Belfast Children's Festival 2016 280116.mp4",
+    "scene": 3,
+    "start_sec": 43.92,
+    "end_sec": 55.16,
+    "sample_fps": 1.0,
+    "sampled_frame_count": 12,
+    "metadata": {
+      "on_screen_text": [
+        "Nicola Curry",
+        "Maiden Dance Voyage"
+      ],
+      "visual_tags": [
+        "crowd of people",
+        "indoor scene",
+        "interview",
+        "text on screen"
+      ],
+      "people_count_numeric": 1,
+      "description": "A woman named Nicola Curry is being interviewed in a busy indoor event space, likely a community center or convention hall, with other attendees visible in the background.",
+      "geographical_location": {
+        "area": "United States",
+        "city": "",
+        "country": "United States"
+      },
+      "activity": "woman speaking",
+      "shot_type": {
+        "framing": "close-up",
+        "setting": "field"
+      },
+      "content_type": "interview",
+      "uncertainty_notes": []
+    }
+  }
+]
