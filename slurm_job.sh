@@ -7,8 +7,8 @@
 #SBATCH --partition=k2-gpu-a100        # Kelvin2 A100 80GB nodes (check: sinfo -p k2-gpu-a100)
 #SBATCH --gres=gpu:a100:1              # one GPU per experiment (type name: sinfo -p k2-gpu-a100 -o "%G")
 #SBATCH --cpus-per-task=8
-#SBATCH --mem=64G
-#SBATCH --time=24:00:00
+#SBATCH --mem=128G                    # 27B models are loaded in bf16 before HQQ quantization
+#SBATCH --time=48:00:00
 #SBATCH --output=logs/%x_%a_%j.out
 
 set -euo pipefail

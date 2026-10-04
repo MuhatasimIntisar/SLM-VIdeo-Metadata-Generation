@@ -153,6 +153,38 @@ def pick_attention():
     return "sdpa"
 
 
+def quantize_hqq(model, nbits, group_size, dtype):
+    """Replace every nn.Linear of the language model with an HQQ-quantized layer, after loading.
+
+    transformers 5.18 cannot apply HqqConfig at load time, so the official bf16 weights are loaded and
+    quantized in place. The vision encoder, projector and lm_head stay in bf16 (same as the bnb runs).
+    """
+    from hqq.core.quantize import HQQLinear, BaseQuantizeConfig
+    cfg = BaseQuantizeConfig(nbits=nbits, group_size=group_size)
+    n, kept = 0, []
+    for name, module in list(model.named_modules()):
+        for child_name, child in list(module.named_children()):
+            full = f"{name}.{child_name}" if name else child_name
+            if isinstance(child, torch.nn.Linear) and full.startswith("model.language_model."):
+                try:  # low-bit packing needs the output size to be a multiple of 8 (1-bit) / 4 (2-bit)
+                    q = HQQLinear(child, cfg, compute_dtype=dtype, device=str(child.weight.device), del_orig=False)
+                    with torch.no_grad():  # some shapes only fail when the packed weight is first used
+                        q(torch.zeros(1, child.in_features, dtype=dtype, device=child.weight.device))
+                except Exception as e:
+                    kept.append(f"{full} {tuple(child.weight.shape)}: {type(e).__name__}")
+                    continue
+                setattr(module, child_name, q)
+                del child
+                n += 1
+    if torch.cuda.is_available():
+        torch.cuda.empty_cache()
+    if n == 0:
+        sys.exit("HQQ: no language-model linear layers could be quantized")
+    if kept:
+        print(f"[warn] HQQ: {len(kept)} layers left in {dtype} (could not be quantized), e.g. {kept[:3]}")
+    return n, len(kept)
+
+
 def load_model(model_id, quant, attn):
     from transformers import AutoModelForImageTextToText, AutoProcessor, BitsAndBytesConfig
 
@@ -171,6 +203,10 @@ def load_model(model_id, quant, attn):
             bnb_4bit_use_double_quant=False, llm_int8_skip_modules=SKIP_QUANT_MODULES)
 
     model = AutoModelForImageTextToText.from_pretrained(model_id, **kwargs).eval()
+    if quant.startswith("hqq"):
+        n, n_kept = quantize_hqq(model, int(quant[3:]), 64, dtype)
+        print(f"[info] HQQ {quant[3:]}-bit (group size 64): quantized {n} language-model linear layers"
+              + (f", {n_kept} left unquantized" if n_kept else ""))
     processor = AutoProcessor.from_pretrained(model_id)
     processor.tokenizer.padding_side = "left"
     if processor.tokenizer.pad_token is None:
@@ -391,7 +427,8 @@ def make_batches(todo, args):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--model", required=True, help="Hugging Face model id or local path")
-    ap.add_argument("--quant", choices=["none", "8bit", "4bit"], default="none")
+    ap.add_argument("--quant", choices=["none", "8bit", "4bit", "hqq8", "hqq4", "hqq2", "hqq1"], default="none",
+                    help="8bit/4bit = bitsandbytes at load; hqqN = HQQ N-bit applied after loading bf16 weights")
     ap.add_argument("--output", required=True)
     ap.add_argument("--video-dir", default="VIDEO FILES")
     ap.add_argument("--scenes-csv", default="_all_scenes.csv")
@@ -449,6 +486,7 @@ def main():
     t_load = time.time()
     model, processor, family, dtype = load_model(args.model, args.quant, attn)
     load_s = time.time() - t_load
+    loaded_mem = torch.cuda.memory_allocated() if torch.cuda.is_available() else None
     print(f"[info] {args.model} ({family}) quant={args.quant} dtype={dtype} attn={attn} "
           f"loaded in {load_s:.0f}s, weights {model.get_memory_footprint() / 1e9:.2f} GB")
 
@@ -456,6 +494,7 @@ def main():
     run.update({
         "model": args.model, "family": family, "quant": args.quant, "dtype": str(dtype), "attention": attn,
         "weights_memory_gb": round(model.get_memory_footprint() / 1e9, 2),
+        "loaded_gpu_memory_gb": round(loaded_mem / 1e9, 2) if loaded_mem is not None else None,
         "settings": {k: getattr(args, k) for k in ("fps", "max_frames", "frame_pixels", "max_new_tokens",
                                                     "batch_size", "retries")},
         "versions": {"python": platform.python_version(), "torch": torch.__version__,

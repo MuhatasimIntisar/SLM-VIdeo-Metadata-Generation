@@ -1,0 +1,86 @@
+% Requires: \usepackage{booktabs} and \usepackage{array}
+% Generated from hpc_results/results_table.csv
+
+\begin{table}[t]
+\centering
+\caption{Scene metadata schema and how each field is scored.}
+\label{tab:schema}
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}l l >{\raggedright\arraybackslash}p{3.9cm} >{\raggedright\arraybackslash}p{2.3cm}@{}}
+\toprule
+Field & Type & Values / description & Scored with \\
+\midrule
+description & free text & 1--2 sentences describing the scene & ROUGE-L, METEOR, CIDEr-D, SODA$_c$ \\
+on\_screen\_text & list of strings & legible text copied verbatim ($\leq$10 items) & ROUGE-1, ROUGE-L \\
+visual\_tags & closed set & 27 tags, e.g.\ \emph{interview}, \emph{person speaking}, \emph{news studio} & set F1 \\
+content\_type & categorical (6) & interview, b-roll package, vox pop, studio segment, graphics, unknown & accuracy \\
+framing & categorical (4) & close-up, medium, wide, unknown & accuracy \\
+setting & categorical (3) & studio, field, unknown & accuracy \\
+people\_count & integer & visible people; 0 = none; $-1$ = crowd & accuracy \\
+location & 3 strings & area, city, country; empty unless visibly supported & accuracy (per part) \\
+activity & short phrase & main activity, e.g.\ ``person speaking'' & accuracy (exact) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]
+\centering
+\caption{Agreement with the reference annotations on 570 scenes (RQ1, bf16). Description: ROUGE-L (R-L), METEOR (MET), CIDEr-D, SODA$_c$. Tags: set F1. OCR: on-screen text ROUGE-1. Set./Cont./Ppl.: accuracy for setting, content type and people count. Fail: scenes without valid JSON after one retry (of 641). Best model per column in bold.}
+\label{tab:rq1}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}ll cccc c c ccc c@{}}
+\toprule
+& & \multicolumn{4}{c}{Description} & & & \multicolumn{3}{c}{Categorical} & \\
+\cmidrule(lr){3-6}\cmidrule(lr){9-11}
+Family & Size & R-L & MET & CIDEr-D & SODA$_c$ & Tags & OCR & Set. & Cont. & Ppl. & Fail \\
+\midrule
+\multicolumn{2}{@{}l}{No-video baseline} & 0.199 & 0.121 & 0.040 & 0.118 & 0.663 & 0.275 & 0.690 & 0.770 & 0.584 & -- \\
+\midrule
+InternVL3.5 & 1B & 0.325 & 0.280 & 0.351 & 0.273 & 0.573 & 0.475 & \textbf{0.977} & 0.812 & 0.501 & 1 \\
+ & 2B & 0.334 & 0.273 & 0.331 & 0.265 & 0.615 & 0.688 & 0.600 & 0.593 & 0.517 & 0 \\
+ & 4B & 0.346 & 0.306 & 0.477 & 0.298 & 0.783 & 0.708 & 0.765 & 0.781 & 0.565 & 0 \\
+\midrule
+Qwen3.5 & 0.8B & 0.339 & 0.285 & 0.405 & 0.262 & 0.636 & 0.644 & 0.938 & 0.819 & 0.512 & 64 \\
+ & 2B & 0.347 & 0.344 & 0.634 & 0.332 & 0.670 & 0.757 & 0.908 & 0.704 & 0.496 & 2 \\
+ & 4B & 0.387 & 0.366 & 0.778 & 0.358 & 0.841 & 0.774 & 0.497 & 0.841 & 0.582 & 4 \\
+ & 9B & \textbf{0.420} & \textbf{0.413} & \textbf{0.969} & \textbf{0.401} & \textbf{0.871} & \textbf{0.783} & 0.961 & \textbf{0.864} & \textbf{0.721} & 4 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]
+\centering
+\caption{Qwen3.5-9B at three precisions (RQ2): agreement with the references, weight and peak GPU memory, and wall-clock seconds per scene (batch 8, one A100 80\,GB). Abbreviations as in Table~\ref{tab:rq1}.}
+\label{tab:rq2}
+\scriptsize
+\setlength{\tabcolsep}{2.6pt}
+\begin{tabular}{@{}l ccc c c cc ccc c@{}}
+\toprule
+& \multicolumn{3}{c}{Description} & & & \multicolumn{2}{c}{Categorical} & \multicolumn{2}{c}{Mem.\ (GB)} & & \\
+\cmidrule(lr){2-4}\cmidrule(lr){7-8}\cmidrule(lr){9-10}
+Precision & R-L & CIDEr-D & SODA$_c$ & Tags & OCR & Set. & Ppl. & Weights & Peak & s/scene & Fail \\
+\midrule
+bf16 & 0.420 & 0.969 & 0.401 & 0.871 & 0.783 & 0.961 & 0.721 & 18.8 & 22.8 & 3.0 & 4 \\
+8-bit LLM.int8 & 0.412 & 0.908 & 0.387 & 0.868 & 0.775 & 0.960 & 0.715 & 11.9 & 16.1 & 9.9 & 2 \\
+4-bit NF4 & 0.397 & 0.856 & 0.389 & 0.871 & 0.783 & 0.939 & 0.707 & 8.4 & 12.9 & 3.5 & 1 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]
+\centering
+\caption{Equal-memory comparison: a quantized 9B model against a full-precision 4B model of similar weight memory.}
+\label{tab:equalmem}
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}l c cc ccc c@{}}
+\toprule
+Model & Weights (GB) & R-L & CIDEr-D & Tags & Set. & Ppl. & Cont. \\
+\midrule
+Qwen3.5-4B, bf16 & 9.1 & 0.387 & 0.778 & 0.841 & 0.497 & 0.582 & 0.841 \\
+Qwen3.5-9B, 4-bit NF4 & 8.4 & 0.397 & 0.856 & 0.871 & 0.939 & 0.707 & 0.874 \\
+\bottomrule
+\end{tabular}
+\end{table}

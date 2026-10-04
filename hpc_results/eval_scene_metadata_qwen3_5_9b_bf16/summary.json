@@ -1,0 +1,369 @@
+{
+  "reference": "scene_metadata_gemini3.8_flash.json",
+  "prediction": "scene_metadata_qwen3_5_9b_bf16.json",
+  "coverage": {
+    "reference_scenes_with_metadata": 570,
+    "reference_errors": 5,
+    "prediction_scenes_with_metadata": 637,
+    "prediction_errors": 4,
+    "attempted_scenes_with_reference": 570,
+    "scored_scenes": 567,
+    "scored_videos": 42,
+    "prediction_warnings": 2
+  },
+  "description": {
+    "rouge1_f": 0.5093,
+    "rouge2_f": 0.2407,
+    "rougeL_f": 0.4199,
+    "meteor": 0.4127,
+    "cider_d": 0.9692,
+    "soda_c_precision": 0.4006,
+    "soda_c_recall": 0.4077,
+    "soda_c_f1": 0.4007
+  },
+  "categorical_accuracy": {
+    "content_type": 0.8642,
+    "framing": 0.5926,
+    "setting": 0.9612,
+    "activity": 0.0776,
+    "geo_area": 0.9189,
+    "geo_city": 0.8113,
+    "geo_country": 0.6173,
+    "people_count": 0.7213
+  },
+  "people_count_mae_when_both_countable": 0.397,
+  "visual_tags": {
+    "precision": 0.8354,
+    "recall": 0.9275,
+    "f1": 0.8714,
+    "jaccard": 0.7945,
+    "micro_f1": 0.858,
+    "per_tag": {
+      "audience": {
+        "support": 52,
+        "f1": 0.7253
+      },
+      "building exterior": {
+        "support": 105,
+        "f1": 0.8034
+      },
+      "city street": {
+        "support": 35,
+        "f1": 0.7209
+      },
+      "crowd of people": {
+        "support": 52,
+        "f1": 0.7656
+      },
+      "fire engine": {
+        "support": 1,
+        "f1": 1.0
+      },
+      "graphic or title card": {
+        "support": 16,
+        "f1": 0.4638
+      },
+      "indoor scene": {
+        "support": 389,
+        "f1": 0.9772
+      },
+      "interview": {
+        "support": 464,
+        "f1": 0.9597
+      },
+      "landscape": {
+        "support": 1,
+        "f1": 0.1818
+      },
+      "logo": {
+        "support": 48,
+        "f1": 0.5289
+      },
+      "news studio": {
+        "support": 126,
+        "f1": 0.8523
+      },
+      "office": {
+        "support": 24,
+        "f1": 0.6866
+      },
+      "outdoor scene": {
+        "support": 167,
+        "f1": 0.8243
+      },
+      "panel discussion": {
+        "support": 5,
+        "f1": 0.5
+      },
+      "person speaking": {
+        "support": 507,
+        "f1": 0.9787
+      },
+      "podium": {
+        "support": 11,
+        "f1": 0.6429
+      },
+      "politician": {
+        "support": 6,
+        "f1": 0.4
+      },
+      "presentation slide": {
+        "support": 6,
+        "f1": 0.25
+      },
+      "protest": {
+        "support": 10,
+        "f1": 0.8571
+      },
+      "public meeting": {
+        "support": 10,
+        "f1": 0.125
+      },
+      "road": {
+        "support": 13,
+        "f1": 0.4583
+      },
+      "school": {
+        "support": 16,
+        "f1": 0.7222
+      },
+      "sign or banner": {
+        "support": 108,
+        "f1": 0.7368
+      },
+      "stage": {
+        "support": 10,
+        "f1": 0.4082
+      },
+      "text on screen": {
+        "support": 177,
+        "f1": 0.7972
+      },
+      "uniform": {
+        "support": 38,
+        "f1": 0.6947
+      },
+      "vehicle": {
+        "support": 37,
+        "f1": 0.7423
+      }
+    }
+  },
+  "on_screen_text": {
+    "rouge1_f": 0.7835,
+    "rougeL_f": 0.7637,
+    "exact_match_f1": 0.687
+  },
+  "soda_c_per_video": {
+    "1. Launch of Belfast Children's Festival 2016 280116": {
+      "p": 0.3741,
+      "r": 0.3741,
+      "f1": 0.3741
+    },
+    "10. Jacobin Launch 230316": {
+      "p": 0.403,
+      "r": 0.403,
+      "f1": 0.403
+    },
+    "11. Poor Mental Health on Peace Lines 150416": {
+      "p": 0.3897,
+      "r": 0.3897,
+      "f1": 0.3897
+    },
+    "12. Oliver Pollock Blue Plaque Unveiling 150416": {
+      "p": 0.3882,
+      "r": 0.3882,
+      "f1": 0.3882
+    },
+    "13. Reading Rooms at Open University 150416": {
+      "p": 0.4765,
+      "r": 0.4398,
+      "f1": 0.4574
+    },
+    "14. Kabosh - 1916 Community Play 150416": {
+      "p": 0.3721,
+      "r": 0.3721,
+      "f1": 0.3721
+    },
+    "15. May Day Parade 020516": {
+      "p": 0.4801,
+      "r": 0.4801,
+      "f1": 0.4801
+    },
+    "16. Political Special 020516": {
+      "p": 0.4032,
+      "r": 0.4032,
+      "f1": 0.4032
+    },
+    "17. Belfast Telegraph 100516": {
+      "p": 0.4831,
+      "r": 0.4831,
+      "f1": 0.4831
+    },
+    "18. Fergal McFerran 100516": {
+      "p": 0.3869,
+      "r": 0.3869,
+      "f1": 0.3869
+    },
+    "19. George McBride 100516": {
+      "p": 0.3844,
+      "r": 0.3844,
+      "f1": 0.3844
+    },
+    "2. Belfast's City Council - Step Up To Learn Programme 280116": {
+      "p": 0.3603,
+      "r": 0.3603,
+      "f1": 0.3603
+    },
+    "20. Writers on Writers Festival 100516": {
+      "p": 0.4913,
+      "r": 0.4913,
+      "f1": 0.4913
+    },
+    "24. Fairtrade Campaign 070616": {
+      "p": 0.3904,
+      "r": 0.3904,
+      "f1": 0.3904
+    },
+    "25. Blue Plaque Unveiling 010716": {
+      "p": 0.4018,
+      "r": 0.4018,
+      "f1": 0.4018
+    },
+    "26. Sixteen South 010716": {
+      "p": 0.4659,
+      "r": 0.4659,
+      "f1": 0.4659
+    },
+    "27. Growing in a Shared City 010716": {
+      "p": 0.5068,
+      "r": 0.5068,
+      "f1": 0.5068
+    },
+    "28. Feile an Phobail launch 010716": {
+      "p": 0.4661,
+      "r": 0.4661,
+      "f1": 0.4661
+    },
+    "29. Blue Plaque Unveiling 200716": {
+      "p": 0.4697,
+      "r": 0.4697,
+      "f1": 0.4697
+    },
+    "3. Fire Brigades Union Northern Ireland - Threats to the Fire and Rescue Service 280116": {
+      "p": 0.4584,
+      "r": 0.4584,
+      "f1": 0.4584
+    },
+    "30. Social Policy Association 200716": {
+      "p": 0.4602,
+      "r": 0.4602,
+      "f1": 0.4602
+    },
+    "31. Lilly and the Poppy Exhibition 200716": {
+      "p": 0.4087,
+      "r": 0.4087,
+      "f1": 0.4087
+    },
+    "33. Sculpture celebrating World Boxer, Rinty Monaghan 010816": {
+      "p": 0.3669,
+      "r": 0.3669,
+      "f1": 0.3669
+    },
+    "34. Prince's Trust 010816": {
+      "p": 0.3645,
+      "r": 0.3645,
+      "f1": 0.3645
+    },
+    "35. Campa Chormaic 010816": {
+      "p": 0.4133,
+      "r": 0.4133,
+      "f1": 0.4133
+    },
+    "36. Tourette Alliance First Annual Conference 090816": {
+      "p": 0.3546,
+      "r": 0.3546,
+      "f1": 0.3546
+    },
+    "37. Clandeboye Festival 090816": {
+      "p": 0.3209,
+      "r": 0.3209,
+      "f1": 0.3209
+    },
+    "38. ArtisAnn Art Gallery 090816": {
+      "p": 0.38,
+      "r": 0.38,
+      "f1": 0.38
+    },
+    "39. Child Poverty 010916": {
+      "p": 0.4013,
+      "r": 0.4013,
+      "f1": 0.4013
+    },
+    "4. Ballymena Protest 040216": {
+      "p": 0.4503,
+      "r": 0.4503,
+      "f1": 0.4503
+    },
+    "40. Belfast Tattoo 2016 010916": {
+      "p": 0.3559,
+      "r": 0.3559,
+      "f1": 0.3559
+    },
+    "41. Healthy Lunches 010916": {
+      "p": 0.3536,
+      "r": 0.3536,
+      "f1": 0.3536
+    },
+    "42. Traffic Congestion in Belfast City Centre 010916": {
+      "p": 0.4816,
+      "r": 0.4816,
+      "f1": 0.4816
+    },
+    "43. Market Tunnels 050916": {
+      "p": 0.4081,
+      "r": 0.4081,
+      "f1": 0.4081
+    },
+    "44. Beat The Street 050916": {
+      "p": 0.4319,
+      "r": 0.4319,
+      "f1": 0.4319
+    },
+    "45. Relate NI 050916": {
+      "p": 0.4763,
+      "r": 0.4763,
+      "f1": 0.4763
+    },
+    "46. Belfast Comedy Festival 050916": {
+      "p": 0.3588,
+      "r": 0.3588,
+      "f1": 0.3588
+    },
+    "47. Millions Missing Demonstration 290916": {
+      "p": 0.2918,
+      "r": 0.2501,
+      "f1": 0.2693
+    },
+    "48. Shankill Arts Forum 290916": {
+      "p": 0.3811,
+      "r": 0.3811,
+      "f1": 0.3811
+    },
+    "49. Arabic in Northern Ireland Schools 290916": {
+      "p": 0.3874,
+      "r": 0.3632,
+      "f1": 0.3749
+    },
+    "5. Listen to our young leaders - 4 Corners Festival 040216": {
+      "p": 0.3785,
+      "r": 0.4258,
+      "f1": 0.4008
+    },
+    "50. WHAT YOU SAY MATTERS Youth Forum 311016": {
+      "p": 0.0473,
+      "r": 0.4023,
+      "f1": 0.0847
+    }
+  }
+}
