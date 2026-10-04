@@ -20,6 +20,7 @@ source venv/bin/activate
 
 # Compute nodes are often offline: download models on the login node first (see README),
 # then run from the local Hugging Face cache.
+export HF_HOME=/mnt/scratch2/users/$USER/hf_cache   # models live on scratch (home quota is 50 GB)
 export HF_HUB_OFFLINE=1
 export TOKENIZERS_PARALLELISM=false
 
