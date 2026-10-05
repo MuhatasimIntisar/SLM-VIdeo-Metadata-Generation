@@ -173,6 +173,11 @@ def quantize_hqq(model, nbits, group_size, dtype):
                 except Exception as e:
                     kept.append(f"{full} {tuple(child.weight.shape)}: {type(e).__name__}")
                     continue
+                # free the original bf16 weights (del_orig=False above keeps them so a layer that fails can
+                # stay in bf16; once quantization succeeded they must go, or both copies stay on the GPU)
+                for p_name, _ in list(child.named_parameters()):
+                    setattr(child, p_name, None)
+                del q.linear_layer
                 setattr(module, child_name, q)
                 del child
                 n += 1
