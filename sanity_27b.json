@@ -1,0 +1,120 @@
+[
+  {
+    "video": "1. Launch of Belfast Children's Festival 2016 280116.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 13.44,
+    "sample_fps": 1.0,
+    "sampled_frame_count": 14,
+    "metadata": {
+      "on_screen_text": [
+        "YOUNG at ART",
+        "Belfast Children's Festival",
+        "Welcome to Belfast",
+        "PEUGEOT 208",
+        "MUST ADD FUEL"
+      ],
+      "visual_tags": [
+        "graphic or title card",
+        "indoor scene",
+        "crowd of people",
+        "logo",
+        "text on screen",
+        "sign or banner"
+      ],
+      "people_count_numeric": -1,
+      "description": "The video begins with a title card for the 'Young at Art Belfast Children's Festival' before cutting to a wide shot of a crowded indoor event space with a large cardboard train prop.",
+      "geographical_location": {
+        "area": "",
+        "city": "Belfast",
+        "country": ""
+      },
+      "activity": "crowd gathering",
+      "shot_type": {
+        "framing": "wide",
+        "setting": "field"
+      },
+      "content_type": "b-roll package",
+      "uncertainty_notes": []
+    }
+  },
+  {
+    "video": "1. Launch of Belfast Children's Festival 2016 280116.mp4",
+    "scene": 2,
+    "start_sec": 13.44,
+    "end_sec": 43.92,
+    "sample_fps": 1.0,
+    "sampled_frame_count": 16,
+    "metadata": {
+      "on_screen_text": [
+        "TICKETS",
+        "Y",
+        "Young at Art",
+        "Belfast Children's Festival",
+        "4-9 march 2016",
+        "NI's premier international children's event",
+        "Ali Fitzgibbon",
+        "Young at Art"
+      ],
+      "visual_tags": [
+        "indoor scene",
+        "interview",
+        "person speaking",
+        "text on screen",
+        "sign or banner",
+        "logo",
+        "crowd of people"
+      ],
+      "people_count_numeric": -1,
+      "description": "A video montage shows a cardboard train prop and a poster for the Belfast Children's Festival, followed by a group of people posing and an interview with a woman named Ali Fitzgibbon.",
+      "geographical_location": {
+        "area": "",
+        "city": "Belfast",
+        "country": "Northern Ireland"
+      },
+      "activity": "interview and event display",
+      "shot_type": {
+        "framing": "medium",
+        "setting": "field"
+      },
+      "content_type": "interview",
+      "uncertainty_notes": []
+    }
+  },
+  {
+    "video": "1. Launch of Belfast Children's Festival 2016 280116.mp4",
+    "scene": 3,
+    "start_sec": 43.92,
+    "end_sec": 55.16,
+    "sample_fps": 1.0,
+    "sampled_frame_count": 12,
+    "metadata": {
+      "on_screen_text": [
+        "Nicola Curry",
+        "Maiden Dance Voyage",
+        "Welcome to"
+      ],
+      "visual_tags": [
+        "interview",
+        "person speaking",
+        "indoor scene",
+        "crowd of people",
+        "text on screen"
+      ],
+      "people_count_numeric": -1,
+      "description": "A woman with glasses is being interviewed in a busy indoor public space, with a caption identifying her as Nicola Curry from Maiden Dance Voyage.",
+      "geographical_location": {
+        "area": "",
+        "city": "",
+        "country": ""
+      },
+      "activity": "woman speaking",
+      "shot_type": {
+        "framing": "close-up",
+        "setting": "field"
+      },
+      "content_type": "interview",
+      "uncertainty_notes": []
+    }
+  }
+]

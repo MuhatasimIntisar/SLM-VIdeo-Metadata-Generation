@@ -36,7 +36,7 @@ COLUMNS = [  # (header, getter on (summary, run))
     ("repaired", lambda s, r: s["coverage"]["prediction_warnings"]),
     ("s/scene", lambda s, r: r["sessions"][-1]["seconds_per_scene"] if r else None),
     ("peak_GB", lambda s, r: max((x["peak_gpu_memory_gb"] or 0) for x in r["sessions"]) if r else None),
-    ("weights_GB", lambda s, r: r.get("weights_memory_gb") if r else None),
+    ("weights_GB", lambda s, r: (r.get("loaded_gpu_memory_gb") or r.get("weights_memory_gb")) if r else None),
 ]
 
 

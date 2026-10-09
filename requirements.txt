@@ -5,6 +5,8 @@ transformers>=5.17,<6      # native InternVL3.5-HF and Qwen3.5 support
 accelerate
 bitsandbytes               # --quant 8bit / 4bit
 hqq                        # --quant hqq8 / hqq4 / hqq2 / hqq1
+compressed-tensors         # pre-quantized community checkpoints (e.g. RedHatAI w4a16)
+auto-round                 # Intel AutoRound int4 checkpoints
 opencv-python-headless
 pillow
 # evaluation only (not needed on the cluster)

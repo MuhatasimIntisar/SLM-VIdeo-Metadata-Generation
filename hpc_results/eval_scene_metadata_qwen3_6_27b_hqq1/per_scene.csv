@@ -1,0 +1,82 @@
+video,scene,rouge1,rouge2,rougeL,meteor,content_type_ref,content_type_pred,content_type_match,framing_ref,framing_pred,framing_match,setting_ref,setting_pred,setting_match,activity_ref,activity_pred,activity_match,geo_area_ref,geo_area_pred,geo_area_match,geo_city_ref,geo_city_pred,geo_city_match,geo_country_ref,geo_country_pred,geo_country_match,people_count_ref,people_count_pred,people_count_match,tags_precision,tags_recall,tags_f1,tags_jaccard,ost_exact_f1,ost_rouge1,ost_rougeL,cider
+10. Jacobin Launch 230316,7,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,field,unknown,0,person speaking,none,0,,,1,,,1,,,1,-1,-1,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+11. Poor Mental Health on Peace Lines 150416,2,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,studio,unknown,0,person speaking,none,0,,,1,,,1,,,1,1,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+11. Poor Mental Health on Peace Lines 150416,10,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,studio,unknown,0,person speaking,none,0,,,1,,,1,,,1,1,-1,0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0
+11. Poor Mental Health on Peace Lines 150416,13,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,studio,unknown,0,person speaking,none,0,,,1,,,1,,,1,1,-1,0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0
+12. Oliver Pollock Blue Plaque Unveiling 150416,6,0.0,0.0,0,0.0,b-roll package,unknown,0,unknown,unknown,1,field,unknown,0,person speaking,none,0,,,1,,,1,,,1,-1,-1,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+12. Oliver Pollock Blue Plaque Unveiling 150416,7,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,field,unknown,0,person speaking,none,0,,,1,,,1,,,1,1,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+12. Oliver Pollock Blue Plaque Unveiling 150416,8,0.0,0.0,0,0.0,unknown,unknown,1,close-up,unknown,0,field,unknown,0,unveiling a plaque,none,0,,,1,,,1,,,1,1,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+12. Oliver Pollock Blue Plaque Unveiling 150416,10,0.0,0.0,0,0.0,b-roll package,unknown,0,unknown,unknown,1,field,unknown,0,woman speaking into microphones,none,0,,,1,,,1,,,1,-1,-1,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+12. Oliver Pollock Blue Plaque Unveiling 150416,13,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,field,unknown,0,person speaking,none,0,,,1,,,1,,,1,1,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+14. Kabosh - 1916 Community Play 150416,1,0.0,0.0,0,0.0,studio segment,unknown,0,close-up,unknown,0,studio,unknown,0,person speaking,none,0,,,1,,,1,,,1,1,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+15. May Day Parade 020516,6,0.0,0.0,0,0.0,b-roll package,unknown,0,wide,unknown,0,field,unknown,0,pipe band marching,none,0,,,1,,,1,,,1,-1,-1,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+15. May Day Parade 020516,12,0.0,0.0,0,0.0,b-roll package,unknown,0,medium,unknown,0,field,unknown,0,people marching,none,0,,,1,Belfast,,0,United Kingdom,,0,-1,-1,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+15. May Day Parade 020516,20,0.0,0.0,0,0.0,vox pop,unknown,0,medium,unknown,0,field,unknown,0,person speaking,none,0,,,1,,,1,,,1,-1,-1,1,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0
+15. May Day Parade 020516,23,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,field,unknown,0,person speaking,none,0,,,1,Belfast,,0,United Kingdom,,0,1,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+16. Political Special 020516,6,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,studio,unknown,0,men talking,none,0,,,1,Belfast,,0,United Kingdom,,0,1,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+16. Political Special 020516,10,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,studio,unknown,0,people conversing,none,0,,,1,Belfast,,0,United Kingdom,,0,1,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+16. Political Special 020516,17,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,studio,unknown,0,person speaking,none,0,,,1,,,1,,,1,1,-1,0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0
+16. Political Special 020516,20,0.0,0.0,0,0.0,interview,unknown,0,medium,unknown,0,studio,unknown,0,person speaking,none,0,,,1,Belfast,,0,United Kingdom,,0,1,-1,0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0
+16. Political Special 020516,22,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,studio,unknown,0,people talking,none,0,,,1,Belfast,,0,United Kingdom,,0,1,-1,0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0
+17. Belfast Telegraph 100516,8,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,field,unknown,0,person speaking,none,0,,,1,Belfast,,0,United Kingdom,,0,-1,-1,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+18. Fergal McFerran 100516,7,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,studio,unknown,0,person speaking,none,0,,,1,Belfast,,0,United Kingdom,,0,1,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+18. Fergal McFerran 100516,9,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,studio,unknown,0,person speaking,none,0,,,1,Belfast,,0,United Kingdom,,0,1,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+19. George McBride 100516,4,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,field,unknown,0,person speaking,none,0,,,1,,,1,,,1,1,-1,0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0
+2. Belfast's City Council - Step Up To Learn Programme 280116,4,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,field,unknown,0,person speaking,none,0,,,1,Belfast,,0,United Kingdom,,0,-1,-1,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+20. Writers on Writers Festival 100516,8,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,field,unknown,0,woman speaking,none,0,,,1,,,1,,,1,1,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+24. Fairtrade Campaign 070616,10,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,studio,unknown,0,person speaking,none,0,,,1,,,1,,,1,1,-1,0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0
+24. Fairtrade Campaign 070616,12,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,studio,unknown,0,person speaking,none,0,,,1,,,1,,,1,1,-1,0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0
+24. Fairtrade Campaign 070616,13,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,studio,unknown,0,person speaking,none,0,,,1,,,1,,,1,1,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+25. Blue Plaque Unveiling 010716,3,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,field,unknown,0,person speaking,none,0,,,1,,,1,,,1,4,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+25. Blue Plaque Unveiling 010716,11,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,field,unknown,0,person speaking,none,0,,,1,,,1,,,1,-1,-1,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+25. Blue Plaque Unveiling 010716,13,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,field,unknown,0,person speaking,none,0,,,1,,,1,,,1,4,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+25. Blue Plaque Unveiling 010716,16,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,field,unknown,0,person speaking,none,0,,,1,,,1,,,1,1,-1,0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0
+27. Growing in a Shared City 010716,3,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,field,unknown,0,person speaking,none,0,,,1,Belfast,,0,United Kingdom,,0,3,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+27. Growing in a Shared City 010716,7,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,field,unknown,0,person speaking,none,0,,,1,Belfast,,0,United Kingdom,,0,1,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+29. Blue Plaque Unveiling 200716,9,0.0,0.0,0,0.0,b-roll package,unknown,0,close-up,unknown,0,field,unknown,0,people attending commemoration,none,0,,,1,,,1,,,1,-1,-1,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+3. Fire Brigades Union Northern Ireland - Threats to the Fire and Rescue Service 280116,2,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,studio,unknown,0,person speaking,none,0,,,1,,,1,,,1,1,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+3. Fire Brigades Union Northern Ireland - Threats to the Fire and Rescue Service 280116,4,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,studio,unknown,0,person speaking,none,0,,,1,,,1,,,1,1,-1,0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0
+3. Fire Brigades Union Northern Ireland - Threats to the Fire and Rescue Service 280116,10,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,studio,unknown,0,person speaking,none,0,,,1,,,1,,,1,1,-1,0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0
+30. Social Policy Association 200716,4,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,field,unknown,0,person speaking,none,0,,,1,,,1,,,1,1,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+30. Social Policy Association 200716,10,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,field,unknown,0,person speaking,none,0,,,1,,,1,,,1,1,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+31. Lilly and the Poppy Exhibition 200716,10,0.0,0.0,0,0.0,b-roll package,unknown,0,medium,unknown,0,field,unknown,0,displaying museum artifacts,none,0,,,1,Belfast,,0,United Kingdom,,0,0,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+34. Prince's Trust 010816,1,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,studio,unknown,0,people talking,none,0,,,1,Belfast,,0,United Kingdom,,0,1,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+34. Prince's Trust 010816,2,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,studio,unknown,0,person speaking,none,0,,,1,Belfast,,0,United Kingdom,,0,1,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+34. Prince's Trust 010816,4,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,studio,unknown,0,person speaking,none,0,,,1,Belfast,,0,United Kingdom,,0,1,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+35. Campa Chormaic 010816,9,0.0,0.0,0,0.0,interview,unknown,0,medium,unknown,0,field,unknown,0,children being interviewed,none,0,,,1,,,1,,,1,-1,-1,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+35. Campa Chormaic 010816,10,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,field,unknown,0,boy speaking,none,0,,,1,,,1,,,1,-1,-1,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+36. Tourette Alliance First Annual Conference 090816,2,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,field,unknown,0,person speaking,none,0,,,1,,,1,,,1,1,-1,0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0
+36. Tourette Alliance First Annual Conference 090816,13,0.0,0.0,0,0.0,unknown,unknown,1,close-up,unknown,0,field,unknown,0,person speaking,none,0,,,1,,,1,,,1,-1,-1,1,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0
+36. Tourette Alliance First Annual Conference 090816,14,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,field,unknown,0,person speaking,none,0,,,1,,,1,,,1,1,-1,0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0
+36. Tourette Alliance First Annual Conference 090816,15,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,field,unknown,0,person speaking,none,0,,,1,,,1,,,1,1,-1,0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0
+36. Tourette Alliance First Annual Conference 090816,18,0.0,0.0,0,0.0,b-roll package,unknown,0,close-up,unknown,0,field,unknown,0,people speaking,none,0,,,1,,,1,,,1,-1,-1,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+36. Tourette Alliance First Annual Conference 090816,21,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,field,unknown,0,person speaking,none,0,,,1,,,1,,,1,1,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+37. Clandeboye Festival 090816,5,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,studio,unknown,0,person speaking,none,0,,,1,Belfast,,0,United Kingdom,,0,1,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+37. Clandeboye Festival 090816,12,0.0,0.0,0,0.0,interview,unknown,0,medium,unknown,0,studio,unknown,0,person speaking,none,0,,,1,Belfast,,0,United Kingdom,,0,1,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+38. ArtisAnn Art Gallery 090816,4,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,field,unknown,0,person speaking,none,0,,,1,,,1,,,1,1,-1,0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0
+38. ArtisAnn Art Gallery 090816,7,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,field,unknown,0,woman talking,none,0,,,1,Belfast,,0,United Kingdom,,0,1,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+4. Ballymena Protest 040216,11,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,field,unknown,0,person speaking,none,0,,,1,,,1,,,1,1,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+41. Healthy Lunches 010916,1,0.0,0.0,0,0.0,studio segment,unknown,0,medium,unknown,0,studio,unknown,0,person speaking,none,0,,,1,,,1,,,1,1,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+41. Healthy Lunches 010916,4,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,studio,unknown,0,people talking,none,0,,,1,Belfast,,0,United Kingdom,,0,1,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+41. Healthy Lunches 010916,7,0.0,0.0,0,0.0,interview,unknown,0,medium,unknown,0,studio,unknown,0,person speaking,none,0,,,1,Belfast,,0,United Kingdom,,0,1,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+41. Healthy Lunches 010916,8,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,studio,unknown,0,person speaking,none,0,,,1,,,1,,,1,1,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+41. Healthy Lunches 010916,14,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,studio,unknown,0,woman speaking,none,0,,,1,,,1,,,1,1,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+41. Healthy Lunches 010916,16,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,studio,unknown,0,person speaking,none,0,,,1,Belfast,,0,United Kingdom,,0,1,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+43. Market Tunnels 050916,1,0.0,0.0,0,0.0,interview,unknown,0,medium,unknown,0,field,unknown,0,person speaking,none,0,,,1,,,1,,,1,1,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+43. Market Tunnels 050916,5,0.0,0.0,0,0.0,unknown,unknown,1,unknown,unknown,1,field,unknown,0,woman speaking,none,0,East Bridge Street,,0,,,1,,,1,-1,-1,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+43. Market Tunnels 050916,13,0.0,0.0,0,0.0,interview,unknown,0,unknown,unknown,1,field,unknown,0,person speaking,none,0,,,1,,,1,,,1,0,-1,0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0
+44. Beat The Street 050916,4,0.0,0.0,0,0.0,interview,unknown,0,medium,unknown,0,studio,unknown,0,man talking,none,0,,,1,,,1,,,1,1,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+44. Beat The Street 050916,5,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,studio,unknown,0,person speaking,none,0,,,1,,,1,,,1,1,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+44. Beat The Street 050916,7,0.0,0.0,0,0.0,interview,unknown,0,unknown,unknown,1,studio,unknown,0,conducting interview,none,0,,,1,Belfast,,0,United Kingdom,,0,2,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+46. Belfast Comedy Festival 050916,2,0.0,0.0,0,0.0,interview,unknown,0,unknown,unknown,1,studio,unknown,0,people talking,none,0,,,1,Belfast,,0,United Kingdom,,0,-1,-1,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+46. Belfast Comedy Festival 050916,8,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,studio,unknown,0,person speaking,none,0,,,1,Belfast,,0,United Kingdom,,0,1,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+48. Shankill Arts Forum 290916,1,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,field,unknown,0,person speaking,none,0,Shankill,,0,Belfast,,0,United Kingdom,,0,-1,-1,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+48. Shankill Arts Forum 290916,9,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,field,unknown,0,person speaking,none,0,,,1,,,1,,,1,1,-1,0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0
+49. Arabic in Northern Ireland Schools 290916,8,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,field,unknown,0,person speaking,none,0,,,1,Belfast,,0,United Kingdom,,0,1,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+5. Listen to our young leaders - 4 Corners Festival 040216,1,0.0,0.0,0,0.0,studio segment,unknown,0,close-up,unknown,0,studio,unknown,0,person speaking,none,0,,,1,,,1,,,1,1,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+5. Listen to our young leaders - 4 Corners Festival 040216,3,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,studio,unknown,0,person speaking,none,0,,,1,Belfast,,0,United Kingdom,,0,1,-1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+5. Listen to our young leaders - 4 Corners Festival 040216,6,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,studio,unknown,0,people talking,none,0,,,1,Belfast,,0,United Kingdom,,0,1,-1,0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0
+5. Listen to our young leaders - 4 Corners Festival 040216,7,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,studio,unknown,0,person speaking,none,0,,,1,,,1,,,1,1,-1,0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0
+5. Listen to our young leaders - 4 Corners Festival 040216,9,0.0,0.0,0,0.0,interview,unknown,0,medium,unknown,0,studio,unknown,0,people talking,none,0,,,1,,,1,,,1,2,-1,0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0
+5. Listen to our young leaders - 4 Corners Festival 040216,13,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,studio,unknown,0,person speaking,none,0,,,1,Belfast,,0,United Kingdom,,0,1,-1,0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0
+5. Listen to our young leaders - 4 Corners Festival 040216,14,0.0,0.0,0,0.0,interview,unknown,0,close-up,unknown,0,studio,unknown,0,person speaking,none,0,,,1,Belfast,,0,United Kingdom,,0,1,-1,0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0

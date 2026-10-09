@@ -1,0 +1,5771 @@
+[
+  {
+    "video": "1. Launch of Belfast Children's Festival 2016 280116.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 13.44,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "1. Launch of Belfast Children's Festival 2016 280116.mp4",
+    "scene": 2,
+    "start_sec": 13.44,
+    "end_sec": 43.92,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "1. Launch of Belfast Children's Festival 2016 280116.mp4",
+    "scene": 3,
+    "start_sec": 43.92,
+    "end_sec": 55.16,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "1. Launch of Belfast Children's Festival 2016 280116.mp4",
+    "scene": 4,
+    "start_sec": 55.16,
+    "end_sec": 127.12,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "Here is your output:"
+  },
+  {
+    "video": "1. Launch of Belfast Children's Festival 2016 280116.mp4",
+    "scene": 5,
+    "start_sec": 127.12,
+    "end_sec": 156.72,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "The question is"
+  },
+  {
+    "video": "1. Launch of Belfast Children's Festival 2016 280116.mp4",
+    "scene": 6,
+    "start_sec": 156.72,
+    "end_sec": 197.96,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "1. Launch of Belfast Children's Festival 2016 280116.mp4",
+    "scene": 7,
+    "start_sec": 197.96,
+    "end_sec": 210.08,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "(1)"
+  },
+  {
+    "video": "1. Launch of Belfast Children's Festival 2016 280116.mp4",
+    "scene": 8,
+    "start_sec": 210.08,
+    "end_sec": 275.88,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "1. Launch of Belfast Children's Festival 2016 280116.mp4",
+    "scene": 9,
+    "start_sec": 275.88,
+    "end_sec": 294.36,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "1. Launch of Belfast Children's Festival 2016 280116.mp4",
+    "scene": 10,
+    "start_sec": 294.36,
+    "end_sec": 324.76,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "1. Launch of Belfast Children's Festival 2016 280116.mp4",
+    "scene": 11,
+    "start_sec": 324.76,
+    "end_sec": 336.84,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "```python"
+  },
+  {
+    "video": "1. Launch of Belfast Children's Festival 2016 280116.mp4",
+    "scene": 12,
+    "start_sec": 336.84,
+    "end_sec": 477.76,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "10. Jacobin Launch 230316.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 33.0,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This is a challenge"
+  },
+  {
+    "video": "10. Jacobin Launch 230316.mp4",
+    "scene": 2,
+    "start_sec": 33.0,
+    "end_sec": 46.28,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "10. Jacobin Launch 230316.mp4",
+    "scene": 3,
+    "start_sec": 46.28,
+    "end_sec": 69.04,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>v"
+  },
+  {
+    "video": "10. Jacobin Launch 230316.mp4",
+    "scene": 4,
+    "start_sec": 69.04,
+    "end_sec": 100.88,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "10. Jacobin Launch 230316.mp4",
+    "scene": 5,
+    "start_sec": 100.88,
+    "end_sec": 129.92,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "10. Jacobin Launch 230316.mp4",
+    "scene": 6,
+    "start_sec": 129.92,
+    "end_sec": 147.72,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think> the question"
+  },
+  {
+    "video": "10. Jacobin Launch 230316.mp4",
+    "scene": 7,
+    "start_sec": 147.72,
+    "end_sec": 164.0,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "10. Jacobin Launch 230316.mp4",
+    "scene": 8,
+    "start_sec": 164.0,
+    "end_sec": 197.76,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "10. Jacobin Launch 230316.mp4",
+    "scene": 9,
+    "start_sec": 197.76,
+    "end_sec": 221.12,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "10. Jacobin Launch 230316.mp4",
+    "scene": 10,
+    "start_sec": 221.12,
+    "end_sec": 248.08,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "10. Jacobin Launch 230316.mp4",
+    "scene": 11,
+    "start_sec": 248.08,
+    "end_sec": 297.04,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "10. Jacobin Launch 230316.mp4",
+    "scene": 12,
+    "start_sec": 297.04,
+    "end_sec": 319.08,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "I am"
+  },
+  {
+    "video": "10. Jacobin Launch 230316.mp4",
+    "scene": 13,
+    "start_sec": 319.08,
+    "end_sec": 355.2,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "10. Jacobin Launch 230316.mp4",
+    "scene": 14,
+    "start_sec": 355.2,
+    "end_sec": 368.4,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This is"
+  },
+  {
+    "video": "10. Jacobin Launch 230316.mp4",
+    "scene": 15,
+    "start_sec": 368.4,
+    "end_sec": 400.56,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "10. Jacobin Launch 230316.mp4",
+    "scene": 16,
+    "start_sec": 400.56,
+    "end_sec": 430.6,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "10. Jacobin Launch 230316.mp4",
+    "scene": 17,
+    "start_sec": 430.6,
+    "end_sec": 464.64,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>text"
+  },
+  {
+    "video": "10. Jacobin Launch 230316.mp4",
+    "scene": 18,
+    "start_sec": 464.64,
+    "end_sec": 467.68,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "11. Poor Mental Health on Peace Lines 150416.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 18.84,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "11. Poor Mental Health on Peace Lines 150416.mp4",
+    "scene": 2,
+    "start_sec": 18.84,
+    "end_sec": 51.64,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "11. Poor Mental Health on Peace Lines 150416.mp4",
+    "scene": 3,
+    "start_sec": 51.64,
+    "end_sec": 63.4,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>The visual"
+  },
+  {
+    "video": "11. Poor Mental Health on Peace Lines 150416.mp4",
+    "scene": 4,
+    "start_sec": 63.4,
+    "end_sec": 136.84,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "11. Poor Mental Health on Peace Lines 150416.mp4",
+    "scene": 5,
+    "start_sec": 136.84,
+    "end_sec": 147.28,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think> The description"
+  },
+  {
+    "video": "11. Poor Mental Health on Peace Lines 150416.mp4",
+    "scene": 6,
+    "start_sec": 147.28,
+    "end_sec": 190.92,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "11. Poor Mental Health on Peace Lines 150416.mp4",
+    "scene": 7,
+    "start_sec": 190.92,
+    "end_sec": 213.4,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "Assistant"
+  },
+  {
+    "video": "11. Poor Mental Health on Peace Lines 150416.mp4",
+    "scene": 8,
+    "start_sec": 213.4,
+    "end_sec": 243.28,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "11. Poor Mental Health on Peace Lines 150416.mp4",
+    "scene": 9,
+    "start_sec": 243.28,
+    "end_sec": 258.2,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "11. Poor Mental Health on Peace Lines 150416.mp4",
+    "scene": 10,
+    "start_sec": 258.2,
+    "end_sec": 268.48,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>ner"
+  },
+  {
+    "video": "11. Poor Mental Health on Peace Lines 150416.mp4",
+    "scene": 11,
+    "start_sec": 268.48,
+    "end_sec": 287.56,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "```"
+  },
+  {
+    "video": "11. Poor Mental Health on Peace Lines 150416.mp4",
+    "scene": 12,
+    "start_sec": 287.56,
+    "end_sec": 343.28,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "11. Poor Mental Health on Peace Lines 150416.mp4",
+    "scene": 13,
+    "start_sec": 343.28,
+    "end_sec": 356.28,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This"
+  },
+  {
+    "video": "11. Poor Mental Health on Peace Lines 150416.mp4",
+    "scene": 14,
+    "start_sec": 356.28,
+    "end_sec": 361.04,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "12. Oliver Pollock Blue Plaque Unveiling 150416.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 28.8,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "12. Oliver Pollock Blue Plaque Unveiling 150416.mp4",
+    "scene": 2,
+    "start_sec": 28.8,
+    "end_sec": 52.48,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "12. Oliver Pollock Blue Plaque Unveiling 150416.mp4",
+    "scene": 3,
+    "start_sec": 52.48,
+    "end_sec": 85.36,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "12. Oliver Pollock Blue Plaque Unveiling 150416.mp4",
+    "scene": 4,
+    "start_sec": 85.36,
+    "end_sec": 121.04,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "In"
+  },
+  {
+    "video": "12. Oliver Pollock Blue Plaque Unveiling 150416.mp4",
+    "scene": 5,
+    "start_sec": 121.04,
+    "end_sec": 142.72,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This"
+  },
+  {
+    "video": "12. Oliver Pollock Blue Plaque Unveiling 150416.mp4",
+    "scene": 6,
+    "start_sec": 142.72,
+    "end_sec": 169.2,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "12. Oliver Pollock Blue Plaque Unveiling 150416.mp4",
+    "scene": 7,
+    "start_sec": 169.2,
+    "end_sec": 180.04,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "12. Oliver Pollock Blue Plaque Unveiling 150416.mp4",
+    "scene": 8,
+    "start_sec": 180.04,
+    "end_sec": 208.08,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "12. Oliver Pollock Blue Plaque Unveiling 150416.mp4",
+    "scene": 9,
+    "start_sec": 208.08,
+    "end_sec": 218.8,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "12. Oliver Pollock Blue Plaque Unveiling 150416.mp4",
+    "scene": 10,
+    "start_sec": 218.8,
+    "end_sec": 233.0,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This is a long walk"
+  },
+  {
+    "video": "12. Oliver Pollock Blue Plaque Unveiling 150416.mp4",
+    "scene": 11,
+    "start_sec": 233.0,
+    "end_sec": 243.44,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "12. Oliver Pollock Blue Plaque Unveiling 150416.mp4",
+    "scene": 12,
+    "start_sec": 243.44,
+    "end_sec": 273.28,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "12. Oliver Pollock Blue Plaque Unveiling 150416.mp4",
+    "scene": 13,
+    "start_sec": 273.28,
+    "end_sec": 286.36,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "12. Oliver Pollock Blue Plaque Unveiling 150416.mp4",
+    "scene": 14,
+    "start_sec": 286.36,
+    "end_sec": 297.8,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "12. Oliver Pollock Blue Plaque Unveiling 150416.mp4",
+    "scene": 15,
+    "start_sec": 297.8,
+    "end_sec": 328.84,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "13. Reading Rooms at Open University 150416.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 36.64,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "13. Reading Rooms at Open University 150416.mp4",
+    "scene": 2,
+    "start_sec": 36.64,
+    "end_sec": 47.8,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>Q"
+  },
+  {
+    "video": "13. Reading Rooms at Open University 150416.mp4",
+    "scene": 3,
+    "start_sec": 47.8,
+    "end_sec": 77.08,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "13. Reading Rooms at Open University 150416.mp4",
+    "scene": 4,
+    "start_sec": 77.08,
+    "end_sec": 93.48,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "13. Reading Rooms at Open University 150416.mp4",
+    "scene": 5,
+    "start_sec": 93.48,
+    "end_sec": 136.72,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This is an abstract"
+  },
+  {
+    "video": "13. Reading Rooms at Open University 150416.mp4",
+    "scene": 6,
+    "start_sec": 136.72,
+    "end_sec": 152.76,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "（"
+  },
+  {
+    "video": "13. Reading Rooms at Open University 150416.mp4",
+    "scene": 7,
+    "start_sec": 152.76,
+    "end_sec": 191.56,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "13. Reading Rooms at Open University 150416.mp4",
+    "scene": 8,
+    "start_sec": 191.56,
+    "end_sec": 206.92,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "13. Reading Rooms at Open University 150416.mp4",
+    "scene": 9,
+    "start_sec": 206.92,
+    "end_sec": 235.44,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "13. Reading Rooms at Open University 150416.mp4",
+    "scene": 10,
+    "start_sec": 235.44,
+    "end_sec": 246.16,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "13. Reading Rooms at Open University 150416.mp4",
+    "scene": 11,
+    "start_sec": 246.16,
+    "end_sec": 284.64,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "13. Reading Rooms at Open University 150416.mp4",
+    "scene": 12,
+    "start_sec": 284.64,
+    "end_sec": 307.4,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "13. Reading Rooms at Open University 150416.mp4",
+    "scene": 13,
+    "start_sec": 307.4,
+    "end_sec": 322.16,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "14. Kabosh - 1916 Community Play 150416.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 14.56,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "14. Kabosh - 1916 Community Play 150416.mp4",
+    "scene": 2,
+    "start_sec": 14.56,
+    "end_sec": 32.52,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "14. Kabosh - 1916 Community Play 150416.mp4",
+    "scene": 3,
+    "start_sec": 32.52,
+    "end_sec": 71.4,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "\"\"\""
+  },
+  {
+    "video": "14. Kabosh - 1916 Community Play 150416.mp4",
+    "scene": 4,
+    "start_sec": 71.4,
+    "end_sec": 104.96,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "```"
+  },
+  {
+    "video": "14. Kabosh - 1916 Community Play 150416.mp4",
+    "scene": 5,
+    "start_sec": 104.96,
+    "end_sec": 115.28,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>\")"
+  },
+  {
+    "video": "14. Kabosh - 1916 Community Play 150416.mp4",
+    "scene": 6,
+    "start_sec": 115.28,
+    "end_sec": 169.64,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "14. Kabosh - 1916 Community Play 150416.mp4",
+    "scene": 7,
+    "start_sec": 169.64,
+    "end_sec": 187.52,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "14. Kabosh - 1916 Community Play 150416.mp4",
+    "scene": 8,
+    "start_sec": 187.52,
+    "end_sec": 236.36,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This"
+  },
+  {
+    "video": "14. Kabosh - 1916 Community Play 150416.mp4",
+    "scene": 9,
+    "start_sec": 236.36,
+    "end_sec": 256.08,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "14. Kabosh - 1916 Community Play 150416.mp4",
+    "scene": 10,
+    "start_sec": 256.08,
+    "end_sec": 319.72,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "15. May Day Parade 020516.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 14.16,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "15. May Day Parade 020516.mp4",
+    "scene": 2,
+    "start_sec": 14.16,
+    "end_sec": 25.52,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "15. May Day Parade 020516.mp4",
+    "scene": 3,
+    "start_sec": 25.52,
+    "end_sec": 51.68,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "15. May Day Parade 020516.mp4",
+    "scene": 4,
+    "start_sec": 51.68,
+    "end_sec": 67.64,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>\nThe answer is provided"
+  },
+  {
+    "video": "15. May Day Parade 020516.mp4",
+    "scene": 5,
+    "start_sec": 67.64,
+    "end_sec": 91.92,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This is my"
+  },
+  {
+    "video": "15. May Day Parade 020516.mp4",
+    "scene": 6,
+    "start_sec": 91.92,
+    "end_sec": 103.88,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "15. May Day Parade 020516.mp4",
+    "scene": 7,
+    "start_sec": 103.88,
+    "end_sec": 121.48,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "15. May Day Parade 020516.mp4",
+    "scene": 8,
+    "start_sec": 121.48,
+    "end_sec": 140.16,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>\n\nThe current query"
+  },
+  {
+    "video": "15. May Day Parade 020516.mp4",
+    "scene": 9,
+    "start_sec": 140.16,
+    "end_sec": 158.68,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "15. May Day Parade 020516.mp4",
+    "scene": 10,
+    "start_sec": 158.68,
+    "end_sec": 207.52,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This is a common string in the"
+  },
+  {
+    "video": "15. May Day Parade 020516.mp4",
+    "scene": 11,
+    "start_sec": 207.52,
+    "end_sec": 232.12,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "15. May Day Parade 020516.mp4",
+    "scene": 12,
+    "start_sec": 232.12,
+    "end_sec": 252.92,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "15. May Day Parade 020516.mp4",
+    "scene": 13,
+    "start_sec": 252.92,
+    "end_sec": 268.76,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "Do you"
+  },
+  {
+    "video": "15. May Day Parade 020516.mp4",
+    "scene": 14,
+    "start_sec": 268.76,
+    "end_sec": 283.44,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "15. May Day Parade 020516.mp4",
+    "scene": 15,
+    "start_sec": 283.44,
+    "end_sec": 298.68,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "15. May Day Parade 020516.mp4",
+    "scene": 16,
+    "start_sec": 298.68,
+    "end_sec": 312.44,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "15. May Day Parade 020516.mp4",
+    "scene": 17,
+    "start_sec": 312.44,
+    "end_sec": 324.8,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "15. May Day Parade 020516.mp4",
+    "scene": 18,
+    "start_sec": 324.8,
+    "end_sec": 344.72,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "15. May Day Parade 020516.mp4",
+    "scene": 19,
+    "start_sec": 344.72,
+    "end_sec": 362.28,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "15. May Day Parade 020516.mp4",
+    "scene": 20,
+    "start_sec": 362.28,
+    "end_sec": 373.6,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "15. May Day Parade 020516.mp4",
+    "scene": 21,
+    "start_sec": 373.6,
+    "end_sec": 383.92,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>\n\nBased"
+  },
+  {
+    "video": "15. May Day Parade 020516.mp4",
+    "scene": 22,
+    "start_sec": 383.92,
+    "end_sec": 431.12,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "15. May Day Parade 020516.mp4",
+    "scene": 23,
+    "start_sec": 431.12,
+    "end_sec": 462.24,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "15. May Day Parade 020516.mp4",
+    "scene": 24,
+    "start_sec": 462.24,
+    "end_sec": 479.28,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "15. May Day Parade 020516.mp4",
+    "scene": 25,
+    "start_sec": 479.28,
+    "end_sec": 507.76,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "15. May Day Parade 020516.mp4",
+    "scene": 26,
+    "start_sec": 507.76,
+    "end_sec": 520.24,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "16. Political Special 020516.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 12.32,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "16. Political Special 020516.mp4",
+    "scene": 2,
+    "start_sec": 12.32,
+    "end_sec": 32.76,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: Expecting property name enclosed in double quotes: line 3 column 1 (char 4)",
+    "raw_output": "```\n{\n \n\\text{description}"
+  },
+  {
+    "video": "16. Political Special 020516.mp4",
+    "scene": 3,
+    "start_sec": 32.76,
+    "end_sec": 60.56,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "16. Political Special 020516.mp4",
+    "scene": 4,
+    "start_sec": 60.56,
+    "end_sec": 91.6,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "16. Political Special 020516.mp4",
+    "scene": 5,
+    "start_sec": 91.6,
+    "end_sec": 120.72,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "16. Political Special 020516.mp4",
+    "scene": 6,
+    "start_sec": 120.72,
+    "end_sec": 139.88,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "16. Political Special 020516.mp4",
+    "scene": 7,
+    "start_sec": 139.88,
+    "end_sec": 152.52,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "16. Political Special 020516.mp4",
+    "scene": 8,
+    "start_sec": 152.52,
+    "end_sec": 169.88,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>\n</body>"
+  },
+  {
+    "video": "16. Political Special 020516.mp4",
+    "scene": 9,
+    "start_sec": 169.88,
+    "end_sec": 209.56,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>net"
+  },
+  {
+    "video": "16. Political Special 020516.mp4",
+    "scene": 10,
+    "start_sec": 209.56,
+    "end_sec": 244.2,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "16. Political Special 020516.mp4",
+    "scene": 11,
+    "start_sec": 244.2,
+    "end_sec": 270.76,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "16. Political Special 020516.mp4",
+    "scene": 12,
+    "start_sec": 270.76,
+    "end_sec": 319.32,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "16. Political Special 020516.mp4",
+    "scene": 13,
+    "start_sec": 319.32,
+    "end_sec": 354.56,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "16. Political Special 020516.mp4",
+    "scene": 14,
+    "start_sec": 354.56,
+    "end_sec": 383.08,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "16. Political Special 020516.mp4",
+    "scene": 15,
+    "start_sec": 383.08,
+    "end_sec": 413.28,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This is a common sense analysis task"
+  },
+  {
+    "video": "16. Political Special 020516.mp4",
+    "scene": 16,
+    "start_sec": 413.28,
+    "end_sec": 441.64,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "16. Political Special 020516.mp4",
+    "scene": 17,
+    "start_sec": 441.64,
+    "end_sec": 466.72,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "```"
+  },
+  {
+    "video": "16. Political Special 020516.mp4",
+    "scene": 18,
+    "start_sec": 466.72,
+    "end_sec": 498.04,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "16. Political Special 020516.mp4",
+    "scene": 19,
+    "start_sec": 498.04,
+    "end_sec": 511.72,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "16. Political Special 020516.mp4",
+    "scene": 20,
+    "start_sec": 511.72,
+    "end_sec": 542.56,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "16. Political Special 020516.mp4",
+    "scene": 21,
+    "start_sec": 542.56,
+    "end_sec": 554.8,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "16. Political Special 020516.mp4",
+    "scene": 22,
+    "start_sec": 554.8,
+    "end_sec": 574.68,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "16. Political Special 020516.mp4",
+    "scene": 23,
+    "start_sec": 574.68,
+    "end_sec": 594.28,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "16. Political Special 020516.mp4",
+    "scene": 24,
+    "start_sec": 594.28,
+    "end_sec": 621.04,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "#"
+  },
+  {
+    "video": "16. Political Special 020516.mp4",
+    "scene": 25,
+    "start_sec": 621.04,
+    "end_sec": 634.0,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "16. Political Special 020516.mp4",
+    "scene": 26,
+    "start_sec": 634.0,
+    "end_sec": 657.36,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "17. Belfast Telegraph 100516.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 33.44,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "17. Belfast Telegraph 100516.mp4",
+    "scene": 2,
+    "start_sec": 33.44,
+    "end_sec": 55.64,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "17. Belfast Telegraph 100516.mp4",
+    "scene": 3,
+    "start_sec": 55.64,
+    "end_sec": 70.08,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "17. Belfast Telegraph 100516.mp4",
+    "scene": 4,
+    "start_sec": 70.08,
+    "end_sec": 86.08,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "(\n\n<think>"
+  },
+  {
+    "video": "17. Belfast Telegraph 100516.mp4",
+    "scene": 5,
+    "start_sec": 86.08,
+    "end_sec": 104.36,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "17. Belfast Telegraph 100516.mp4",
+    "scene": 6,
+    "start_sec": 104.36,
+    "end_sec": 179.68,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "Content"
+  },
+  {
+    "video": "17. Belfast Telegraph 100516.mp4",
+    "scene": 7,
+    "start_sec": 179.68,
+    "end_sec": 199.8,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "17. Belfast Telegraph 100516.mp4",
+    "scene": 8,
+    "start_sec": 199.8,
+    "end_sec": 231.08,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "write"
+  },
+  {
+    "video": "17. Belfast Telegraph 100516.mp4",
+    "scene": 9,
+    "start_sec": 231.08,
+    "end_sec": 255.72,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This is an answer"
+  },
+  {
+    "video": "17. Belfast Telegraph 100516.mp4",
+    "scene": 10,
+    "start_sec": 255.72,
+    "end_sec": 289.88,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "17. Belfast Telegraph 100516.mp4",
+    "scene": 11,
+    "start_sec": 289.88,
+    "end_sec": 301.44,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "17. Belfast Telegraph 100516.mp4",
+    "scene": 12,
+    "start_sec": 301.44,
+    "end_sec": 332.36,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "The task"
+  },
+  {
+    "video": "17. Belfast Telegraph 100516.mp4",
+    "scene": 13,
+    "start_sec": 332.36,
+    "end_sec": 343.4,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "17. Belfast Telegraph 100516.mp4",
+    "scene": 14,
+    "start_sec": 343.4,
+    "end_sec": 357.44,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "18. Fergal McFerran 100516.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 102.4,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "18. Fergal McFerran 100516.mp4",
+    "scene": 2,
+    "start_sec": 102.4,
+    "end_sec": 126.32,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "18. Fergal McFerran 100516.mp4",
+    "scene": 3,
+    "start_sec": 126.32,
+    "end_sec": 136.36,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "18. Fergal McFerran 100516.mp4",
+    "scene": 4,
+    "start_sec": 136.36,
+    "end_sec": 156.6,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "18. Fergal McFerran 100516.mp4",
+    "scene": 5,
+    "start_sec": 156.6,
+    "end_sec": 181.4,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This"
+  },
+  {
+    "video": "18. Fergal McFerran 100516.mp4",
+    "scene": 6,
+    "start_sec": 181.4,
+    "end_sec": 192.96,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "18. Fergal McFerran 100516.mp4",
+    "scene": 7,
+    "start_sec": 192.96,
+    "end_sec": 252.52,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "18. Fergal McFerran 100516.mp4",
+    "scene": 8,
+    "start_sec": 252.52,
+    "end_sec": 268.88,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "18. Fergal McFerran 100516.mp4",
+    "scene": 9,
+    "start_sec": 268.88,
+    "end_sec": 325.68,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "18. Fergal McFerran 100516.mp4",
+    "scene": 10,
+    "start_sec": 325.68,
+    "end_sec": 340.64,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "18. Fergal McFerran 100516.mp4",
+    "scene": 11,
+    "start_sec": 340.64,
+    "end_sec": 361.48,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "19. George McBride 100516.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 37.88,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "19. George McBride 100516.mp4",
+    "scene": 2,
+    "start_sec": 37.88,
+    "end_sec": 61.24,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "Based"
+  },
+  {
+    "video": "19. George McBride 100516.mp4",
+    "scene": 3,
+    "start_sec": 61.24,
+    "end_sec": 73.32,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This is the"
+  },
+  {
+    "video": "19. George McBride 100516.mp4",
+    "scene": 4,
+    "start_sec": 73.32,
+    "end_sec": 133.0,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This is a logical error."
+  },
+  {
+    "video": "19. George McBride 100516.mp4",
+    "scene": 5,
+    "start_sec": 133.0,
+    "end_sec": 148.24,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>\n*"
+  },
+  {
+    "video": "19. George McBride 100516.mp4",
+    "scene": 6,
+    "start_sec": 148.24,
+    "end_sec": 191.88,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This is a chain of events that requires understanding a logical reasoning."
+  },
+  {
+    "video": "19. George McBride 100516.mp4",
+    "scene": 7,
+    "start_sec": 191.88,
+    "end_sec": 204.84,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "19. George McBride 100516.mp4",
+    "scene": 8,
+    "start_sec": 204.84,
+    "end_sec": 247.72,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "19. George McBride 100516.mp4",
+    "scene": 9,
+    "start_sec": 247.72,
+    "end_sec": 272.72,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "19. George McBride 100516.mp4",
+    "scene": 10,
+    "start_sec": 272.72,
+    "end_sec": 290.04,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>net"
+  },
+  {
+    "video": "19. George McBride 100516.mp4",
+    "scene": 11,
+    "start_sec": 290.04,
+    "end_sec": 320.92,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "# A study of the # of"
+  },
+  {
+    "video": "19. George McBride 100516.mp4",
+    "scene": 12,
+    "start_sec": 320.92,
+    "end_sec": 351.8,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "A small amount"
+  },
+  {
+    "video": "2. Belfast's City Council - Step Up To Learn Programme 280116.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 44.56,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "2. Belfast's City Council - Step Up To Learn Programme 280116.mp4",
+    "scene": 2,
+    "start_sec": 44.56,
+    "end_sec": 62.8,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This task"
+  },
+  {
+    "video": "2. Belfast's City Council - Step Up To Learn Programme 280116.mp4",
+    "scene": 3,
+    "start_sec": 62.8,
+    "end_sec": 90.44,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "2. Belfast's City Council - Step Up To Learn Programme 280116.mp4",
+    "scene": 4,
+    "start_sec": 90.44,
+    "end_sec": 106.76,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "2. Belfast's City Council - Step Up To Learn Programme 280116.mp4",
+    "scene": 5,
+    "start_sec": 106.76,
+    "end_sec": 123.4,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "2. Belfast's City Council - Step Up To Learn Programme 280116.mp4",
+    "scene": 6,
+    "start_sec": 123.4,
+    "end_sec": 165.96,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "2. Belfast's City Council - Step Up To Learn Programme 280116.mp4",
+    "scene": 7,
+    "start_sec": 165.96,
+    "end_sec": 183.28,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "2. Belfast's City Council - Step Up To Learn Programme 280116.mp4",
+    "scene": 8,
+    "start_sec": 183.28,
+    "end_sec": 217.88,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This is a"
+  },
+  {
+    "video": "2. Belfast's City Council - Step Up To Learn Programme 280116.mp4",
+    "scene": 9,
+    "start_sec": 217.88,
+    "end_sec": 271.56,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "2. Belfast's City Council - Step Up To Learn Programme 280116.mp4",
+    "scene": 10,
+    "start_sec": 271.56,
+    "end_sec": 293.28,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "```\n  The scene is recorded from a city council's roadways"
+  },
+  {
+    "video": "2. Belfast's City Council - Step Up To Learn Programme 280116.mp4",
+    "scene": 11,
+    "start_sec": 293.28,
+    "end_sec": 304.12,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "2. Belfast's City Council - Step Up To Learn Programme 280116.mp4",
+    "scene": 12,
+    "start_sec": 304.12,
+    "end_sec": 350.88,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "20. Writers on Writers Festival 100516.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 75.28,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "20. Writers on Writers Festival 100516.mp4",
+    "scene": 2,
+    "start_sec": 75.28,
+    "end_sec": 136.64,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "_"
+  },
+  {
+    "video": "20. Writers on Writers Festival 100516.mp4",
+    "scene": 3,
+    "start_sec": 136.64,
+    "end_sec": 152.2,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "20. Writers on Writers Festival 100516.mp4",
+    "scene": 4,
+    "start_sec": 152.2,
+    "end_sec": 176.12,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "20. Writers on Writers Festival 100516.mp4",
+    "scene": 5,
+    "start_sec": 176.12,
+    "end_sec": 197.12,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "The"
+  },
+  {
+    "video": "20. Writers on Writers Festival 100516.mp4",
+    "scene": 6,
+    "start_sec": 197.12,
+    "end_sec": 208.72,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "20. Writers on Writers Festival 100516.mp4",
+    "scene": 7,
+    "start_sec": 208.72,
+    "end_sec": 236.0,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "20. Writers on Writers Festival 100516.mp4",
+    "scene": 8,
+    "start_sec": 236.0,
+    "end_sec": 280.6,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "24. Fairtrade Campaign 070616.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 27.64,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "24. Fairtrade Campaign 070616.mp4",
+    "scene": 2,
+    "start_sec": 27.64,
+    "end_sec": 63.52,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "24. Fairtrade Campaign 070616.mp4",
+    "scene": 3,
+    "start_sec": 63.52,
+    "end_sec": 85.6,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "None"
+  },
+  {
+    "video": "24. Fairtrade Campaign 070616.mp4",
+    "scene": 4,
+    "start_sec": 85.6,
+    "end_sec": 102.32,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "24. Fairtrade Campaign 070616.mp4",
+    "scene": 5,
+    "start_sec": 102.32,
+    "end_sec": 150.28,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "24. Fairtrade Campaign 070616.mp4",
+    "scene": 6,
+    "start_sec": 150.28,
+    "end_sec": 171.08,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "24. Fairtrade Campaign 070616.mp4",
+    "scene": 7,
+    "start_sec": 171.08,
+    "end_sec": 207.16,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "24. Fairtrade Campaign 070616.mp4",
+    "scene": 8,
+    "start_sec": 207.16,
+    "end_sec": 225.28,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "24. Fairtrade Campaign 070616.mp4",
+    "scene": 9,
+    "start_sec": 225.28,
+    "end_sec": 236.92,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>graphical"
+  },
+  {
+    "video": "24. Fairtrade Campaign 070616.mp4",
+    "scene": 10,
+    "start_sec": 236.92,
+    "end_sec": 247.96,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "24. Fairtrade Campaign 070616.mp4",
+    "scene": 11,
+    "start_sec": 247.96,
+    "end_sec": 293.28,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "24. Fairtrade Campaign 070616.mp4",
+    "scene": 12,
+    "start_sec": 293.28,
+    "end_sec": 306.2,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "$$"
+  },
+  {
+    "video": "24. Fairtrade Campaign 070616.mp4",
+    "scene": 13,
+    "start_sec": 306.2,
+    "end_sec": 350.8,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "where"
+  },
+  {
+    "video": "25. Blue Plaque Unveiling 010716.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 39.04,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "Note that I must clarify the*"
+  },
+  {
+    "video": "25. Blue Plaque Unveiling 010716.mp4",
+    "scene": 2,
+    "start_sec": 39.04,
+    "end_sec": 72.68,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "25. Blue Plaque Unveiling 010716.mp4",
+    "scene": 3,
+    "start_sec": 72.68,
+    "end_sec": 91.68,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "```"
+  },
+  {
+    "video": "25. Blue Plaque Unveiling 010716.mp4",
+    "scene": 4,
+    "start_sec": 91.68,
+    "end_sec": 115.24,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "The current situation"
+  },
+  {
+    "video": "25. Blue Plaque Unveiling 010716.mp4",
+    "scene": 5,
+    "start_sec": 115.24,
+    "end_sec": 125.44,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "25. Blue Plaque Unveiling 010716.mp4",
+    "scene": 6,
+    "start_sec": 125.44,
+    "end_sec": 136.04,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think> Look at the Nook at The Nootk's Causen'ty*"
+  },
+  {
+    "video": "25. Blue Plaque Unveiling 010716.mp4",
+    "scene": 7,
+    "start_sec": 136.04,
+    "end_sec": 181.88,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "The"
+  },
+  {
+    "video": "25. Blue Plaque Unveiling 010716.mp4",
+    "scene": 8,
+    "start_sec": 181.88,
+    "end_sec": 193.88,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "Based"
+  },
+  {
+    "video": "25. Blue Plaque Unveiling 010716.mp4",
+    "scene": 9,
+    "start_sec": 193.88,
+    "end_sec": 233.2,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "25. Blue Plaque Unveiling 010716.mp4",
+    "scene": 10,
+    "start_sec": 233.2,
+    "end_sec": 246.6,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "25. Blue Plaque Unveiling 010716.mp4",
+    "scene": 11,
+    "start_sec": 246.6,
+    "end_sec": 277.6,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "25. Blue Plaque Unveiling 010716.mp4",
+    "scene": 12,
+    "start_sec": 277.6,
+    "end_sec": 297.32,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "25. Blue Plaque Unveiling 010716.mp4",
+    "scene": 13,
+    "start_sec": 297.32,
+    "end_sec": 355.2,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "25. Blue Plaque Unveiling 010716.mp4",
+    "scene": 14,
+    "start_sec": 355.2,
+    "end_sec": 383.32,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This is not"
+  },
+  {
+    "video": "25. Blue Plaque Unveiling 010716.mp4",
+    "scene": 15,
+    "start_sec": 383.32,
+    "end_sec": 425.92,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "The Backward Transfer"
+  },
+  {
+    "video": "25. Blue Plaque Unveiling 010716.mp4",
+    "scene": 16,
+    "start_sec": 425.92,
+    "end_sec": 438.76,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>nc"
+  },
+  {
+    "video": "25. Blue Plaque Unveiling 010716.mp4",
+    "scene": 17,
+    "start_sec": 438.76,
+    "end_sec": 491.56,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "The"
+  },
+  {
+    "video": "26. Sixteen South 010716.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 46.44,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "26. Sixteen South 010716.mp4",
+    "scene": 2,
+    "start_sec": 46.44,
+    "end_sec": 78.4,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "26. Sixteen South 010716.mp4",
+    "scene": 3,
+    "start_sec": 78.4,
+    "end_sec": 94.04,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>This is the output"
+  },
+  {
+    "video": "26. Sixteen South 010716.mp4",
+    "scene": 4,
+    "start_sec": 94.04,
+    "end_sec": 159.76,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "26. Sixteen South 010716.mp4",
+    "scene": 5,
+    "start_sec": 159.76,
+    "end_sec": 177.2,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "26. Sixteen South 010716.mp4",
+    "scene": 6,
+    "start_sec": 177.2,
+    "end_sec": 219.44,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "26. Sixteen South 010716.mp4",
+    "scene": 7,
+    "start_sec": 219.44,
+    "end_sec": 235.04,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "26. Sixteen South 010716.mp4",
+    "scene": 8,
+    "start_sec": 235.04,
+    "end_sec": 280.16,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "26. Sixteen South 010716.mp4",
+    "scene": 9,
+    "start_sec": 280.16,
+    "end_sec": 296.12,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "```This is a long process"
+  },
+  {
+    "video": "26. Sixteen South 010716.mp4",
+    "scene": 10,
+    "start_sec": 296.12,
+    "end_sec": 301.04,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "```"
+  },
+  {
+    "video": "27. Growing in a Shared City 010716.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 25.0,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "27. Growing in a Shared City 010716.mp4",
+    "scene": 2,
+    "start_sec": 25.0,
+    "end_sec": 59.2,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "27. Growing in a Shared City 010716.mp4",
+    "scene": 3,
+    "start_sec": 59.2,
+    "end_sec": 74.76,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "27. Growing in a Shared City 010716.mp4",
+    "scene": 4,
+    "start_sec": 74.76,
+    "end_sec": 99.96,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>n"
+  },
+  {
+    "video": "27. Growing in a Shared City 010716.mp4",
+    "scene": 5,
+    "start_sec": 99.96,
+    "end_sec": 113.56,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "27. Growing in a Shared City 010716.mp4",
+    "scene": 6,
+    "start_sec": 113.56,
+    "end_sec": 133.32,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This is the actual answer, which"
+  },
+  {
+    "video": "27. Growing in a Shared City 010716.mp4",
+    "scene": 7,
+    "start_sec": 133.32,
+    "end_sec": 152.32,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "27. Growing in a Shared City 010716.mp4",
+    "scene": 8,
+    "start_sec": 152.32,
+    "end_sec": 221.68,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "27. Growing in a Shared City 010716.mp4",
+    "scene": 9,
+    "start_sec": 221.68,
+    "end_sec": 235.56,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "27. Growing in a Shared City 010716.mp4",
+    "scene": 10,
+    "start_sec": 235.56,
+    "end_sec": 271.96,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "28. Feile an Phobail launch 010716.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 43.4,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "28. Feile an Phobail launch 010716.mp4",
+    "scene": 2,
+    "start_sec": 43.4,
+    "end_sec": 69.44,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "The"
+  },
+  {
+    "video": "28. Feile an Phobail launch 010716.mp4",
+    "scene": 3,
+    "start_sec": 69.44,
+    "end_sec": 91.96,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "28. Feile an Phobail launch 010716.mp4",
+    "scene": 4,
+    "start_sec": 91.96,
+    "end_sec": 199.12,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "28. Feile an Phobail launch 010716.mp4",
+    "scene": 5,
+    "start_sec": 199.12,
+    "end_sec": 209.44,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "28. Feile an Phobail launch 010716.mp4",
+    "scene": 6,
+    "start_sec": 209.44,
+    "end_sec": 255.32,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "28. Feile an Phobail launch 010716.mp4",
+    "scene": 7,
+    "start_sec": 255.32,
+    "end_sec": 266.56,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "28. Feile an Phobail launch 010716.mp4",
+    "scene": 8,
+    "start_sec": 266.56,
+    "end_sec": 288.8,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "28. Feile an Phobail launch 010716.mp4",
+    "scene": 9,
+    "start_sec": 288.8,
+    "end_sec": 299.84,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "28. Feile an Phobail launch 010716.mp4",
+    "scene": 10,
+    "start_sec": 299.84,
+    "end_sec": 299.92,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "29. Blue Plaque Unveiling 200716.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 25.72,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "29. Blue Plaque Unveiling 200716.mp4",
+    "scene": 2,
+    "start_sec": 25.72,
+    "end_sec": 99.96,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "29. Blue Plaque Unveiling 200716.mp4",
+    "scene": 3,
+    "start_sec": 99.96,
+    "end_sec": 128.64,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "29. Blue Plaque Unveiling 200716.mp4",
+    "scene": 4,
+    "start_sec": 128.64,
+    "end_sec": 158.08,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "29. Blue Plaque Unveiling 200716.mp4",
+    "scene": 5,
+    "start_sec": 158.08,
+    "end_sec": 182.24,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "29. Blue Plaque Unveiling 200716.mp4",
+    "scene": 6,
+    "start_sec": 182.24,
+    "end_sec": 203.6,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "29. Blue Plaque Unveiling 200716.mp4",
+    "scene": 7,
+    "start_sec": 203.6,
+    "end_sec": 226.68,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "Notably"
+  },
+  {
+    "video": "29. Blue Plaque Unveiling 200716.mp4",
+    "scene": 8,
+    "start_sec": 226.68,
+    "end_sec": 245.88,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "29. Blue Plaque Unveiling 200716.mp4",
+    "scene": 9,
+    "start_sec": 245.88,
+    "end_sec": 298.88,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "29. Blue Plaque Unveiling 200716.mp4",
+    "scene": 10,
+    "start_sec": 298.88,
+    "end_sec": 316.52,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "29. Blue Plaque Unveiling 200716.mp4",
+    "scene": 11,
+    "start_sec": 316.52,
+    "end_sec": 330.6,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "29. Blue Plaque Unveiling 200716.mp4",
+    "scene": 12,
+    "start_sec": 330.6,
+    "end_sec": 356.36,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "IF"
+  },
+  {
+    "video": "29. Blue Plaque Unveiling 200716.mp4",
+    "scene": 13,
+    "start_sec": 356.36,
+    "end_sec": 371.08,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "29. Blue Plaque Unveiling 200716.mp4",
+    "scene": 14,
+    "start_sec": 371.08,
+    "end_sec": 405.36,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "dottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottottott"
+  },
+  {
+    "video": "29. Blue Plaque Unveiling 200716.mp4",
+    "scene": 15,
+    "start_sec": 405.36,
+    "end_sec": 441.16,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "29. Blue Plaque Unveiling 200716.mp4",
+    "scene": 16,
+    "start_sec": 441.16,
+    "end_sec": 451.2,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "29. Blue Plaque Unveiling 200716.mp4",
+    "scene": 17,
+    "start_sec": 451.2,
+    "end_sec": 462.84,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "29. Blue Plaque Unveiling 200716.mp4",
+    "scene": 18,
+    "start_sec": 462.84,
+    "end_sec": 496.76,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "body"
+  },
+  {
+    "video": "29. Blue Plaque Unveiling 200716.mp4",
+    "scene": 19,
+    "start_sec": 496.76,
+    "end_sec": 510.8,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "The task"
+  },
+  {
+    "video": "29. Blue Plaque Unveiling 200716.mp4",
+    "scene": 20,
+    "start_sec": 510.8,
+    "end_sec": 515.36,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "3. Fire Brigades Union Northern Ireland - Threats to the Fire and Rescue Service 280116.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 16.4,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "3. Fire Brigades Union Northern Ireland - Threats to the Fire and Rescue Service 280116.mp4",
+    "scene": 2,
+    "start_sec": 16.4,
+    "end_sec": 48.44,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "3. Fire Brigades Union Northern Ireland - Threats to the Fire and Rescue Service 280116.mp4",
+    "scene": 3,
+    "start_sec": 48.44,
+    "end_sec": 63.72,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "None"
+  },
+  {
+    "video": "3. Fire Brigades Union Northern Ireland - Threats to the Fire and Rescue Service 280116.mp4",
+    "scene": 4,
+    "start_sec": 63.72,
+    "end_sec": 101.44,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "3. Fire Brigades Union Northern Ireland - Threats to the Fire and Rescue Service 280116.mp4",
+    "scene": 5,
+    "start_sec": 101.44,
+    "end_sec": 114.08,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "3. Fire Brigades Union Northern Ireland - Threats to the Fire and Rescue Service 280116.mp4",
+    "scene": 6,
+    "start_sec": 114.08,
+    "end_sec": 140.4,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "3. Fire Brigades Union Northern Ireland - Threats to the Fire and Rescue Service 280116.mp4",
+    "scene": 7,
+    "start_sec": 140.4,
+    "end_sec": 161.04,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "None"
+  },
+  {
+    "video": "3. Fire Brigades Union Northern Ireland - Threats to the Fire and Rescue Service 280116.mp4",
+    "scene": 8,
+    "start_sec": 161.04,
+    "end_sec": 207.24,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "3. Fire Brigades Union Northern Ireland - Threats to the Fire and Rescue Service 280116.mp4",
+    "scene": 9,
+    "start_sec": 207.24,
+    "end_sec": 238.4,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "3. Fire Brigades Union Northern Ireland - Threats to the Fire and Rescue Service 280116.mp4",
+    "scene": 10,
+    "start_sec": 238.4,
+    "end_sec": 291.88,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "3. Fire Brigades Union Northern Ireland - Threats to the Fire and Rescue Service 280116.mp4",
+    "scene": 11,
+    "start_sec": 291.88,
+    "end_sec": 322.96,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>clerka"
+  },
+  {
+    "video": "3. Fire Brigades Union Northern Ireland - Threats to the Fire and Rescue Service 280116.mp4",
+    "scene": 12,
+    "start_sec": 322.96,
+    "end_sec": 347.96,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "3. Fire Brigades Union Northern Ireland - Threats to the Fire and Rescue Service 280116.mp4",
+    "scene": 13,
+    "start_sec": 347.96,
+    "end_sec": 362.2,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "3. Fire Brigades Union Northern Ireland - Threats to the Fire and Rescue Service 280116.mp4",
+    "scene": 14,
+    "start_sec": 362.2,
+    "end_sec": 410.24,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "```"
+  },
+  {
+    "video": "3. Fire Brigades Union Northern Ireland - Threats to the Fire and Rescue Service 280116.mp4",
+    "scene": 15,
+    "start_sec": 410.24,
+    "end_sec": 460.92,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "```\nThe output matches the criteria for the"
+  },
+  {
+    "video": "3. Fire Brigades Union Northern Ireland - Threats to the Fire and Rescue Service 280116.mp4",
+    "scene": 16,
+    "start_sec": 460.92,
+    "end_sec": 483.12,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think> The is there a way out"
+  },
+  {
+    "video": "3. Fire Brigades Union Northern Ireland - Threats to the Fire and Rescue Service 280116.mp4",
+    "scene": 17,
+    "start_sec": 483.12,
+    "end_sec": 498.12,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>x"
+  },
+  {
+    "video": "3. Fire Brigades Union Northern Ireland - Threats to the Fire and Rescue Service 280116.mp4",
+    "scene": 18,
+    "start_sec": 498.12,
+    "end_sec": 502.68,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "30. Social Policy Association 200716.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 66.6,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This involves a lot."
+  },
+  {
+    "video": "30. Social Policy Association 200716.mp4",
+    "scene": 2,
+    "start_sec": 66.6,
+    "end_sec": 76.64,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "30. Social Policy Association 200716.mp4",
+    "scene": 3,
+    "start_sec": 76.64,
+    "end_sec": 94.24,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "30. Social Policy Association 200716.mp4",
+    "scene": 4,
+    "start_sec": 94.24,
+    "end_sec": 117.36,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This task is being processed"
+  },
+  {
+    "video": "30. Social Policy Association 200716.mp4",
+    "scene": 5,
+    "start_sec": 117.36,
+    "end_sec": 131.4,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "A woman speaks to camera in an office"
+  },
+  {
+    "video": "30. Social Policy Association 200716.mp4",
+    "scene": 6,
+    "start_sec": 131.4,
+    "end_sec": 162.04,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "30. Social Policy Association 200716.mp4",
+    "scene": 7,
+    "start_sec": 162.04,
+    "end_sec": 196.0,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "30. Social Policy Association 200716.mp4",
+    "scene": 8,
+    "start_sec": 196.0,
+    "end_sec": 211.4,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "30. Social Policy Association 200716.mp4",
+    "scene": 9,
+    "start_sec": 211.4,
+    "end_sec": 267.28,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "30. Social Policy Association 200716.mp4",
+    "scene": 10,
+    "start_sec": 267.28,
+    "end_sec": 301.64,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "30. Social Policy Association 200716.mp4",
+    "scene": 11,
+    "start_sec": 301.64,
+    "end_sec": 314.88,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "30. Social Policy Association 200716.mp4",
+    "scene": 12,
+    "start_sec": 314.88,
+    "end_sec": 343.72,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "30. Social Policy Association 200716.mp4",
+    "scene": 13,
+    "start_sec": 343.72,
+    "end_sec": 429.92,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>The visual"
+  },
+  {
+    "video": "30. Social Policy Association 200716.mp4",
+    "scene": 14,
+    "start_sec": 429.92,
+    "end_sec": 453.84,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "do"
+  },
+  {
+    "video": "30. Social Policy Association 200716.mp4",
+    "scene": 15,
+    "start_sec": 453.84,
+    "end_sec": 517.36,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think> \n*"
+  },
+  {
+    "video": "31. Lilly and the Poppy Exhibition 200716.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 28.68,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "31. Lilly and the Poppy Exhibition 200716.mp4",
+    "scene": 2,
+    "start_sec": 28.68,
+    "end_sec": 174.8,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>If I understand that it was taken from the\\n the task, when I am asked to thedate of the year.\\n\\"
+  },
+  {
+    "video": "31. Lilly and the Poppy Exhibition 200716.mp4",
+    "scene": 3,
+    "start_sec": 174.8,
+    "end_sec": 187.64,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "31. Lilly and the Poppy Exhibition 200716.mp4",
+    "scene": 4,
+    "start_sec": 187.64,
+    "end_sec": 207.0,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "31. Lilly and the Poppy Exhibition 200716.mp4",
+    "scene": 5,
+    "start_sec": 207.0,
+    "end_sec": 219.2,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "31. Lilly and the Poppy Exhibition 200716.mp4",
+    "scene": 6,
+    "start_sec": 219.2,
+    "end_sec": 255.96,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "31. Lilly and the Poppy Exhibition 200716.mp4",
+    "scene": 7,
+    "start_sec": 255.96,
+    "end_sec": 285.24,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "31. Lilly and the Poppy Exhibition 200716.mp4",
+    "scene": 8,
+    "start_sec": 285.24,
+    "end_sec": 303.84,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "31. Lilly and the Poppy Exhibition 200716.mp4",
+    "scene": 9,
+    "start_sec": 303.84,
+    "end_sec": 315.64,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "31. Lilly and the Poppy Exhibition 200716.mp4",
+    "scene": 10,
+    "start_sec": 315.64,
+    "end_sec": 333.84,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "33. Sculpture celebrating World Boxer, Rinty Monaghan 010816.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 21.32,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "```"
+  },
+  {
+    "video": "33. Sculpture celebrating World Boxer, Rinty Monaghan 010816.mp4",
+    "scene": 2,
+    "start_sec": 21.32,
+    "end_sec": 94.48,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "33. Sculpture celebrating World Boxer, Rinty Monaghan 010816.mp4",
+    "scene": 3,
+    "start_sec": 94.48,
+    "end_sec": 105.12,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "33. Sculpture celebrating World Boxer, Rinty Monaghan 010816.mp4",
+    "scene": 4,
+    "start_sec": 105.12,
+    "end_sec": 272.16,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "33. Sculpture celebrating World Boxer, Rinty Monaghan 010816.mp4",
+    "scene": 5,
+    "start_sec": 272.16,
+    "end_sec": 282.24,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "33. Sculpture celebrating World Boxer, Rinty Monaghan 010816.mp4",
+    "scene": 6,
+    "start_sec": 282.24,
+    "end_sec": 303.16,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>\nThe answer"
+  },
+  {
+    "video": "33. Sculpture celebrating World Boxer, Rinty Monaghan 010816.mp4",
+    "scene": 7,
+    "start_sec": 303.16,
+    "end_sec": 317.28,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This is a structured"
+  },
+  {
+    "video": "33. Sculpture celebrating World Boxer, Rinty Monaghan 010816.mp4",
+    "scene": 8,
+    "start_sec": 317.28,
+    "end_sec": 317.48,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "34. Prince's Trust 010816.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 29.64,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "34. Prince's Trust 010816.mp4",
+    "scene": 2,
+    "start_sec": 29.64,
+    "end_sec": 53.28,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "```"
+  },
+  {
+    "video": "34. Prince's Trust 010816.mp4",
+    "scene": 3,
+    "start_sec": 53.28,
+    "end_sec": 67.88,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "34. Prince's Trust 010816.mp4",
+    "scene": 4,
+    "start_sec": 67.88,
+    "end_sec": 135.64,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "The answer is"
+  },
+  {
+    "video": "34. Prince's Trust 010816.mp4",
+    "scene": 5,
+    "start_sec": 135.64,
+    "end_sec": 186.6,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "34. Prince's Trust 010816.mp4",
+    "scene": 6,
+    "start_sec": 186.6,
+    "end_sec": 228.88,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "34. Prince's Trust 010816.mp4",
+    "scene": 7,
+    "start_sec": 228.88,
+    "end_sec": 260.92,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "34. Prince's Trust 010816.mp4",
+    "scene": 8,
+    "start_sec": 260.92,
+    "end_sec": 329.4,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "34. Prince's Trust 010816.mp4",
+    "scene": 9,
+    "start_sec": 329.4,
+    "end_sec": 344.36,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "34. Prince's Trust 010816.mp4",
+    "scene": 10,
+    "start_sec": 344.36,
+    "end_sec": 382.76,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "35. Campa Chormaic 010816.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 39.68,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "35. Campa Chormaic 010816.mp4",
+    "scene": 2,
+    "start_sec": 39.68,
+    "end_sec": 92.16,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "35. Campa Chormaic 010816.mp4",
+    "scene": 3,
+    "start_sec": 92.16,
+    "end_sec": 121.28,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "35. Campa Chormaic 010816.mp4",
+    "scene": 4,
+    "start_sec": 121.28,
+    "end_sec": 193.6,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "35. Campa Chormaic 010816.mp4",
+    "scene": 5,
+    "start_sec": 193.6,
+    "end_sec": 203.64,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "35. Campa Chormaic 010816.mp4",
+    "scene": 6,
+    "start_sec": 203.64,
+    "end_sec": 217.48,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "35. Campa Chormaic 010816.mp4",
+    "scene": 7,
+    "start_sec": 217.48,
+    "end_sec": 228.92,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "35. Campa Chormaic 010816.mp4",
+    "scene": 8,
+    "start_sec": 228.92,
+    "end_sec": 243.76,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "\\nThis is"
+  },
+  {
+    "video": "35. Campa Chormaic 010816.mp4",
+    "scene": 9,
+    "start_sec": 243.76,
+    "end_sec": 254.0,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>n"
+  },
+  {
+    "video": "35. Campa Chormaic 010816.mp4",
+    "scene": 10,
+    "start_sec": 254.0,
+    "end_sec": 273.64,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "35. Campa Chormaic 010816.mp4",
+    "scene": 11,
+    "start_sec": 273.64,
+    "end_sec": 284.64,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "35. Campa Chormaic 010816.mp4",
+    "scene": 12,
+    "start_sec": 284.64,
+    "end_sec": 322.32,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "35. Campa Chormaic 010816.mp4",
+    "scene": 13,
+    "start_sec": 322.32,
+    "end_sec": 343.8,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "35. Campa Chormaic 010816.mp4",
+    "scene": 14,
+    "start_sec": 343.8,
+    "end_sec": 350.12,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "36. Tourette Alliance First Annual Conference 090816.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 48.64,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "\""
+  },
+  {
+    "video": "36. Tourette Alliance First Annual Conference 090816.mp4",
+    "scene": 2,
+    "start_sec": 48.64,
+    "end_sec": 63.76,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "36. Tourette Alliance First Annual Conference 090816.mp4",
+    "scene": 3,
+    "start_sec": 63.76,
+    "end_sec": 93.92,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "Let me analyze"
+  },
+  {
+    "video": "36. Tourette Alliance First Annual Conference 090816.mp4",
+    "scene": 4,
+    "start_sec": 93.92,
+    "end_sec": 110.48,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "36. Tourette Alliance First Annual Conference 090816.mp4",
+    "scene": 5,
+    "start_sec": 110.48,
+    "end_sec": 150.52,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "36. Tourette Alliance First Annual Conference 090816.mp4",
+    "scene": 6,
+    "start_sec": 150.52,
+    "end_sec": 166.92,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "36. Tourette Alliance First Annual Conference 090816.mp4",
+    "scene": 7,
+    "start_sec": 166.92,
+    "end_sec": 225.32,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "36. Tourette Alliance First Annual Conference 090816.mp4",
+    "scene": 8,
+    "start_sec": 225.32,
+    "end_sec": 240.96,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "36. Tourette Alliance First Annual Conference 090816.mp4",
+    "scene": 9,
+    "start_sec": 240.96,
+    "end_sec": 258.56,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "Let's analyze"
+  },
+  {
+    "video": "36. Tourette Alliance First Annual Conference 090816.mp4",
+    "scene": 10,
+    "start_sec": 258.56,
+    "end_sec": 273.4,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "36. Tourette Alliance First Annual Conference 090816.mp4",
+    "scene": 11,
+    "start_sec": 273.4,
+    "end_sec": 351.28,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "Then"
+  },
+  {
+    "video": "36. Tourette Alliance First Annual Conference 090816.mp4",
+    "scene": 12,
+    "start_sec": 351.28,
+    "end_sec": 375.28,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "36. Tourette Alliance First Annual Conference 090816.mp4",
+    "scene": 13,
+    "start_sec": 375.28,
+    "end_sec": 417.68,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This is possible"
+  },
+  {
+    "video": "36. Tourette Alliance First Annual Conference 090816.mp4",
+    "scene": 14,
+    "start_sec": 417.68,
+    "end_sec": 438.56,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This process"
+  },
+  {
+    "video": "36. Tourette Alliance First Annual Conference 090816.mp4",
+    "scene": 15,
+    "start_sec": 438.56,
+    "end_sec": 454.76,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This"
+  },
+  {
+    "video": "36. Tourette Alliance First Annual Conference 090816.mp4",
+    "scene": 16,
+    "start_sec": 454.76,
+    "end_sec": 500.28,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "The answer"
+  },
+  {
+    "video": "36. Tourette Alliance First Annual Conference 090816.mp4",
+    "scene": 17,
+    "start_sec": 500.28,
+    "end_sec": 515.76,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "36. Tourette Alliance First Annual Conference 090816.mp4",
+    "scene": 18,
+    "start_sec": 515.76,
+    "end_sec": 555.12,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This is the result"
+  },
+  {
+    "video": "36. Tourette Alliance First Annual Conference 090816.mp4",
+    "scene": 19,
+    "start_sec": 555.12,
+    "end_sec": 570.68,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "Assistant"
+  },
+  {
+    "video": "36. Tourette Alliance First Annual Conference 090816.mp4",
+    "scene": 20,
+    "start_sec": 570.68,
+    "end_sec": 610.6,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "36. Tourette Alliance First Annual Conference 090816.mp4",
+    "scene": 21,
+    "start_sec": 610.6,
+    "end_sec": 625.24,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "37. Clandeboye Festival 090816.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 14.32,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "37. Clandeboye Festival 090816.mp4",
+    "scene": 2,
+    "start_sec": 14.32,
+    "end_sec": 38.24,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "37. Clandeboye Festival 090816.mp4",
+    "scene": 3,
+    "start_sec": 38.24,
+    "end_sec": 49.52,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "Sort"
+  },
+  {
+    "video": "37. Clandeboye Festival 090816.mp4",
+    "scene": 4,
+    "start_sec": 49.52,
+    "end_sec": 63.04,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "37. Clandeboye Festival 090816.mp4",
+    "scene": 5,
+    "start_sec": 63.04,
+    "end_sec": 98.52,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "37. Clandeboye Festival 090816.mp4",
+    "scene": 6,
+    "start_sec": 98.52,
+    "end_sec": 129.8,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "Based on the"
+  },
+  {
+    "video": "37. Clandeboye Festival 090816.mp4",
+    "scene": 7,
+    "start_sec": 129.8,
+    "end_sec": 160.04,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This task"
+  },
+  {
+    "video": "37. Clandeboye Festival 090816.mp4",
+    "scene": 8,
+    "start_sec": 160.04,
+    "end_sec": 205.64,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "37. Clandeboye Festival 090816.mp4",
+    "scene": 9,
+    "start_sec": 205.64,
+    "end_sec": 235.04,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "We"
+  },
+  {
+    "video": "37. Clandeboye Festival 090816.mp4",
+    "scene": 10,
+    "start_sec": 235.04,
+    "end_sec": 267.36,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "I"
+  },
+  {
+    "video": "37. Clandeboye Festival 090816.mp4",
+    "scene": 11,
+    "start_sec": 267.36,
+    "end_sec": 313.52,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "37. Clandeboye Festival 090816.mp4",
+    "scene": 12,
+    "start_sec": 313.52,
+    "end_sec": 338.48,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "```"
+  },
+  {
+    "video": "37. Clandeboye Festival 090816.mp4",
+    "scene": 13,
+    "start_sec": 338.48,
+    "end_sec": 372.88,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "38. ArtisAnn Art Gallery 090816.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 98.52,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "None"
+  },
+  {
+    "video": "38. ArtisAnn Art Gallery 090816.mp4",
+    "scene": 2,
+    "start_sec": 98.52,
+    "end_sec": 136.08,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "38. ArtisAnn Art Gallery 090816.mp4",
+    "scene": 3,
+    "start_sec": 136.08,
+    "end_sec": 203.08,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "38. ArtisAnn Art Gallery 090816.mp4",
+    "scene": 4,
+    "start_sec": 203.08,
+    "end_sec": 264.52,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "38. ArtisAnn Art Gallery 090816.mp4",
+    "scene": 5,
+    "start_sec": 264.52,
+    "end_sec": 329.64,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "38. ArtisAnn Art Gallery 090816.mp4",
+    "scene": 6,
+    "start_sec": 329.64,
+    "end_sec": 347.24,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This is a content"
+  },
+  {
+    "video": "38. ArtisAnn Art Gallery 090816.mp4",
+    "scene": 7,
+    "start_sec": 347.24,
+    "end_sec": 368.56,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This is my project"
+  },
+  {
+    "video": "38. ArtisAnn Art Gallery 090816.mp4",
+    "scene": 8,
+    "start_sec": 368.56,
+    "end_sec": 380.04,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "38. ArtisAnn Art Gallery 090816.mp4",
+    "scene": 9,
+    "start_sec": 380.04,
+    "end_sec": 396.6,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>B"
+  },
+  {
+    "video": "39. Child Poverty 010916.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 31.36,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "Question"
+  },
+  {
+    "video": "39. Child Poverty 010916.mp4",
+    "scene": 2,
+    "start_sec": 31.36,
+    "end_sec": 41.96,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "39. Child Poverty 010916.mp4",
+    "scene": 3,
+    "start_sec": 41.96,
+    "end_sec": 60.48,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "39. Child Poverty 010916.mp4",
+    "scene": 4,
+    "start_sec": 60.48,
+    "end_sec": 72.48,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "39. Child Poverty 010916.mp4",
+    "scene": 5,
+    "start_sec": 72.48,
+    "end_sec": 117.08,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "39. Child Poverty 010916.mp4",
+    "scene": 6,
+    "start_sec": 117.08,
+    "end_sec": 166.6,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>nThe Longest Period"
+  },
+  {
+    "video": "39. Child Poverty 010916.mp4",
+    "scene": 7,
+    "start_sec": 166.6,
+    "end_sec": 196.24,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "39. Child Poverty 010916.mp4",
+    "scene": 8,
+    "start_sec": 196.24,
+    "end_sec": 213.52,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This is my output"
+  },
+  {
+    "video": "39. Child Poverty 010916.mp4",
+    "scene": 9,
+    "start_sec": 213.52,
+    "end_sec": 258.2,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "39. Child Poverty 010916.mp4",
+    "scene": 10,
+    "start_sec": 258.2,
+    "end_sec": 294.72,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>to"
+  },
+  {
+    "video": "39. Child Poverty 010916.mp4",
+    "scene": 11,
+    "start_sec": 294.72,
+    "end_sec": 326.28,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "39. Child Poverty 010916.mp4",
+    "scene": 12,
+    "start_sec": 326.28,
+    "end_sec": 350.12,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "39. Child Poverty 010916.mp4",
+    "scene": 13,
+    "start_sec": 350.12,
+    "end_sec": 350.16,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "4. Ballymena Protest 040216.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 37.04,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "4. Ballymena Protest 040216.mp4",
+    "scene": 2,
+    "start_sec": 37.04,
+    "end_sec": 49.32,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "4. Ballymena Protest 040216.mp4",
+    "scene": 3,
+    "start_sec": 49.32,
+    "end_sec": 98.28,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "4. Ballymena Protest 040216.mp4",
+    "scene": 4,
+    "start_sec": 98.28,
+    "end_sec": 113.96,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "```\nNo output"
+  },
+  {
+    "video": "4. Ballymena Protest 040216.mp4",
+    "scene": 5,
+    "start_sec": 113.96,
+    "end_sec": 135.08,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "4. Ballymena Protest 040216.mp4",
+    "scene": 6,
+    "start_sec": 135.08,
+    "end_sec": 186.16,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "4. Ballymena Protest 040216.mp4",
+    "scene": 7,
+    "start_sec": 186.16,
+    "end_sec": 210.6,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This is a textual response"
+  },
+  {
+    "video": "4. Ballymena Protest 040216.mp4",
+    "scene": 8,
+    "start_sec": 210.6,
+    "end_sec": 222.4,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "Based"
+  },
+  {
+    "video": "4. Ballymena Protest 040216.mp4",
+    "scene": 9,
+    "start_sec": 222.4,
+    "end_sec": 263.44,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "None"
+  },
+  {
+    "video": "4. Ballymena Protest 040216.mp4",
+    "scene": 10,
+    "start_sec": 263.44,
+    "end_sec": 284.84,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "4. Ballymena Protest 040216.mp4",
+    "scene": 11,
+    "start_sec": 284.84,
+    "end_sec": 374.6,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>\n-"
+  },
+  {
+    "video": "4. Ballymena Protest 040216.mp4",
+    "scene": 12,
+    "start_sec": 374.6,
+    "end_sec": 403.52,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "4. Ballymena Protest 040216.mp4",
+    "scene": 13,
+    "start_sec": 403.52,
+    "end_sec": 418.8,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "4. Ballymena Protest 040216.mp4",
+    "scene": 14,
+    "start_sec": 418.8,
+    "end_sec": 466.16,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "4. Ballymena Protest 040216.mp4",
+    "scene": 15,
+    "start_sec": 466.16,
+    "end_sec": 489.96,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "4. Ballymena Protest 040216.mp4",
+    "scene": 16,
+    "start_sec": 489.96,
+    "end_sec": 501.24,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "40. Belfast Tattoo 2016 010916.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 18.6,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "40. Belfast Tattoo 2016 010916.mp4",
+    "scene": 2,
+    "start_sec": 18.6,
+    "end_sec": 32.08,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "40. Belfast Tattoo 2016 010916.mp4",
+    "scene": 3,
+    "start_sec": 32.08,
+    "end_sec": 50.56,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "40. Belfast Tattoo 2016 010916.mp4",
+    "scene": 4,
+    "start_sec": 50.56,
+    "end_sec": 65.6,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "40. Belfast Tattoo 2016 010916.mp4",
+    "scene": 5,
+    "start_sec": 65.6,
+    "end_sec": 123.56,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "40. Belfast Tattoo 2016 010916.mp4",
+    "scene": 6,
+    "start_sec": 123.56,
+    "end_sec": 136.2,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "40. Belfast Tattoo 2016 010916.mp4",
+    "scene": 7,
+    "start_sec": 136.2,
+    "end_sec": 164.6,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "40. Belfast Tattoo 2016 010916.mp4",
+    "scene": 8,
+    "start_sec": 164.6,
+    "end_sec": 175.36,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "40. Belfast Tattoo 2016 010916.mp4",
+    "scene": 9,
+    "start_sec": 175.36,
+    "end_sec": 200.28,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "40. Belfast Tattoo 2016 010916.mp4",
+    "scene": 10,
+    "start_sec": 200.28,
+    "end_sec": 210.44,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "40. Belfast Tattoo 2016 010916.mp4",
+    "scene": 11,
+    "start_sec": 210.44,
+    "end_sec": 241.52,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "40. Belfast Tattoo 2016 010916.mp4",
+    "scene": 12,
+    "start_sec": 241.52,
+    "end_sec": 252.84,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "The answer we have"
+  },
+  {
+    "video": "40. Belfast Tattoo 2016 010916.mp4",
+    "scene": 13,
+    "start_sec": 252.84,
+    "end_sec": 295.16,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "40. Belfast Tattoo 2016 010916.mp4",
+    "scene": 14,
+    "start_sec": 295.16,
+    "end_sec": 305.6,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "40. Belfast Tattoo 2016 010916.mp4",
+    "scene": 15,
+    "start_sec": 305.6,
+    "end_sec": 315.8,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "40. Belfast Tattoo 2016 010916.mp4",
+    "scene": 16,
+    "start_sec": 315.8,
+    "end_sec": 334.0,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "40. Belfast Tattoo 2016 010916.mp4",
+    "scene": 17,
+    "start_sec": 334.0,
+    "end_sec": 355.08,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "41. Healthy Lunches 010916.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 16.0,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "41. Healthy Lunches 010916.mp4",
+    "scene": 2,
+    "start_sec": 16.0,
+    "end_sec": 32.92,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "41. Healthy Lunches 010916.mp4",
+    "scene": 3,
+    "start_sec": 32.92,
+    "end_sec": 51.32,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "41. Healthy Lunches 010916.mp4",
+    "scene": 4,
+    "start_sec": 51.32,
+    "end_sec": 94.96,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "41. Healthy Lunches 010916.mp4",
+    "scene": 5,
+    "start_sec": 94.96,
+    "end_sec": 110.28,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "41. Healthy Lunches 010916.mp4",
+    "scene": 6,
+    "start_sec": 110.28,
+    "end_sec": 143.56,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>title"
+  },
+  {
+    "video": "41. Healthy Lunches 010916.mp4",
+    "scene": 7,
+    "start_sec": 143.56,
+    "end_sec": 153.88,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "41. Healthy Lunches 010916.mp4",
+    "scene": 8,
+    "start_sec": 153.88,
+    "end_sec": 197.44,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "41. Healthy Lunches 010916.mp4",
+    "scene": 9,
+    "start_sec": 197.44,
+    "end_sec": 210.04,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "Question"
+  },
+  {
+    "video": "41. Healthy Lunches 010916.mp4",
+    "scene": 10,
+    "start_sec": 210.04,
+    "end_sec": 233.92,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "41. Healthy Lunches 010916.mp4",
+    "scene": 11,
+    "start_sec": 233.92,
+    "end_sec": 256.6,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "41. Healthy Lunches 010916.mp4",
+    "scene": 12,
+    "start_sec": 256.6,
+    "end_sec": 281.6,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "We"
+  },
+  {
+    "video": "41. Healthy Lunches 010916.mp4",
+    "scene": 13,
+    "start_sec": 281.6,
+    "end_sec": 311.92,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "41. Healthy Lunches 010916.mp4",
+    "scene": 14,
+    "start_sec": 311.92,
+    "end_sec": 328.24,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "41. Healthy Lunches 010916.mp4",
+    "scene": 15,
+    "start_sec": 328.24,
+    "end_sec": 353.4,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "41. Healthy Lunches 010916.mp4",
+    "scene": 16,
+    "start_sec": 353.4,
+    "end_sec": 360.84,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "42. Traffic Congestion in Belfast City Centre 010916.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 31.56,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "42. Traffic Congestion in Belfast City Centre 010916.mp4",
+    "scene": 2,
+    "start_sec": 31.56,
+    "end_sec": 55.56,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "42. Traffic Congestion in Belfast City Centre 010916.mp4",
+    "scene": 3,
+    "start_sec": 55.56,
+    "end_sec": 78.84,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "42. Traffic Congestion in Belfast City Centre 010916.mp4",
+    "scene": 4,
+    "start_sec": 78.84,
+    "end_sec": 108.96,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "42. Traffic Congestion in Belfast City Centre 010916.mp4",
+    "scene": 5,
+    "start_sec": 108.96,
+    "end_sec": 135.56,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "42. Traffic Congestion in Belfast City Centre 010916.mp4",
+    "scene": 6,
+    "start_sec": 135.56,
+    "end_sec": 151.96,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This represents"
+  },
+  {
+    "video": "42. Traffic Congestion in Belfast City Centre 010916.mp4",
+    "scene": 7,
+    "start_sec": 151.96,
+    "end_sec": 165.08,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "42. Traffic Congestion in Belfast City Centre 010916.mp4",
+    "scene": 8,
+    "start_sec": 165.08,
+    "end_sec": 189.64,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "```"
+  },
+  {
+    "video": "42. Traffic Congestion in Belfast City Centre 010916.mp4",
+    "scene": 9,
+    "start_sec": 189.64,
+    "end_sec": 205.48,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "42. Traffic Congestion in Belfast City Centre 010916.mp4",
+    "scene": 10,
+    "start_sec": 205.48,
+    "end_sec": 227.64,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "42. Traffic Congestion in Belfast City Centre 010916.mp4",
+    "scene": 11,
+    "start_sec": 227.64,
+    "end_sec": 268.36,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "42. Traffic Congestion in Belfast City Centre 010916.mp4",
+    "scene": 12,
+    "start_sec": 268.36,
+    "end_sec": 284.6,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "42. Traffic Congestion in Belfast City Centre 010916.mp4",
+    "scene": 13,
+    "start_sec": 284.6,
+    "end_sec": 296.84,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "42. Traffic Congestion in Belfast City Centre 010916.mp4",
+    "scene": 14,
+    "start_sec": 296.84,
+    "end_sec": 300.52,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "43. Market Tunnels 050916.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 38.8,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "43. Market Tunnels 050916.mp4",
+    "scene": 2,
+    "start_sec": 38.8,
+    "end_sec": 57.72,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "43. Market Tunnels 050916.mp4",
+    "scene": 3,
+    "start_sec": 57.72,
+    "end_sec": 78.24,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think> #1"
+  },
+  {
+    "video": "43. Market Tunnels 050916.mp4",
+    "scene": 4,
+    "start_sec": 78.24,
+    "end_sec": 100.28,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "43. Market Tunnels 050916.mp4",
+    "scene": 5,
+    "start_sec": 100.28,
+    "end_sec": 128.0,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "43. Market Tunnels 050916.mp4",
+    "scene": 6,
+    "start_sec": 128.0,
+    "end_sec": 138.76,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "43. Market Tunnels 050916.mp4",
+    "scene": 7,
+    "start_sec": 138.76,
+    "end_sec": 151.08,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This is a work"
+  },
+  {
+    "video": "43. Market Tunnels 050916.mp4",
+    "scene": 8,
+    "start_sec": 151.08,
+    "end_sec": 161.12,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "43. Market Tunnels 050916.mp4",
+    "scene": 9,
+    "start_sec": 161.12,
+    "end_sec": 182.36,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "43. Market Tunnels 050916.mp4",
+    "scene": 10,
+    "start_sec": 182.36,
+    "end_sec": 193.12,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "43. Market Tunnels 050916.mp4",
+    "scene": 11,
+    "start_sec": 193.12,
+    "end_sec": 305.8,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "43. Market Tunnels 050916.mp4",
+    "scene": 12,
+    "start_sec": 305.8,
+    "end_sec": 324.68,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "43. Market Tunnels 050916.mp4",
+    "scene": 13,
+    "start_sec": 324.68,
+    "end_sec": 345.56,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This is an image-based annotation for a project that is being discussed"
+  },
+  {
+    "video": "43. Market Tunnels 050916.mp4",
+    "scene": 14,
+    "start_sec": 345.56,
+    "end_sec": 359.2,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "Which"
+  },
+  {
+    "video": "43. Market Tunnels 050916.mp4",
+    "scene": 15,
+    "start_sec": 359.2,
+    "end_sec": 367.44,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "44. Beat The Street 050916.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 64.76,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "44. Beat The Street 050916.mp4",
+    "scene": 2,
+    "start_sec": 64.76,
+    "end_sec": 137.2,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "44. Beat The Street 050916.mp4",
+    "scene": 3,
+    "start_sec": 137.2,
+    "end_sec": 149.32,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "44. Beat The Street 050916.mp4",
+    "scene": 4,
+    "start_sec": 149.32,
+    "end_sec": 159.64,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>d"
+  },
+  {
+    "video": "44. Beat The Street 050916.mp4",
+    "scene": 5,
+    "start_sec": 159.64,
+    "end_sec": 196.28,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "44. Beat The Street 050916.mp4",
+    "scene": 6,
+    "start_sec": 196.28,
+    "end_sec": 207.6,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "```"
+  },
+  {
+    "video": "44. Beat The Street 050916.mp4",
+    "scene": 7,
+    "start_sec": 207.6,
+    "end_sec": 227.92,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "Then I'm working"
+  },
+  {
+    "video": "44. Beat The Street 050916.mp4",
+    "scene": 8,
+    "start_sec": 227.92,
+    "end_sec": 238.04,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "44. Beat The Street 050916.mp4",
+    "scene": 9,
+    "start_sec": 238.04,
+    "end_sec": 262.04,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This is an"
+  },
+  {
+    "video": "44. Beat The Street 050916.mp4",
+    "scene": 10,
+    "start_sec": 262.04,
+    "end_sec": 280.56,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "We"
+  },
+  {
+    "video": "44. Beat The Street 050916.mp4",
+    "scene": 11,
+    "start_sec": 280.56,
+    "end_sec": 319.6,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "The answer"
+  },
+  {
+    "video": "44. Beat The Street 050916.mp4",
+    "scene": 12,
+    "start_sec": 319.6,
+    "end_sec": 332.96,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "The"
+  },
+  {
+    "video": "44. Beat The Street 050916.mp4",
+    "scene": 13,
+    "start_sec": 332.96,
+    "end_sec": 359.04,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "45. Relate NI 050916.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 17.64,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "45. Relate NI 050916.mp4",
+    "scene": 2,
+    "start_sec": 17.64,
+    "end_sec": 47.44,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "45. Relate NI 050916.mp4",
+    "scene": 3,
+    "start_sec": 47.44,
+    "end_sec": 63.48,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This"
+  },
+  {
+    "video": "45. Relate NI 050916.mp4",
+    "scene": 4,
+    "start_sec": 63.48,
+    "end_sec": 96.68,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "45. Relate NI 050916.mp4",
+    "scene": 5,
+    "start_sec": 96.68,
+    "end_sec": 115.24,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "45. Relate NI 050916.mp4",
+    "scene": 6,
+    "start_sec": 115.24,
+    "end_sec": 147.0,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "45. Relate NI 050916.mp4",
+    "scene": 7,
+    "start_sec": 147.0,
+    "end_sec": 182.72,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This is"
+  },
+  {
+    "video": "45. Relate NI 050916.mp4",
+    "scene": 8,
+    "start_sec": 182.72,
+    "end_sec": 211.0,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "45. Relate NI 050916.mp4",
+    "scene": 9,
+    "start_sec": 211.0,
+    "end_sec": 255.2,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "None"
+  },
+  {
+    "video": "45. Relate NI 050916.mp4",
+    "scene": 10,
+    "start_sec": 255.2,
+    "end_sec": 273.96,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "45. Relate NI 050916.mp4",
+    "scene": 11,
+    "start_sec": 273.96,
+    "end_sec": 284.92,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "Process"
+  },
+  {
+    "video": "45. Relate NI 050916.mp4",
+    "scene": 12,
+    "start_sec": 284.92,
+    "end_sec": 318.8,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "46. Belfast Comedy Festival 050916.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 40.0,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "46. Belfast Comedy Festival 050916.mp4",
+    "scene": 2,
+    "start_sec": 40.0,
+    "end_sec": 53.08,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "46. Belfast Comedy Festival 050916.mp4",
+    "scene": 3,
+    "start_sec": 53.08,
+    "end_sec": 84.08,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "46. Belfast Comedy Festival 050916.mp4",
+    "scene": 4,
+    "start_sec": 84.08,
+    "end_sec": 95.96,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "46. Belfast Comedy Festival 050916.mp4",
+    "scene": 5,
+    "start_sec": 95.96,
+    "end_sec": 121.92,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "```"
+  },
+  {
+    "video": "46. Belfast Comedy Festival 050916.mp4",
+    "scene": 6,
+    "start_sec": 121.92,
+    "end_sec": 138.88,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "46. Belfast Comedy Festival 050916.mp4",
+    "scene": 7,
+    "start_sec": 138.88,
+    "end_sec": 164.28,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "46. Belfast Comedy Festival 050916.mp4",
+    "scene": 8,
+    "start_sec": 164.28,
+    "end_sec": 184.92,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "46. Belfast Comedy Festival 050916.mp4",
+    "scene": 9,
+    "start_sec": 184.92,
+    "end_sec": 209.96,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "46. Belfast Comedy Festival 050916.mp4",
+    "scene": 10,
+    "start_sec": 209.96,
+    "end_sec": 230.2,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "The"
+  },
+  {
+    "video": "46. Belfast Comedy Festival 050916.mp4",
+    "scene": 11,
+    "start_sec": 230.2,
+    "end_sec": 264.48,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "46. Belfast Comedy Festival 050916.mp4",
+    "scene": 12,
+    "start_sec": 264.48,
+    "end_sec": 315.8,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "47. Millions Missing Demonstration 290916.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 75.72,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "47. Millions Missing Demonstration 290916.mp4",
+    "scene": 2,
+    "start_sec": 75.72,
+    "end_sec": 91.44,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "None"
+  },
+  {
+    "video": "47. Millions Missing Demonstration 290916.mp4",
+    "scene": 3,
+    "start_sec": 91.44,
+    "end_sec": 129.8,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "47. Millions Missing Demonstration 290916.mp4",
+    "scene": 4,
+    "start_sec": 129.8,
+    "end_sec": 142.0,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "47. Millions Missing Demonstration 290916.mp4",
+    "scene": 5,
+    "start_sec": 142.0,
+    "end_sec": 361.2,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "47. Millions Missing Demonstration 290916.mp4",
+    "scene": 6,
+    "start_sec": 361.2,
+    "end_sec": 388.44,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)",
+    "raw_output": "\\end{currency}"
+  },
+  {
+    "video": "47. Millions Missing Demonstration 290916.mp4",
+    "scene": 7,
+    "start_sec": 388.44,
+    "end_sec": 480.76,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "48. Shankill Arts Forum 290916.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 82.24,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "48. Shankill Arts Forum 290916.mp4",
+    "scene": 2,
+    "start_sec": 82.24,
+    "end_sec": 96.68,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "48. Shankill Arts Forum 290916.mp4",
+    "scene": 3,
+    "start_sec": 96.68,
+    "end_sec": 108.4,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "48. Shankill Arts Forum 290916.mp4",
+    "scene": 4,
+    "start_sec": 108.4,
+    "end_sec": 171.16,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "48. Shankill Arts Forum 290916.mp4",
+    "scene": 5,
+    "start_sec": 171.16,
+    "end_sec": 188.6,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "48. Shankill Arts Forum 290916.mp4",
+    "scene": 6,
+    "start_sec": 188.6,
+    "end_sec": 215.96,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "We know"
+  },
+  {
+    "video": "48. Shankill Arts Forum 290916.mp4",
+    "scene": 7,
+    "start_sec": 215.96,
+    "end_sec": 268.56,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "48. Shankill Arts Forum 290916.mp4",
+    "scene": 8,
+    "start_sec": 268.56,
+    "end_sec": 292.08,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "The"
+  },
+  {
+    "video": "48. Shankill Arts Forum 290916.mp4",
+    "scene": 9,
+    "start_sec": 292.08,
+    "end_sec": 318.6,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This is not"
+  },
+  {
+    "video": "48. Shankill Arts Forum 290916.mp4",
+    "scene": 10,
+    "start_sec": 318.6,
+    "end_sec": 347.2,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This is the answer"
+  },
+  {
+    "video": "48. Shankill Arts Forum 290916.mp4",
+    "scene": 11,
+    "start_sec": 347.2,
+    "end_sec": 370.52,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This creates a new algorithm"
+  },
+  {
+    "video": "48. Shankill Arts Forum 290916.mp4",
+    "scene": 12,
+    "start_sec": 370.52,
+    "end_sec": 420.8,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This"
+  },
+  {
+    "video": "49. Arabic in Northern Ireland Schools 290916.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 20.2,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "49. Arabic in Northern Ireland Schools 290916.mp4",
+    "scene": 2,
+    "start_sec": 20.2,
+    "end_sec": 45.6,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "49. Arabic in Northern Ireland Schools 290916.mp4",
+    "scene": 3,
+    "start_sec": 45.6,
+    "end_sec": 65.96,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "49. Arabic in Northern Ireland Schools 290916.mp4",
+    "scene": 4,
+    "start_sec": 65.96,
+    "end_sec": 150.56,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "### 答案"
+  },
+  {
+    "video": "49. Arabic in Northern Ireland Schools 290916.mp4",
+    "scene": 5,
+    "start_sec": 150.56,
+    "end_sec": 162.04,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "49. Arabic in Northern Ireland Schools 290916.mp4",
+    "scene": 6,
+    "start_sec": 162.04,
+    "end_sec": 173.24,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "49. Arabic in Northern Ireland Schools 290916.mp4",
+    "scene": 7,
+    "start_sec": 173.24,
+    "end_sec": 215.64,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "### // The answer"
+  },
+  {
+    "video": "49. Arabic in Northern Ireland Schools 290916.mp4",
+    "scene": 8,
+    "start_sec": 215.64,
+    "end_sec": 228.92,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "In"
+  },
+  {
+    "video": "49. Arabic in Northern Ireland Schools 290916.mp4",
+    "scene": 9,
+    "start_sec": 228.92,
+    "end_sec": 279.76,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This is my job"
+  },
+  {
+    "video": "49. Arabic in Northern Ireland Schools 290916.mp4",
+    "scene": 10,
+    "start_sec": 279.76,
+    "end_sec": 309.2,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "49. Arabic in Northern Ireland Schools 290916.mp4",
+    "scene": 11,
+    "start_sec": 309.2,
+    "end_sec": 359.28,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "\""
+  },
+  {
+    "video": "49. Arabic in Northern Ireland Schools 290916.mp4",
+    "scene": 12,
+    "start_sec": 359.28,
+    "end_sec": 374.28,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "The user"
+  },
+  {
+    "video": "49. Arabic in Northern Ireland Schools 290916.mp4",
+    "scene": 13,
+    "start_sec": 374.28,
+    "end_sec": 387.0,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "49. Arabic in Northern Ireland Schools 290916.mp4",
+    "scene": 14,
+    "start_sec": 387.0,
+    "end_sec": 403.92,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "49. Arabic in Northern Ireland Schools 290916.mp4",
+    "scene": 15,
+    "start_sec": 403.92,
+    "end_sec": 422.12,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "Assistant"
+  },
+  {
+    "video": "49. Arabic in Northern Ireland Schools 290916.mp4",
+    "scene": 16,
+    "start_sec": 422.12,
+    "end_sec": 445.0,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "5. Listen to our young leaders - 4 Corners Festival 040216.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 19.32,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "5. Listen to our young leaders - 4 Corners Festival 040216.mp4",
+    "scene": 2,
+    "start_sec": 19.32,
+    "end_sec": 43.36,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "5. Listen to our young leaders - 4 Corners Festival 040216.mp4",
+    "scene": 3,
+    "start_sec": 43.36,
+    "end_sec": 59.72,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "5. Listen to our young leaders - 4 Corners Festival 040216.mp4",
+    "scene": 4,
+    "start_sec": 59.72,
+    "end_sec": 84.92,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "5. Listen to our young leaders - 4 Corners Festival 040216.mp4",
+    "scene": 5,
+    "start_sec": 84.92,
+    "end_sec": 107.08,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "5. Listen to our young leaders - 4 Corners Festival 040216.mp4",
+    "scene": 6,
+    "start_sec": 107.08,
+    "end_sec": 132.6,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "5. Listen to our young leaders - 4 Corners Festival 040216.mp4",
+    "scene": 7,
+    "start_sec": 132.6,
+    "end_sec": 147.8,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "5. Listen to our young leaders - 4 Corners Festival 040216.mp4",
+    "scene": 8,
+    "start_sec": 147.8,
+    "end_sec": 163.88,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "Q"
+  },
+  {
+    "video": "5. Listen to our young leaders - 4 Corners Festival 040216.mp4",
+    "scene": 9,
+    "start_sec": 163.88,
+    "end_sec": 177.72,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "5. Listen to our young leaders - 4 Corners Festival 040216.mp4",
+    "scene": 10,
+    "start_sec": 177.72,
+    "end_sec": 230.44,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "5. Listen to our young leaders - 4 Corners Festival 040216.mp4",
+    "scene": 11,
+    "start_sec": 230.44,
+    "end_sec": 245.2,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "5. Listen to our young leaders - 4 Corners Festival 040216.mp4",
+    "scene": 12,
+    "start_sec": 245.2,
+    "end_sec": 267.0,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "5. Listen to our young leaders - 4 Corners Festival 040216.mp4",
+    "scene": 13,
+    "start_sec": 267.0,
+    "end_sec": 291.88,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "5. Listen to our young leaders - 4 Corners Festival 040216.mp4",
+    "scene": 14,
+    "start_sec": 291.88,
+    "end_sec": 336.44,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "5. Listen to our young leaders - 4 Corners Festival 040216.mp4",
+    "scene": 15,
+    "start_sec": 336.44,
+    "end_sec": 351.88,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "5. Listen to our young leaders - 4 Corners Festival 040216.mp4",
+    "scene": 16,
+    "start_sec": 351.88,
+    "end_sec": 389.6,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>c"
+  },
+  {
+    "video": "5. Listen to our young leaders - 4 Corners Festival 040216.mp4",
+    "scene": 17,
+    "start_sec": 389.6,
+    "end_sec": 400.84,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "5. Listen to our young leaders - 4 Corners Festival 040216.mp4",
+    "scene": 18,
+    "start_sec": 400.84,
+    "end_sec": 404.96,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>text"
+  },
+  {
+    "video": "50. WHAT YOU SAY MATTERS Youth Forum 311016.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 76.2,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "50. WHAT YOU SAY MATTERS Youth Forum 311016.mp4",
+    "scene": 2,
+    "start_sec": 76.2,
+    "end_sec": 102.92,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This is the output"
+  },
+  {
+    "video": "50. WHAT YOU SAY MATTERS Youth Forum 311016.mp4",
+    "scene": 3,
+    "start_sec": 102.92,
+    "end_sec": 116.56,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>  \\n"
+  },
+  {
+    "video": "50. WHAT YOU SAY MATTERS Youth Forum 311016.mp4",
+    "scene": 4,
+    "start_sec": 116.56,
+    "end_sec": 147.04,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "50. WHAT YOU SAY MATTERS Youth Forum 311016.mp4",
+    "scene": 5,
+    "start_sec": 147.04,
+    "end_sec": 164.64,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "50. WHAT YOU SAY MATTERS Youth Forum 311016.mp4",
+    "scene": 6,
+    "start_sec": 164.64,
+    "end_sec": 195.56,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "50. WHAT YOU SAY MATTERS Youth Forum 311016.mp4",
+    "scene": 7,
+    "start_sec": 195.56,
+    "end_sec": 215.88,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "50. WHAT YOU SAY MATTERS Youth Forum 311016.mp4",
+    "scene": 8,
+    "start_sec": 215.88,
+    "end_sec": 233.72,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "50. WHAT YOU SAY MATTERS Youth Forum 311016.mp4",
+    "scene": 9,
+    "start_sec": 233.72,
+    "end_sec": 264.88,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "done"
+  },
+  {
+    "video": "50. WHAT YOU SAY MATTERS Youth Forum 311016.mp4",
+    "scene": 10,
+    "start_sec": 264.88,
+    "end_sec": 301.6,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "50. WHAT YOU SAY MATTERS Youth Forum 311016.mp4",
+    "scene": 11,
+    "start_sec": 301.6,
+    "end_sec": 327.96,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "50. WHAT YOU SAY MATTERS Youth Forum 311016.mp4",
+    "scene": 12,
+    "start_sec": 327.96,
+    "end_sec": 347.0,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "50. WHAT YOU SAY MATTERS Youth Forum 311016.mp4",
+    "scene": 13,
+    "start_sec": 347.0,
+    "end_sec": 364.6,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "50. WHAT YOU SAY MATTERS Youth Forum 311016.mp4",
+    "scene": 14,
+    "start_sec": 364.6,
+    "end_sec": 386.0,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>."
+  },
+  {
+    "video": "50. WHAT YOU SAY MATTERS Youth Forum 311016.mp4",
+    "scene": 15,
+    "start_sec": 386.0,
+    "end_sec": 407.04,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "The start"
+  },
+  {
+    "video": "50. WHAT YOU SAY MATTERS Youth Forum 311016.mp4",
+    "scene": 16,
+    "start_sec": 407.04,
+    "end_sec": 424.56,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "50. WHAT YOU SAY MATTERS Youth Forum 311016.mp4",
+    "scene": 17,
+    "start_sec": 424.56,
+    "end_sec": 462.8,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "6. Pupils Challenge Racism - Integrated Education Fund 040216.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 50.48,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "6. Pupils Challenge Racism - Integrated Education Fund 040216.mp4",
+    "scene": 2,
+    "start_sec": 50.48,
+    "end_sec": 64.44,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "6. Pupils Challenge Racism - Integrated Education Fund 040216.mp4",
+    "scene": 3,
+    "start_sec": 64.44,
+    "end_sec": 83.0,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "6. Pupils Challenge Racism - Integrated Education Fund 040216.mp4",
+    "scene": 4,
+    "start_sec": 83.0,
+    "end_sec": 99.24,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "6. Pupils Challenge Racism - Integrated Education Fund 040216.mp4",
+    "scene": 5,
+    "start_sec": 99.24,
+    "end_sec": 153.72,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "6. Pupils Challenge Racism - Integrated Education Fund 040216.mp4",
+    "scene": 6,
+    "start_sec": 153.72,
+    "end_sec": 187.08,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "6. Pupils Challenge Racism - Integrated Education Fund 040216.mp4",
+    "scene": 7,
+    "start_sec": 187.08,
+    "end_sec": 203.16,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "A"
+  },
+  {
+    "video": "6. Pupils Challenge Racism - Integrated Education Fund 040216.mp4",
+    "scene": 8,
+    "start_sec": 203.16,
+    "end_sec": 230.8,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "An answer"
+  },
+  {
+    "video": "6. Pupils Challenge Racism - Integrated Education Fund 040216.mp4",
+    "scene": 9,
+    "start_sec": 230.8,
+    "end_sec": 249.12,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "6. Pupils Challenge Racism - Integrated Education Fund 040216.mp4",
+    "scene": 10,
+    "start_sec": 249.12,
+    "end_sec": 273.48,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This is actually"
+  },
+  {
+    "video": "6. Pupils Challenge Racism - Integrated Education Fund 040216.mp4",
+    "scene": 11,
+    "start_sec": 273.48,
+    "end_sec": 284.0,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "6. Pupils Challenge Racism - Integrated Education Fund 040216.mp4",
+    "scene": 12,
+    "start_sec": 284.0,
+    "end_sec": 314.32,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "then"
+  },
+  {
+    "video": "6. Pupils Challenge Racism - Integrated Education Fund 040216.mp4",
+    "scene": 13,
+    "start_sec": 314.32,
+    "end_sec": 325.52,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>d"
+  },
+  {
+    "video": "6. Pupils Challenge Racism - Integrated Education Fund 040216.mp4",
+    "scene": 14,
+    "start_sec": 325.52,
+    "end_sec": 378.12,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "6. Pupils Challenge Racism - Integrated Education Fund 040216.mp4",
+    "scene": 15,
+    "start_sec": 378.12,
+    "end_sec": 394.0,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>\nThe output should be"
+  },
+  {
+    "video": "6. Pupils Challenge Racism - Integrated Education Fund 040216.mp4",
+    "scene": 16,
+    "start_sec": 394.0,
+    "end_sec": 404.52,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "6. Pupils Challenge Racism - Integrated Education Fund 040216.mp4",
+    "scene": 17,
+    "start_sec": 404.52,
+    "end_sec": 425.36,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "6. Pupils Challenge Racism - Integrated Education Fund 040216.mp4",
+    "scene": 18,
+    "start_sec": 425.36,
+    "end_sec": 437.64,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "6. Pupils Challenge Racism - Integrated Education Fund 040216.mp4",
+    "scene": 19,
+    "start_sec": 437.64,
+    "end_sec": 461.8,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "6. Pupils Challenge Racism - Integrated Education Fund 040216.mp4",
+    "scene": 20,
+    "start_sec": 461.8,
+    "end_sec": 472.24,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This is"
+  },
+  {
+    "video": "6. Pupils Challenge Racism - Integrated Education Fund 040216.mp4",
+    "scene": 21,
+    "start_sec": 472.24,
+    "end_sec": 486.88,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "7. Adrian Ismay Vigil 230316.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 82.96,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "7. Adrian Ismay Vigil 230316.mp4",
+    "scene": 2,
+    "start_sec": 82.96,
+    "end_sec": 98.28,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "7. Adrian Ismay Vigil 230316.mp4",
+    "scene": 3,
+    "start_sec": 98.28,
+    "end_sec": 117.6,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "7. Adrian Ismay Vigil 230316.mp4",
+    "scene": 4,
+    "start_sec": 117.6,
+    "end_sec": 131.96,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "7. Adrian Ismay Vigil 230316.mp4",
+    "scene": 5,
+    "start_sec": 131.96,
+    "end_sec": 143.08,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "7. Adrian Ismay Vigil 230316.mp4",
+    "scene": 6,
+    "start_sec": 143.08,
+    "end_sec": 153.2,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>\nThis is a collaborative effort"
+  },
+  {
+    "video": "7. Adrian Ismay Vigil 230316.mp4",
+    "scene": 7,
+    "start_sec": 153.2,
+    "end_sec": 178.6,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This is my output"
+  },
+  {
+    "video": "7. Adrian Ismay Vigil 230316.mp4",
+    "scene": 8,
+    "start_sec": 178.6,
+    "end_sec": 212.76,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "7. Adrian Ismay Vigil 230316.mp4",
+    "scene": 9,
+    "start_sec": 212.76,
+    "end_sec": 223.72,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "7. Adrian Ismay Vigil 230316.mp4",
+    "scene": 10,
+    "start_sec": 223.72,
+    "end_sec": 245.04,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "7. Adrian Ismay Vigil 230316.mp4",
+    "scene": 11,
+    "start_sec": 245.04,
+    "end_sec": 269.28,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This is"
+  },
+  {
+    "video": "8. REFRESH- PSNI Young Digital Team 230316.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 35.32,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "8. REFRESH- PSNI Young Digital Team 230316.mp4",
+    "scene": 2,
+    "start_sec": 35.32,
+    "end_sec": 51.96,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "8. REFRESH- PSNI Young Digital Team 230316.mp4",
+    "scene": 3,
+    "start_sec": 51.96,
+    "end_sec": 63.6,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "8. REFRESH- PSNI Young Digital Team 230316.mp4",
+    "scene": 4,
+    "start_sec": 63.6,
+    "end_sec": 136.04,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "8. REFRESH- PSNI Young Digital Team 230316.mp4",
+    "scene": 5,
+    "start_sec": 136.04,
+    "end_sec": 149.04,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "The"
+  },
+  {
+    "video": "8. REFRESH- PSNI Young Digital Team 230316.mp4",
+    "scene": 6,
+    "start_sec": 149.04,
+    "end_sec": 168.24,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "The"
+  },
+  {
+    "video": "8. REFRESH- PSNI Young Digital Team 230316.mp4",
+    "scene": 7,
+    "start_sec": 168.24,
+    "end_sec": 184.88,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "This is a raw, un"
+  },
+  {
+    "video": "8. REFRESH- PSNI Young Digital Team 230316.mp4",
+    "scene": 8,
+    "start_sec": 184.88,
+    "end_sec": 206.0,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "8. REFRESH- PSNI Young Digital Team 230316.mp4",
+    "scene": 9,
+    "start_sec": 206.0,
+    "end_sec": 224.84,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "8. REFRESH- PSNI Young Digital Team 230316.mp4",
+    "scene": 10,
+    "start_sec": 224.84,
+    "end_sec": 231.2,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "9. KESS - Enabling Access to Justice 230316.mp4",
+    "scene": 1,
+    "start_sec": 0.0,
+    "end_sec": 31.4,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "9. KESS - Enabling Access to Justice 230316.mp4",
+    "scene": 2,
+    "start_sec": 31.4,
+    "end_sec": 80.96,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "<think>"
+  },
+  {
+    "video": "9. KESS - Enabling Access to Justice 230316.mp4",
+    "scene": 3,
+    "start_sec": 80.96,
+    "end_sec": 97.2,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "9. KESS - Enabling Access to Justice 230316.mp4",
+    "scene": 4,
+    "start_sec": 97.2,
+    "end_sec": 115.2,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "9. KESS - Enabling Access to Justice 230316.mp4",
+    "scene": 5,
+    "start_sec": 115.2,
+    "end_sec": 135.44,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "Note:"
+  },
+  {
+    "video": "9. KESS - Enabling Access to Justice 230316.mp4",
+    "scene": 6,
+    "start_sec": 135.44,
+    "end_sec": 171.4,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "9. KESS - Enabling Access to Justice 230316.mp4",
+    "scene": 7,
+    "start_sec": 171.4,
+    "end_sec": 198.0,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "9. KESS - Enabling Access to Justice 230316.mp4",
+    "scene": 8,
+    "start_sec": 198.0,
+    "end_sec": 227.48,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "9. KESS - Enabling Access to Justice 230316.mp4",
+    "scene": 9,
+    "start_sec": 227.48,
+    "end_sec": 246.8,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": "then-"
+  },
+  {
+    "video": "9. KESS - Enabling Access to Justice 230316.mp4",
+    "scene": 10,
+    "start_sec": 246.8,
+    "end_sec": 276.56,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "9. KESS - Enabling Access to Justice 230316.mp4",
+    "scene": 11,
+    "start_sec": 276.56,
+    "end_sec": 297.52,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  },
+  {
+    "video": "9. KESS - Enabling Access to Justice 230316.mp4",
+    "scene": 12,
+    "start_sec": 297.52,
+    "end_sec": 371.16,
+    "sample_fps": 1.0,
+    "error": "unparseable JSON after 2 attempts: no JSON object in output",
+    "raw_output": ""
+  }
+]

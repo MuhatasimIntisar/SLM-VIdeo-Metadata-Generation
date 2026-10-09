@@ -1,0 +1,36 @@
+{
+  "model": "Qwen/Qwen3.6-27B",
+  "family": "qwen3_5",
+  "quant": "hqq2",
+  "dtype": "torch.bfloat16",
+  "attention": "sdpa",
+  "weights_memory_gb": 12.1,
+  "loaded_gpu_memory_gb": 13.7,
+  "settings": {
+    "fps": 1.0,
+    "max_frames": 16,
+    "frame_pixels": 200704,
+    "max_new_tokens": 768,
+    "batch_size": 8,
+    "retries": 1
+  },
+  "versions": {
+    "python": "3.12.15",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.18.0",
+    "gpu": "NVIDIA A100-SXM4-80GB"
+  },
+  "sessions": [
+    {
+      "finished": "2026-10-07 02:31:55",
+      "scenes_run": 641,
+      "ok": 0,
+      "errors": 641,
+      "wall_seconds": 2140.2,
+      "generate_seconds": 2131.2,
+      "seconds_per_scene": 3.339,
+      "load_seconds": 97.7,
+      "peak_gpu_memory_gb": 20.21
+    }
+  ]
+}
