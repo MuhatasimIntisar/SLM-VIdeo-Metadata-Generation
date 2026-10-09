@@ -4,7 +4,7 @@
 #   nohup bash download_gguf.sh > download.log 2>&1 &
 #   tail -5 download.log            # finished when it prints "ALL DONE"
 set -euo pipefail
-cd "$(dirname "$0")"
+cd "${SLURM_SUBMIT_DIR:-$(dirname "$0")}"   # under sbatch the script runs from a spool copy
 source venv/bin/activate
 : "${HF_HOME:?HF_HOME is not set - run: source ~/.bashrc}"
 # The xet downloader is needed for large files but its default parallelism uses enough memory to get

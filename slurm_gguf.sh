@@ -7,7 +7,7 @@
 #SBATCH --partition=k2-gpu-a100
 #SBATCH --gres=gpu:a100:1
 #SBATCH --cpus-per-task=8
-#SBATCH --mem=64G
+#SBATCH --mem=96G                     # the 27B BF16 file (54 GB) is read through host memory
 #SBATCH --time=24:00:00
 #SBATCH --output=logs/%x_%a_%j.out
 
@@ -28,4 +28,4 @@ echo "=== $name: $repo $file ($quant) on $(hostname) at $(date)"
 nvidia-smi --query-gpu=name,memory.total --format=csv,noheader
 
 python generate_gguf.py --repo "$repo" --file "$file" --quant "$quant" --server-bin "$LLAMA_SERVER" \
-    --port $((8100 + SLURM_ARRAY_TASK_ID)) --output "scene_metadata_${name}.json" "$@"
+    --port $((20000 + SLURM_JOB_ID % 20000)) --output "scene_metadata_${name}.json" "$@"

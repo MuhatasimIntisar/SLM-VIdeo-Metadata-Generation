@@ -20,7 +20,6 @@ import argparse
 import base64
 import io
 import json
-import os
 import subprocess
 import sys
 import threading
@@ -111,8 +110,8 @@ def server_version(server_bin):
 def gpu_info():
     """(gpu name, MiB used on GPU 0) via nvidia-smi; works for any process on the GPU."""
     try:
-        out = subprocess.run(["nvidia-smi", "--query-gpu=name,memory.used", "--format=csv,noheader,nounits",
-                              "-i", os.environ.get("CUDA_VISIBLE_DEVICES", "0").split(",")[0]],
+        # under Slurm only the allocated GPU is visible, so the first line is ours
+        out = subprocess.run(["nvidia-smi", "--query-gpu=name,memory.used", "--format=csv,noheader,nounits"],
                              capture_output=True, text=True, timeout=30).stdout.strip().splitlines()[0]
         name, used = [x.strip() for x in out.split(",")]
         return name, float(used)
@@ -201,7 +200,8 @@ def main():
     ap.add_argument("--server-bin", default="llama-server", help="path to llama.cpp's llama-server")
     ap.add_argument("--port", type=int, default=8090)
     ap.add_argument("--parallel", type=int, default=4, help="concurrent requests (llama-server slots)")
-    ap.add_argument("--ctx-per-slot", type=int, default=12288, help="context tokens per slot")
+    ap.add_argument("--ctx-per-slot", type=int, default=32768,
+                    help="context tokens per slot (16 frames + prompt + answer must fit)")
     ap.add_argument("--server-args", nargs=argparse.REMAINDER, default=[],
                     help="extra llama-server arguments (must come last)")
     ap.add_argument("--startup-timeout", type=int, default=1800)
@@ -271,7 +271,9 @@ def main():
             "model_files": [p.name for p in shards], "mmproj": mmproj_path.name,
             "weights_memory_gb": round(weights_gb + mmproj_gb, 2),
             "language_model_file_gb": round(weights_gb, 2), "mmproj_file_gb": round(mmproj_gb, 2),
-            "loaded_gpu_memory_gb": round((loaded_mib - (idle_mib or 0)) * 1.048576 / 1e3, 2) if loaded_mib else None,
+            # includes llama.cpp's KV cache and compute buffers, so it is reported separately from the
+            # weights (compare.py reports weights_memory_gb = GGUF file + mmproj file)
+            "gpu_memory_after_load_gb": round((loaded_mib - (idle_mib or 0)) * 1.048576 / 1e3, 2) if loaded_mib else None,
             "settings": {k: getattr(args, k) for k in ("fps", "max_frames", "frame_pixels", "max_new_tokens",
                                                         "retries", "parallel", "ctx_per_slot")},
             "versions": {"python": sys.version.split()[0], "llama_server": server_version(args.server_bin),

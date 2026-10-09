@@ -15,6 +15,9 @@ from pathlib import Path
 ROWS = [("baseline_majority", "majority-class baseline (no video)", "-")]
 with open("experiments.tsv", encoding="utf-8") as f:
     ROWS += [(r["name"], r["model"], r["quant"]) for r in csv.DictReader(f, delimiter="\t")]
+if Path("gguf_experiments.tsv").exists():  # llama.cpp runs (generate_gguf.py)
+    with open("gguf_experiments.tsv", encoding="utf-8") as f:
+        ROWS += [(r["name"], f"{r['repo']}:{r['file']}", r["quant"]) for r in csv.DictReader(f, delimiter="\t")]
 
 COLUMNS = [  # (header, getter on (summary, run))
     ("ROUGE-L", lambda s, r: s["description"]["rougeL_f"]),
