@@ -15,7 +15,7 @@ set -euo pipefail
 cd "$SLURM_SUBMIT_DIR"
 mkdir -p logs
 
-module load libs/nvidia-cuda/12.8.0/bin   # CUDA runtime that llama-server was built against
+module load libs/nvidia-cuda/12.8.0/bin compilers/gcc/13.2.0   # CUDA + C++ runtime llama-server was built with
 source venv/bin/activate
 export HF_HOME=/mnt/scratch2/users/$USER/hf_cache
 export HF_HUB_OFFLINE=1
